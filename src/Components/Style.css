@@ -21,6 +21,146 @@
     .lig{
         display: none;
     }
+    .input22{
+        margin-top: 10px;
+        margin-left: 40px !important;
+    }
+    .icon{
+    margin-left: 70px;
+    margin-top: 30px;
+   
+   }
+   .first{
+    margin-left: 50px !important;
+   }
+   .Home{
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 5px;
+   }
+   .banner{
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 20px;
+   }
+   .title{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-size: 28px;
+   }
+   .title::before{
+    content:"";
+    width:30px;
+    height: 1px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:1%;
+   }
+   .title::after{
+    content:"";
+    width:30px;
+    height: 1px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    right:1%;
+   }
+   .revie{
+    background-color: #F7F7F7;
+    height: auto;
+   
+   }
+   .ca{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .title1::before{
+        content:"";
+        width:0px;
+        height: 1px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top:50%;
+        left:1%;
+    }
+    .title1::after{
+        content:"";
+        width:0px;
+        height: 1px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top:50%;
+        right:1%;
+    }
+    .form1{
+        margin-left: 0px !important;
+        width:310px;
+        background-color:  rgba(247, 247, 247, 1);
+    }
+    .sizebutton{
+        font-size: 14px;
+        background-color: rgba(126, 161, 253, 1);
+        border: 1px;
+        border-radius: 3px;
+        margin-top: 10px
+    }
+    .img-m{
+            height: 200px;
+            width: 300px;
+            margin-top: 20px
+     }
+    .img-s{
+        overflow-x: scroll;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    .img-s::-webkit-scrollbar{
+        height: 5px;
+    }
+    .img-s::-webkit-scrollbar-track{
+        background-color: whitesmoke;
+    }
+    .img-s::-webkit-scrollbar-thumb{
+        background: gray;
+    }
+    .sliimg{
+        height: 151.75px;
+        width: 162.5px;
+        margin-left: 7px;
+    }
+    .formm{
+        display: block;
+    
+    }
+    .homeage{
+        background-color: rgba(247, 247, 247, 1);
+        margin-left: 0px;
+        margin-top: 15px;
+        width: 310px;
+    }
+    .logi{
+        margin-left: 20px;
+        padding-bottom: 25px;
+    }
+    .revie{
+        background-color: #F7F7F7;
+        height: auto;
+        width: 310px;
+    }
+    .reviews{
+        padding-top: 30px;
+    }
+    .freedd{
+        display: none !important;
+    }
+   
 }
 
 .lax{
