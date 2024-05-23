@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Style.css"
 const Footer = () => {
   return (
     <div> <div className="container footer-sec mt-3 ">
