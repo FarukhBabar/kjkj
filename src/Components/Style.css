@@ -21,141 +21,142 @@
     .lig{
         display: none;
     }
+
     .input22{
-        margin-top: 10px;
+        margin-top: 10px !important;
         margin-left: 40px !important;
     }
     .icon{
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 70px !important;
+    margin-top: 30px !important;
    
    }
    .first{
     margin-left: 50px !important;
    }
    .Home{
-    width: 300px;
-    margin-left: 0px;
-    margin-top: 5px;
+    width: 300px !important;
+    margin-left: 0px !important;
+    margin-top: 5px !important;
    }
    .banner{
-    width: 300px;
-    margin-top: 5px;
-    margin-right: 20px;
+    width: 300px !important;
+    margin-top: 5px !important;
+    margin-right: 20px !important;
    }
    .title{
-    text-align: center;
-    margin: auto;
-    position: relative;
-    font-size: 28px;
+    text-align: center !important;
+    margin: auto !important;
+    position: relative !important;
+    font-size: 28px !important;
    }
    .title::before{
-    content:"";
-    width:30px;
-    height: 1px;
-    display: block;
-    background-color: black;
-    position: absolute;
-    top:50%;
-    left:1%;
+    content:"" !important;
+    width:30px !important;
+    height: 1px !important;
+    display: block !important;
+    background-color: black !important;
+    position: absolute !important;
+    top:50% !important;
+    left:1% !important;
    }
    .title::after{
-    content:"";
-    width:30px;
-    height: 1px;
-    display: block;
-    background-color: black;
-    position: absolute;
-    top:50%;
-    right:1%;
+    content:"" !important;
+    width:30px !important;
+    height: 1px !important;
+    display: block !important;
+    background-color: black !important;
+    position: absolute !important;
+    top:50% !important;
+    right:1% !important;
    }
    .revie{
-    background-color: #F7F7F7;
-    height: auto;
+    background-color: #F7F7F7 !important;
+    height: auto !important;
    
    }
    .ca{
-        width: 300px;
-        margin-left: 0px;
-        margin-top: 15px;
+        width: 300px !important;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
     }
     .title1::before{
-        content:"";
-        width:0px;
-        height: 1px;
-        display: block;
-        background-color: black;
-        position: absolute;
-        top:50%;
-        left:1%;
+        content:"" !important;
+        width:0px !important;
+        height: 1px !important;
+        display: block !important;
+        background-color: black !important;
+        position: absolute !important;
+        top:50% !important;
+        left:1% !important;
     }
     .title1::after{
-        content:"";
-        width:0px;
-        height: 1px;
-        display: block;
-        background-color: black;
-        position: absolute;
-        top:50%;
-        right:1%;
+        content:"" !important;
+        width:0px !important;
+        height: 1px !important;
+        display: block !important;
+        background-color: black !important;
+        position: absolute !important;
+        top:50% !important;
+        right:1% !important;
     }
     .form1{
         margin-left: 0px !important;
-        width:310px;
-        background-color:  rgba(247, 247, 247, 1);
+        width:310px !important;
+        background-color:  rgba(247, 247, 247, 1) !important; 
     }
     .sizebutton{
-        font-size: 14px;
-        background-color: rgba(126, 161, 253, 1);
-        border: 1px;
-        border-radius: 3px;
-        margin-top: 10px
+        font-size: 14px !important;
+        background-color: rgba(126, 161, 253, 1) !important;
+        border: 1px !important;
+        border-radius: 3px !important;
+        margin-top: 10px !important;
     }
     .img-m{
-            height: 200px;
-            width: 300px;
-            margin-top: 20px
+            height: 200px !important;
+            width: 300px !important;
+            margin-top: 20px !important;
      }
     .img-s{
-        overflow-x: scroll;
-        margin-top: 30px;
-        padding-bottom: 20px;
+        overflow-x: scroll !important;
+        margin-top: 30px !important;
+        padding-bottom: 20px !important;
     }
     .img-s::-webkit-scrollbar{
-        height: 5px;
+        height: 5px !important;
     }
     .img-s::-webkit-scrollbar-track{
-        background-color: whitesmoke;
+        background-color: whitesmoke !important;
     }
     .img-s::-webkit-scrollbar-thumb{
-        background: gray;
+        background: gray !important;
     }
     .sliimg{
-        height: 151.75px;
-        width: 162.5px;
-        margin-left: 7px;
+        height: 151.75px !important;
+        width: 162.5px !important;
+        margin-left: 7px !important;
     }
     .formm{
-        display: block;
+        display: block !important;
     
     }
     .homeage{
-        background-color: rgba(247, 247, 247, 1);
-        margin-left: 0px;
-        margin-top: 15px;
-        width: 310px;
+        background-color: rgba(247, 247, 247, 1) !important;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+        width: 310px !important;
     }
     .logi{
-        margin-left: 20px;
-        padding-bottom: 25px;
+        margin-left: 20px !important;
+        padding-bottom: 25px !important;
     }
     .revie{
-        background-color: #F7F7F7;
-        height: auto;
-        width: 310px;
+        background-color: #F7F7F7 !important;
+        height: auto !important;
+        width: 310px !important;
     }
     .reviews{
-        padding-top: 30px;
+        padding-top: 30px !important;
     }
     .freedd{
         display: none !important;
