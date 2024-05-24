@@ -1,8 +1,16 @@
 import React from 'react'
 import './Style.css'
 import { Link } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const userlogin = localStorage.getItem("user");
+  const navigate = useNavigate();
+  const Logout=()=>{
+    localStorage.clear("user")
+    alert("LogOut sucessfully")
+    navigate("/log")
+  }
   return (
     <div>
        <div>
@@ -14,8 +22,16 @@ const Navbar = () => {
   </div>
   <div className="d-flex">
     <div className="ms-3 login">
-      <a href="./Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER</a>
-      <a href="/login" className="mt-2 me-4 text-decoration-none text-black">&nbsp;|<i className="bi bi-person" />LOGIN</a>
+      <Link to="./Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER</Link>
+      {userlogin?(
+
+<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGOUT</Link>
+
+):(
+
+<Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" /> LOGIN</Link>
+)
+}
     </div>
     <div className>
       <img src="https://linkwwwebsite.000webhostapp.com/FinalLogo1.png" alt className="logo" />
