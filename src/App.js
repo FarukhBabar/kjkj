@@ -57,6 +57,7 @@ const App = () => {
         <Route path='/Giftmakercard' element={<Giftcard/>} />
         <Route path='/Brighthomly' element={<Giftcard/>} />
         <Route path='/log' element={<Login/>}/>
+        <Route path='/Register' element={<Register/>} />
       </Routes>
     </div>
   )
