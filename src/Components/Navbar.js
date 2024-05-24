@@ -8,7 +8,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const Logout=()=>{
     localStorage.clear("user")
-    alert("LogOut sucessfully")
+    alert("Logout Sucessfully")
     navigate("/log")
   }
   return (

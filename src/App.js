@@ -27,6 +27,8 @@ import Newarrivals from './Components/Pages/Newarrivals'
 import Giftcard from './Components/Pages/Giftcard'
 import Login from './Components/Pages/Login'
 import Register from './Components/Pages/Register'
+import Form from './Components/Pages/Adminside/Sundayoffer/Form'
+import Adminside from './Components/Pages/Adminside/Adminside'
 const App = () => {
   return (
     <div>
@@ -59,6 +61,8 @@ const App = () => {
         <Route path='/Brighthomly' element={<Giftcard/>} />
         <Route path='/log' element={<Login/>}/>
         <Route path='/Register' element={<Register/>} />
+        <Route path='/adminpanal' element={<Adminside/>} />
+        <Route path='/adminsunday' element={<Form/>} />
       </Routes>
     </div>
   )

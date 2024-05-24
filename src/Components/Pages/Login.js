@@ -34,7 +34,7 @@ const Login = () => {
         localStorage.setItem('user', JSON.stringify(data));
         if (data.role === "admin") {
           alert("Account login Successfully");
-          nevigate("/form"); // Navigate to the form page
+          nevigate("/"); // Navigate to the form page
         } else {
           alert("You are login as a user")
           nevigate('/');
