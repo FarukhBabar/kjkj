@@ -20,7 +20,7 @@ import Craft from './Components/Pages/Craft'
 import Carproduct from './Components/Pages/Carproduct'
 import Candels from './Components/Pages/Candels'
 import Foods from './Components/Pages/Foods'
-import Supersunday from './Components/Pages/Supersunday'
+
 import Palletdeals from './Components/Pages/Palletdeals'
 import Shopbybrand from './Components/Pages/Shopbybrand'
 import Newarrivals from './Components/Pages/Newarrivals'
