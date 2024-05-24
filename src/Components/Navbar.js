@@ -22,14 +22,14 @@ const Navbar = () => {
   </div>
   <div className="d-flex">
     <div className="ms-3 login">
-      <Link to="./Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER</Link>
+      <Link to="./Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
       {userlogin?(
 
-<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />/LOGOUT</Link>
+<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGOUT</Link>
 
 ):(
 
-<Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />/ LOGIN</Link>
+<Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGIN</Link>
 )
 }
     </div>
