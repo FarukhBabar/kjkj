@@ -29,6 +29,7 @@ import Login from './Components/Pages/Login'
 import Register from './Components/Pages/Register'
 import Form from './Components/Pages/Adminside/Sundayoffer/Form'
 import Adminside from './Components/Pages/Adminside/Adminside'
+import Sundaypage from './Components/Pages/Adminside/Sundayoffer/Sundayoffer'
 const App = () => {
   return (
     <div>
@@ -53,7 +54,7 @@ const App = () => {
         <Route path='/Carproduct' element={<Carproduct/>} />
         <Route path='/Candles Air Freshner' element={<Candels/>} />
         <Route path='/Food' element={<Foods/>} />
-        <Route path='/Supersunday' element={<Supersunday/>} />
+        <Route path='/Supersunday' element={<Sundaypage/>} />
         <Route path='/Palletdeals' element={<Palletdeals/>} />
         <Route path='/Shopbybrand' element={<Shopbybrand/>} />
         <Route path='/Newarrivals' element={<Newarrivals/>} />
