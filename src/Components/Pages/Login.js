@@ -33,10 +33,10 @@ const Login = () => {
       if (result.ok) {
         localStorage.setItem('user', JSON.stringify(data));
         if (data.role === "admin") {
-          alert("Account login Successfully");
-          nevigate("/"); // Navigate to the form page
+          alert("Wellcome To Admin Panal");
+          nevigate("/adminpanal"); // Navigate to the form page
         } else {
-          alert("You are login as a user")
+          alert("Account Login Sucessfully")
           nevigate('/');
         }
       } else {
