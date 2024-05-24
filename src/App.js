@@ -25,6 +25,7 @@ import Palletdeals from './Components/Pages/Palletdeals'
 import Shopbybrand from './Components/Pages/Shopbybrand'
 import Newarrivals from './Components/Pages/Newarrivals'
 import Giftcard from './Components/Pages/Giftcard'
+import Login from './Components/Pages/Login'
 const App = () => {
   return (
     <div>
@@ -55,6 +56,7 @@ const App = () => {
         <Route path='/Newarrivals' element={<Newarrivals/>} />
         <Route path='/Giftmakercard' element={<Giftcard/>} />
         <Route path='/Brighthomly' element={<Giftcard/>} />
+        <Route path='/log' element={<Login/>}/>
       </Routes>
     </div>
   )
