@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState , useEffect } from 'react'
 import {  useNavigate, } from 'react-router-dom'
+import Footer from '../Footer'
 
 const Login = () => {
   const[email , setemail] = useState()
@@ -86,7 +87,7 @@ const Login = () => {
     </div>
   </div>
 </div>
-
+<Footer/>
     </div>
   )
 }
