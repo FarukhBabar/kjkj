@@ -2,54 +2,74 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
   return (
-    <div> <div className="container footer-sec mt-3 ">
-    <div className=" row  tttt w-100% ">
-      <div className="col-lg-6 col-md-6 col-sm-12 w-100%">
-        <p className="te ms-4">Stay up to date with OFFERS by signing up for our newsletter:</p>
-      </div>
-      <div className="col-lg-4 col-md-6 col-sm-12 ms-1 d-flex w-100%">
-        <input className="input2" type="text" placeholder="Enter Your Email Address" /> 
-        <button className="input222">SUBMIT</button>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-lg-6 col-md-6 col-sm-12 d-flex icon">
-        <div><p className="te">FOLLOW US</p></div>
-        <div><a href className="text-decoration-none "><i className="bi bi-facebook ms-2" /></a></div>
-        <div><a href className="text-decoration-none"><i className="bi bi-twitter ms-2" /></a></div>
-        <div><a href className="text-decoration-none"><i className="bi bi-instagram ms-2" /></a></div>
+    <div>
+ <footer className=" footer mt-4">
+  <div className="footer-top py-8">
+    <div className="container">
+      <div className="row gy-5">
+        <div className="col-lg-8 pe-xxl-10">
+          <div className="row gy-5">
+            <div className="col-6 col-lg-4">
+              <h5 className="text-black footer-title-01">CUSTOMER SERVICE</h5>
+              <ul className="list-unstyled footer-link-01 m-0">
+                <li><a className="tex text-black text-opacity-75" href="#">Contact Us</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">About Us</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Delivery</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Export</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Help / FAQ</a></li>
+              </ul>
+            </div>
+            <div className="col-6 col-lg-3">
+              <h5 className="text-black footer-title-01">Website</h5>
+              <ul className="list-unstyled footer-link-01 m-0">
+                <li><a className="tex text-black text-opacity-75" href="#">Blog</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Privacy Policy</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Cookie Policy</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">Terms &amp; Conditions</a></li>
+              </ul>
+            </div>
+            <div className="col-6 col-lg-4">
+              <h5 className="text-black footer-title-01">Contact Us</h5>
+              <ul className="list-unstyled footer-link-01 m-0">
+                <li><a className="tex text-black text-opacity-75" href="#">29 Mollison Avenue, Brimsdown, Enfield, EN3 7NL</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">E:enquiries@efghousewares.co.uk</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">T: 0208 805 5756</a></li>
+                {/* <li><a className="text-white text-opacity-75" href="#">Get the app</a></li>
+                <li><a className="text-white text-opacity-75" href="#">Store locator</a></li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4">
+          <h5 className="text-black footer-title-01 fs-5">Subscribe to our newsletter and get 15% off your next order.</h5>
+          <div>
+            <form className="d-flex flex-row mb-2 p-1 bg-black input-group"><input type="email" className="form-control rounded border-0" placeholder="Your Email" /> <button className="btn btn-secondary flex-shrink-0" type="submit">Subscribe</button></form>
+            <p className="fs-sm text-black text-opacity-75">I agree to receive Absolution newsletters</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  {/* -------------------------FOOTER SECTION */}
-  <div className="container w-100%">
-    <div className="row  footer">
-      <div className="col-lg-3 col-md-4 col-sm-12 ms-5 mt-2">
-        <b><p>CUSTOMER SERVICE</p></b>
-        <a href="/Contact.html" className="tex text-decoration-none text-black">Contact Us</a><br />
-        <a href="/Aboutus.html" className="tex text-decoration-none text-black">About Us</a><br />
-        <a href="/Delivery.html" className="tex text-decoration-none text-black">Delivery</a><br />
-        <a href="/Export.html" className="tex text-decoration-none text-black">Export</a><br />
-        <a href="/Help&FAQ.html" className="tex text-decoration-none text-black">Help / FAQ</a><br />
-      </div>
-      <div className="col-lg-3 col-md-4 col-sm-12 first mt-2">
-        <b><p>Website</p></b>
-        <a href="/Blog.html" className="tex text-decoration-none text-black">Blog</a><br />
-        <a href="/Privacy Policy.html" className="tex text-decoration-none text-black">Privacy Policy</a><br />
-        <a href="/Terma&condition.html" className="tex text-decoration-none text-black">Terms &amp; Conditions</a><br />
-        <a href="/Cookies Policy.html" className="tex text-decoration-none text-black">Cookies Policy</a>
-      </div>
-      <div className="col-lg-3 col-md-4 col-sm-12 first mt-2 pb-3">
-        <b><p>Contact Us</p></b>
-        <a href className="tex text-decoration-none text-black">29 Mollison Avenue, Brimsdown, Enfield <br />, EN3 7NL</a><br />
-        <a href className="tex text-decoration-none text-black">E : enquiries@efghousewares.co.uk</a><br />
-        <a href className="tex text-decoration-none text-black">T: 0208 805 5756</a><br />
+  <div className="footer-bottom small py-3 border-top border-white border-opacity-10">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 text-center text-md-start py-1">
+          <p className="m-0 text-black text-opacity-75">© 2022 copyright by <a className="text-reset" href="#">bootdey.com</a></p>
+        </div>
+        <div className="col-md-6 text-center text-md-end py-1">
+          <ul className="nav justify-content-center justify-content-md-end list-unstyled footer-link-01 m-0">
+            <li className="p-0 mx-3 ms-md-0 me-md-3"><a href="#" className="tex text-black text-opacity-75">Privace &amp; Policy</a></li>
+            <li className="p-0 mx-3 ms-md-0 me-md-3"><a href="#" className="tex text-black text-opacity-75">Faq's</a></li>
+            <li className="p-0 mx-3 ms-md-0 me-md-3"><a href="#" className="tex text-black text-opacity-75">Get a Quote</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</footer>
 
 
+    </div>
   )
 }
 
