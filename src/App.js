@@ -26,6 +26,7 @@ import Shopbybrand from './Components/Pages/Shopbybrand'
 import Newarrivals from './Components/Pages/Newarrivals'
 import Giftcard from './Components/Pages/Giftcard'
 import Login from './Components/Pages/Login'
+import Register from './Components/Pages/Register'
 const App = () => {
   return (
     <div>
