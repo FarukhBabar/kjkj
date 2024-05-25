@@ -43,15 +43,20 @@ import { Link } from 'react-router-dom';
 
 const Listofproducts = () => {
     const [user, setUsers] = useState([]);
-    
+    const setUsersData = async() =>{
+      let result = await fetch("http://localhost:8001/api/v1/data/user")
+      result = await result.json()       
+      setUsers(result)        
+      console.log(result)
+  }
 
-    useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/user")
-        .then(response => setUsers(response.data))
-        .catch(error => console.log(error));
-    }, []);
+    // useEffect(() => {
+    //   axios.get("http://localhost:8001/api/v1/data/user")
+    //     .then(response => setUsers(response.data))
+    //     .catch(error => console.log(error));
+    // }, []);
     useEffect(()=>{
-      setUsers()
+      setUsersData()
   },[])
     const deleteuser = async(id)=>{
         // console.log(id)
@@ -62,7 +67,7 @@ const Listofproducts = () => {
         })
         result= await result.json()
         if(result){
-          setUsers()
+          setUsersData()
         }
         
        
