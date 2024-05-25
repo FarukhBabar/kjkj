@@ -167,7 +167,7 @@ const Home = () => {
           <label className="ms-2">EMAIL</label>
           <input type="text" className="input" placeholder="Type Your Email" />
         </div>
-        <div>
+        <div className='pashome'>
         <label className="">PASSWORD</label>
           <input type="text" className="input" placeholder="Type Your Email" />
         </div>

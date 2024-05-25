@@ -145,7 +145,10 @@
         background-color: rgba(247, 247, 247, 1) !important;
         margin-left: 0px !important;
         margin-top: 15px !important;
-        width: 360px !important;
+        width: 370px !important;
+    }
+    .pashome{
+        margin-top: 15px;
     }
     .logi{
         margin-left: 20px !important;
