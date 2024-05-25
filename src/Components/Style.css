@@ -102,7 +102,7 @@
     }
     .form1{
         margin-left: 0px !important;
-        width:310px !important;
+        width:317px !important;
         background-color:  rgba(247, 247, 247, 1) !important; 
     }
     .sizebutton{
@@ -144,7 +144,7 @@
         background-color: rgba(247, 247, 247, 1) !important;
         margin-left: 0px !important;
         margin-top: 15px !important;
-        width: 310px !important;
+        width: 317px !important;
     }
     .logi{
         margin-left: 20px !important;
@@ -152,8 +152,8 @@
     }
     .revie{
         background-color: #F7F7F7 !important;
-        height: auto !important;
-        width: 310px !important;
+        height:960px  !important;
+        width: 318px !important;
     }
     .reviews{
         padding-top: 30px !important;
@@ -161,7 +161,9 @@
     .freedd{
         display: none !important;
     }
-   
+   .rating{
+    margin-left: 0px !important;
+   }
 }
 
 .lax{
@@ -338,7 +340,7 @@
   
 }
 .rating{
-    margin-left: 380px;
+    margin-left: 30px;
     margin-top: 16px;
 }
 .card-title{
@@ -984,7 +986,7 @@ padding-bottom: 5px;
         }
         .title::before{
         content:"";
-        width:430px;
+        width:400px;
         height: 1px;
         display: block;
         background-color: black;
@@ -994,7 +996,7 @@ padding-bottom: 5px;
         }
         .title::after{
         content:"";
-        width:430px;
+        width:400px;
         height: 1px;
         display: block;
         background-color: black;
@@ -1005,6 +1007,7 @@ padding-bottom: 5px;
         .revie{
         background-color: #F7F7F7;
         height: 390px;
+        
         
         }
         .reviews{
@@ -1088,7 +1091,8 @@ padding-bottom: 5px;
         font-size: 12px;
         }
         .rrr{
-        margin-top: 50px; 
+        margin-top: 30px; 
+        margin-left: 1px;
         }
         
         .card{
