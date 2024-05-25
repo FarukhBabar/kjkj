@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import "../admin.css"
 
 const Form = () => {
@@ -59,6 +59,7 @@ const Form = () => {
     }
   return (
     <div>
+      <Link to="/list" className="btn btn-success mss" >Product-list</Link>
       <form className='marr '>
   <div className="mb-3 maa ">
     <label  className="form-label mt-2">ITem Name</label>

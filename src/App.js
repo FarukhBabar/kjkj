@@ -30,6 +30,8 @@ import Register from './Components/Pages/Register'
 import Form from './Components/Pages/Adminside/Sundayoffer/Form'
 import Adminside from './Components/Pages/Adminside/Adminside'
 import Sundaypage from './Components/Pages/Adminside/Sundayoffer/Sundayoffer'
+import Listofproducts from './Components/Pages/Adminside/Sundayoffer/Listofproducts'
+import Update from './Components/Pages/Adminside/Sundayoffer/Update'
 const App = () => {
   return (
     <div>
@@ -62,8 +64,10 @@ const App = () => {
         <Route path='/Brighthomly' element={<Giftcard/>} />
         <Route path='/log' element={<Login/>}/>
         <Route path='/Register' element={<Register/>} />
-        <Route path='/adminpanal' element={<Adminside/>} />
+        {/* <Route path='/adminpanal' element={<Adminside/>} /> */}
         <Route path='/adminsunday' element={<Form/>} />
+        <Route path='/list' element={<Adminside/>} />
+         <Route path='/list/:id' element={<Update/>}/>
       </Routes>
     </div>
   )
