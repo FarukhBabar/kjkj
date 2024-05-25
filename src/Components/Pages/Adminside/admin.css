@@ -20,26 +20,13 @@
   /* margin-left: ; Adjust margin as needed */
   width: 180px;
   height: 270px;
-  margin-left: 80px;
-
+  margin-left: 20px;
 }
 .image{
   padding: 0px !important;
   border-radius: 10px;
 }
-.row{
-  padding-left:0px !important;
-  margin-left: 0px !important;
-}
-.col{
-  padding-left:0px !important;
-  margin-left: 0px !important;
-}
-.container {
-  margin-left: 0px !important;
-  display: flex;
-  padding-left: 0px !important;
-}
+
 @media screen and (max-width : 478px) {
   .card11212 {
     background-color: #c5c9ab;
@@ -60,5 +47,13 @@
   .image{
     padding: 0px !important;
     border-radius: 3px 3px 3px 3px !important;
+  }
+  .card11212 {
+    background-color: #e5e7d8;
+    border-radius: 10px;
+    padding: 2px;
+    /* margin-left: ; Adjust margin as needed */
+   
+    margin-left: 0px !important;
   }
 }
