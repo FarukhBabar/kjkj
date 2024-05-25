@@ -153,7 +153,7 @@
     .revie{
         background-color: #F7F7F7 !important;
         height:960px  !important;
-        width: 318px !important;
+        width: auto !important;
     }
     .reviews{
         padding-top: 30px !important;
