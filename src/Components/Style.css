@@ -36,14 +36,14 @@
    }
    .Home{
     width: 340px !important;
-    margin-left: 1px !important;
+    margin-left: 0px !important;
     margin-top: 5px !important;
    }
    .banner{
     width: 340px !important;
     margin-top: 5px !important;
     margin-right: 20px !important;
-    margin-left: 2px !important;
+    margin-left: 0px !important;
    }
    .title{
     text-align: center !important;
