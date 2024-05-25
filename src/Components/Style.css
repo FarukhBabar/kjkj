@@ -266,7 +266,7 @@
 .revie{
     background-color: #F7F7F7;
     height: 350px;
-
+    
 }
 .reviews{
     padding-top: 30px;
@@ -832,6 +832,14 @@ padding-bottom: 5px;
         height: 370px;
         margin-top: 20px;
     }
+    .caa{
+        margin-left: 35px !important;
+        margin-top: 15px;
+        }
+    .rrr{
+        margin-top: 30px; 
+        margin-left: 30px !important;
+        }
     .freedd{
         display: none !important;
     }
@@ -1093,7 +1101,7 @@ padding-bottom: 5px;
         }
         .rrr{
         margin-top: 30px; 
-        margin-left: 30px;
+        margin-left: 0px;
         }
         
         .card{
@@ -1104,7 +1112,7 @@ padding-bottom: 5px;
         margin-left: 0px;
         }
         .caa{
-        margin-left: 35px;
+        margin-left: 0px;
         margin-top: 15px;
         }
         .title1{
