@@ -13,13 +13,20 @@ const  FreeDelivery = () => {
   }, []);
 
   return (
-    <div>
-      <div className='container mb-4'>
-        <div className='row'>
-          {users.map(user => <Card key={user.id} user={user} />)}
-        </div>
-      </div>
+    // <div>
+    //   <div className='container mb-4'>
+    //     <div className='row'>
+    //       {users.map(user => <Card key={user.id} user={user} />)}
+    //     </div>
+    //   </div>
    
+    // </div>
+    <div className="container  mt-1">
+      <div className="row">
+        {users.map(user => (
+          <Card key={user._id} user={user} />
+        ))}
+      </div>
     </div>
   );
 }

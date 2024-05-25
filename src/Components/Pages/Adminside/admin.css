@@ -1,21 +1,64 @@
-.marr{
-    margin-left: 400px;
-    box-shadow: 5px 5px 5px 5px black;
-    width: 600px;
-    margin-top: 10px;
-  }
-  .maa{
-    margin-left: 50px;
-    margin-right: 20px;
-    margin-top: 10px;
-    /* margin-bottom: 0px; */
-  }
-  .mss{
-    margin-left: 260px;
-    margin-bottom: 15px;
-  }
-  .card11212{
-    background-color:#c5c9ab;
+.marr {
+  margin-left: 400px;
+  box-shadow: 5px 5px 5px 5px black;
+  width: 600px;
+  margin-top: 10px;
+}
+.maa {
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.mss {
+  margin-left: 260px;
+  margin-bottom: 15px;
+}
+.card11212 {
+  background-color: #e5e7d8;
+  border-radius: 10px;
+  padding: 2px;
+  /* margin-left: ; Adjust margin as needed */
+  width: 180px;
+  height: 270px;
+  margin-left: 80px;
+
+}
+.image{
+  padding: 0px !important;
+  border-radius: 10px;
+}
+.row{
+  padding-left:0px !important;
+  margin-left: 0px !important;
+}
+.col{
+  padding-left:0px !important;
+  margin-left: 0px !important;
+}
+.container {
+  margin-left: 0px !important;
+  display: flex;
+  padding-left: 0px !important;
+}
+@media screen and (max-width : 478px) {
+  .card11212 {
+    background-color: #c5c9ab;
     border-radius: 10px;
-    margin-left: 30px;
+    padding: 2px;
+    margin: 0 px; /* Adjust margin as needed */
+    width: 150px;
+    height: 250px;
   }
+  .col{
+    padding-left:0px !important;
+    margin-left: 0px !important;
+  }
+  .row{
+    padding-left:0px !important;
+    margin-left: 0px !important;
+  }
+  .image{
+    padding: 0px !important;
+    border-radius: 3px 3px 3px 3px !important;
+  }
+}
