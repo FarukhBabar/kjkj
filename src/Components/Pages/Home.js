@@ -168,8 +168,8 @@ const Home = () => {
           <input type="text" className="input" placeholder="Type Your Email" />
         </div>
         <div>
-          <label className="ms-2" htmlFor>Password</label>
-          <input type="text" className="input" placeholder="Type Your Password" />
+        <label className="">PASS <br/> WORD</label>
+          <input type="text" className="input" placeholder="Type Your Email" />
         </div>
       </div>     
       <div className="logi d-flex">
