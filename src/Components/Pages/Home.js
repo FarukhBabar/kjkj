@@ -168,7 +168,7 @@ const Home = () => {
           <input type="text" className="input" placeholder="Type Your Email" />
         </div>
         <div>
-        <label className="">PASS <br/> WORD</label>
+        <label className="">PASSWORD</label>
           <input type="text" className="input" placeholder="Type Your Email" />
         </div>
       </div>     
