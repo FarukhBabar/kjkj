@@ -24,7 +24,7 @@ const Home = () => {
     <div className="col-lg-12 col-md-12 col-sm-12 reviews">
       <p className="title">Customer Reviews</p>
       <div className="row  rrr ">
-        <div className="col-lg-2 col-md-3 col-sm-12 card ms-2 mt-3" style={{width: '16rem', height: 169}}>
+        <div className="col-lg-2 col-md-3 col-sm-12 card ms-3 mt-3" style={{width: '16rem', height: 169}}>
           <div className="star-rating">
             <input type="radio" id="star5" name="rating" defaultValue={5} /><label htmlFor="star5" title="5 stars">☆</label>
             <input type="radio" id="star4" name="rating" defaultValue={4} /><label htmlFor="star4" title="4 stars">☆</label>
@@ -39,7 +39,7 @@ const Home = () => {
             <p className="time">Yanky, 1 day ago</p>
           </div>
         </div>
-        <div className="col-lg-2 col-md-3 col-sm-12  card  ms-4 mt-3" style={{width: '16rem', height: 169}}>
+        <div className="col-lg-2 col-md-3 col-sm-12  card  ms-3 mt-3" style={{width: '16rem', height: 169}}>
           <div className="star-rating">
             <input type="radio" id="star5" name="rating" defaultValue={5} /><label htmlFor="star5" title="5 stars">☆</label>
             <input type="radio" id="star4" name="rating" defaultValue={4} /><label htmlFor="star4" title="4 stars">☆</label>
@@ -54,7 +54,7 @@ const Home = () => {
             <p className="time">Yanky, 1 day ago</p>
           </div>
         </div>
-        <div className="col-lg-2 col-md-3 col-sm-12  card  ms-4 mt-3" style={{width: '16rem', height: 169}}>
+        <div className="col-lg-2 col-md-3 col-sm-12  card  ms-3 mt-3" style={{width: '16rem', height: 169}}>
           <div className="star-rating">
             <input type="radio" id="star5" name="rating" defaultValue={5} /><label htmlFor="star5" title="5 stars">☆</label>
             <input type="radio" id="star4" name="rating" defaultValue={4} /><label htmlFor="star4" title="4 stars">☆</label>
