@@ -185,20 +185,45 @@ const Home = () => {
       <p className="title">FEATURED BRANDS</p>
     </div>
   </div>
-  <div className="row img-m">
-    <div className="col-lg-12 col-md-12 col-sm-12 img-s d-flex">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/655857d34d9f48f0bb57298ba4efa29c.jpg" alt className="sliimg sasa" />
+  <div className='row slider'>
+    <div className='col slide-track'>
+     
+      <div>
+      <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/655857d34d9f48f0bb57298ba4efa29c.jpg" alt className="" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/142cc78ff34640d1899c77dfe0d66496.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/02beb9a5e10c4f4a847406158222cda2.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/c8ada3393abf463fa6f2a016e80386a6.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/6436ee1233344abbbbcf90d82d69dae5.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/37f51d5132b24473906028d623d30ab5.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/2c689aaf4d9c48c990640f6c70fc55b8.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/093f9422000e4e6883be7b281ae95545.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/26cad78f12d9404cbf5c8a64fb1a888a.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/dc65ce50a7434978ab3534eb2eecae01.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/fd66e73b317d478ebd3c9c11560fa104.jpg" alt className="sliimg" />
+      </div>
+      <div>
       <img src="https://www.efghousewares.co.uk/Content/14/images/BrandsLogo/88b88d29caef4765be995bc32e7aa862.jpg" alt className="sliimg" />
+      </div>
     </div>
   </div>
 </div>
