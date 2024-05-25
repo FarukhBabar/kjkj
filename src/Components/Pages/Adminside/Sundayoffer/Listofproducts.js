@@ -34,53 +34,53 @@ const Listofproducts = () => {
     
   return (
     <div>
-    <table className="table">
-<thead>
-<tr>
-  <th scope="col">Name</th>
-  <th scope="col">Title</th>
-  <th scope="col">Price</th>
-  <th scope="col">image</th>
-  {/* <th scope="col">Phone</th> */}
-</tr>
-</thead>
-{
-   user.map(ele=>{
-      return(
-          <tbody>
-            <tr>
-              
-              <td>{ele.name}</td>
-              <td>{ele.title}</td>
-              <td>{ele.price}</td>
-             
-              {/* <td> { (
-                         <img src={`http://localhost:8080/${user.image ?.replace(/\\/g, '/')}`} alt="" />
-                         )}</td> */}
-            <td>  
-                 {ele.image && (
-                     <img 
-                   src={`http://localhost:8001/${ele.image}`} 
-                            alt={ele.name} 
-                                className='img-fluid' 
-                           style={{ height: '150px', width: '200px' }}
-                                 />
-                      )}
-                </td>
-
-              <td>
-                           <Link to={`/list/${ele._id}`} className='btn btn-success'>Edit</Link>
-                             <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger mt-2'>Delete</a>
-                        </td>
-            </tr>
-         
-          </tbody>
-        
-        )
-      })
-    }
-
-</table>
+    <div className='container w-75'>
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of SundayOffer Products</h4>
+     
+           <table class="table table-striped table-hover">
+                 <thead>
+                     <tr className='btn-dark text-light text-center'>
+                         <th scope="col">#</th>
+                         <th scope="col">Name</th>
+                         <th scope="col">Title</th>
+                         <th scope="col">Price</th>
+                         <th scope="col">Image</th>
+                         <th scope="col">Operations</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     {
+                         user.map((ele,ind)=>{
+                             return(
+                                 <>
+                                     <tr>
+                                         <th scope="row">{ind+1}</th>
+                                         <td>{ele.name}</td>
+                                         <td>{ele.title}</td>
+                                         <td>{ele.price}</td>
+                                         <td> {ele.image && (
+                              <img 
+                            src={`http://localhost:8001/${ele.image}`} 
+                                     alt={ele.name} 
+                                         className='img-fluid' 
+                                    style={{ height: '70px', width: '100px' }}
+                                          />
+                               )}</td>
+                                         <td>
+                                             <Link to={`/list/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger'>Delete</a>
+                                         </td>
+                                     </tr>
+                                 </>
+                             )
+                         })
+                     }
+     
+                 </tbody>
+         </table>
+     
+     
+         </div>
 
 
 </div>
