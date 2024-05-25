@@ -57,6 +57,18 @@ const Navbar = () => {
           <Link className="nav-link ms-5 text-white" to="/Shopbybrand">SHOP BY BRAND</Link>
           <Link className="nav-link ms-5 text-white" to="/Newarrivals">NEW ARRIVALS</Link>
         </div>
+        <div className="ms-3 login">
+      <Link to="/Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
+      {userlogin?(
+
+<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGOUT</Link>
+
+):(
+
+<Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGIN</Link>
+)
+}
+    </div>
       </div>
     </div>
   </nav>
