@@ -55,7 +55,7 @@ const Navbar = () => {
           <Link className="nav-link ms-5 text-white" to="/Supersunday">SUPER SUNDAY OFFERS</Link>
           <Link className="nav-link ms-5 text-white" to="/Palletdeals">PALLETS DEALS</Link>
           <Link className="nav-link ms-5 text-white" to="/Shopbybrand">SHOP BY BRAND</Link>
-          <Link className="nav-link ms-5 text-white" to="/Newarrivals">NEW ARRIVALS</Link>
+          <Link className="nav-link ms-5 text-white" to="/newarriv">NEW ARRIVALS</Link>
         </div>
         <div className="ms-3 login">
       <Link to="/Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>

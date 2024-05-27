@@ -21,7 +21,7 @@ const Card = ({ user }) => {
          
         </h5>
         <h5 className='ms-2'>{user.name.slice(0, 25)}</h5>
-        <p className='ms-2'>{user.title.slice(0, 60)}...</p>
+        <p className='ms-2'>{user.title.slice(0, 35)}...</p>
         {/* <div className="d-flex">
           <h6>${user.price}</h6>
             <small className="text-danger">(36% off)</small>

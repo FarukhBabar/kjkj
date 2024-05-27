@@ -729,33 +729,47 @@ padding-bottom: 5px;
     margin-left: 20px;
     margin-top: 20px;
 }
+.img:hover{
+    transform: rotateX(0.1deg) rotateY(0.1deg) rotateZ(0.1deg) scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+}
+.img1:hover{
+    transform: rotateX(0.1deg) rotateY(0.1deg) rotateZ(0.1deg) scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+}
+.img2:hover{
+    transform: rotateX(0.1deg) rotateY(0.1deg) rotateZ(0.1deg) scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+}
+.img3:hover{
+    transform: rotateX(0.1deg) rotateY(0.1deg) rotateZ(0.1deg) scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+}
 @media screen and (max-width : 480px) {
     .freedd{
     display: none !important;
 }
 
 .img{
-    width: 270px;
+    width: 95%;
     margin-left: 10px;
     margin-top: 20px;
 }
 .img1{
-    width: 270px;
+    width: 95%;
+   
     margin-left: 10px;
     margin-top: 20px;
    
 }
 .img2{
-    width: 270px;
+    width: 95%;
     margin-left: 10px;
     margin-top: 20px;
     
 }
 .img3{
-    width: 270px;
+    width: 95%; 
     margin-left: 10px;
     margin-top: 20px;
 }
+
 .input22{
         margin-top: 10px;
         margin-left: 40px !important;

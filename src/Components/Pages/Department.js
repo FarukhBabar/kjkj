@@ -10,7 +10,7 @@ const Department = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Group15.png" alt className="img" /></Link>   
+        <Link to="/foodanddrinks"><img src="./Images/Group 15.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

@@ -101,7 +101,7 @@ import Foods from './Components/Pages/Foods';
 
 import Palletdeals from './Components/Pages/Palletdeals';
 import Shopbybrand from './Components/Pages/Shopbybrand';
-import Newarrivals from './Components/Pages/Newarrivals';
+import Newarrivals from './Components/Pages/Adminside/NewArrevals/Newarrivals';
 import Giftcard from './Components/Pages/Giftcard';
 import Login from './Components/Pages/Login';
 import Register from './Components/Pages/Register';
@@ -111,6 +111,22 @@ import Form from './Components/Pages/Adminside/Sundayoffer/Form';
 import Listofproducts from './Components/Pages/Adminside/Sundayoffer/Listofproducts';
 import Update from './Components/Pages/Adminside/Sundayoffer/Update';
 import Sundaypage from "./Components/Pages/Adminside/Sundayoffer/Sundayoffer"
+import Pallet from './Components/Pages/Adminside/Palletdeals/Pallet';
+import Form1 from "./Components/Pages/Adminside/Palletdeals/Form1"
+import Listofpallet from "./Components/Pages/Adminside/Palletdeals/Listofpallet"
+import Updatepallet from "./Components/Pages/Adminside/Palletdeals/Updatepallet"
+import NewForm from './Components/Pages/Adminside/NewArrevals/NewForm';
+import Listofnewarrivals from './Components/Pages/Adminside/NewArrevals/Listofnewarrivals';
+import Newupdate from './Components/Pages/Adminside/NewArrevals/Newupdate';
+import FoodForm from './Components/Pages/Adminside/Foods/FoodForm';
+import Listoffoods from './Components/Pages/Adminside/Foods/Listoffoods';
+import Updatefoods from './Components/Pages/Adminside/Foods/Updatefoods';
+import Foodsproduct from './Components/Pages/Adminside/Foods/Foodsproduct';
+import Drinkform from './Components/Pages/Adminside/Drinks/Drinkform';
+import Listofdrink from './Components/Pages/Adminside/Drinks/Listofdrink';
+import Updatedrink from './Components/Pages/Adminside/Drinks/Updatedrink';
+import Drinkproduct from './Components/Pages/Adminside/Drinks/Drinkproduct';
+
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -133,12 +149,24 @@ const App = () => {
         <Route path='/adminsunday' element={<AdminLayout><Form /></AdminLayout>} />
         <Route path='/list' element={<AdminLayout><Listofproducts/></AdminLayout>} />
         <Route path='/list/:id' element={<AdminLayout><Update /></AdminLayout>} />
+        <Route path='/pallet' element={<AdminLayout><Form1 /></AdminLayout>} />
+        <Route path='/listpal' element={<AdminLayout><Listofpallet/></AdminLayout>} />
+        <Route path='/listpal/:id' element={<AdminLayout><Updatepallet /></AdminLayout>} />
+        <Route path='/newarrivals' element={<AdminLayout><NewForm /></AdminLayout>} />
+        <Route path='/listarr' element={<AdminLayout><Listofnewarrivals/></AdminLayout>} />
+        <Route path='/listarr/:id' element={<AdminLayout><Newupdate /></AdminLayout>} />
+        <Route path='/foodform' element={<AdminLayout><FoodForm /></AdminLayout>} />
+        <Route path='/listfood' element={<AdminLayout><Listoffoods/></AdminLayout>} />
+        <Route path='/listfood/:id' element={<AdminLayout><Updatefoods /></AdminLayout>} />
+        <Route path='/drinkform' element={<AdminLayout><Drinkform /></AdminLayout>} />
+        <Route path='/listdrink' element={<AdminLayout><Listofdrink/></AdminLayout>} />
+        <Route path='/listdrink/:id' element={<AdminLayout><Updatedrink /></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
         <Route path='/foodanddrinks' element={<MainLayout><FoodandDrink /></MainLayout>} />
-        <Route path='/foods' element={<MainLayout><Food /></MainLayout>} />
-        <Route path='/drinks' element={<MainLayout><Drinks /></MainLayout>} />
+        <Route path='/foods' element={<MainLayout><Foodsproduct /></MainLayout>} />
+        <Route path='/drinks' element={<MainLayout><Drinkproduct /></MainLayout>} />
         <Route path='/smoking' element={<MainLayout><Smoking /></MainLayout>} />
         <Route path='/lighter' element={<MainLayout><Lighter /></MainLayout>} />
         <Route path='/electrical' element={<MainLayout><Electrical /></MainLayout>} />
@@ -152,11 +180,11 @@ const App = () => {
         <Route path='/Craft' element={<MainLayout><Craft /></MainLayout>} />
         <Route path='/Carproduct' element={<MainLayout><Carproduct /></MainLayout>} />
         <Route path='/Candles Air Freshner' element={<MainLayout><Candels /></MainLayout>} />
-        <Route path='/Food' element={<MainLayout><Foods /></MainLayout>} />
+        <Route path='/Food' element={<MainLayout><Foodsproduct /></MainLayout>} />
         <Route path='/Supersunday' element={<MainLayout><Sundaypage /></MainLayout>} />
-        <Route path='/Palletdeals' element={<MainLayout><Palletdeals /></MainLayout>} />
+        <Route path='/Palletdeals' element={<MainLayout><Pallet /></MainLayout>} />
         <Route path='/Shopbybrand' element={<MainLayout><Shopbybrand /></MainLayout>} />
-        <Route path='/Newarrivals' element={<MainLayout><Newarrivals /></MainLayout>} />
+        <Route path='/newarriv' element={<MainLayout><Newarrivals /></MainLayout>} />
         <Route path='/Giftmakercard' element={<MainLayout><Giftcard /></MainLayout>} />
         <Route path='/Brighthomly' element={<MainLayout><Giftcard /></MainLayout>} />
         <Route path='/log' element={<MainLayout><Login /></MainLayout>} />
