@@ -46,7 +46,7 @@ const Drinkform = () => {
       })
       result = await result.json();
       if(result){
-        nevigate("/adminsunday")
+        nevigate("/drinkform")
         alert("Product added sucessfully")
         }
         else{

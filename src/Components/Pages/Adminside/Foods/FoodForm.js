@@ -46,7 +46,7 @@ const FoodForm = () => {
       })
       result = await result.json();
       if(result){
-        nevigate("/adminsunday")
+        nevigate("/foodform")
         alert("Product added sucessfully")
         }
         else{

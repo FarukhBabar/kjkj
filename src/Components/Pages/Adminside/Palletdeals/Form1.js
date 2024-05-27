@@ -46,7 +46,7 @@ const Form1 = () => {
       })
       result = await result.json();
       if(result){
-        nevigate("/adminsunday")
+        nevigate("/pallet")
         alert("Product added sucessfully")
         }
         else{
