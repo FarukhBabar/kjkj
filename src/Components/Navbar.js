@@ -21,7 +21,7 @@ const Navbar = () => {
     </center>
   </div>
   <div className="d-flex">
-    <div className="ms-3 login">
+    {/* <div className="ms-3 login">
       <Link to="/Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
       {userlogin?(
 
@@ -32,8 +32,9 @@ const Navbar = () => {
 <Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGIN</Link>
 )
 }
-    </div>
+    </div> */}
     <div className>
+    
       <img src="https://linkwwwebsite.000webhostapp.com/FinalLogo1.png" alt className="logo" />
     </div>
     <div className="phone">
@@ -56,19 +57,20 @@ const Navbar = () => {
           <Link className="nav-link ms-5 text-white" to="/Palletdeals">PALLETS DEALS</Link>
           <Link className="nav-link ms-5 text-white" to="/Shopbybrand">SHOP BY BRAND</Link>
           <Link className="nav-link ms-5 text-white" to="/newarriv">NEW ARRIVALS</Link>
-        </div>
-        <div className="ms-3 login">
-      <Link to="/Register" className="mt-2 text-decoration-none text-black"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
+          <div className="ms-3 login">
+      <Link to="/Register" className="mt-2 text-decoration-none text-white"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
       {userlogin?(
 
-<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGOUT</Link>
+<Link to=""  onClick={Logout} className=" snavl mt-3  text-decoration-none text-white"><i className="bi bi-person" />LOGOUT</Link>
 
 ):(
 
-<Link to="/log" className=" snavl mt-3  text-decoration-none text-black"><i className="bi bi-person" />LOGIN</Link>
+<Link to="/log" className=" snavl mt-3  text-decoration-none text-white"><i className="bi bi-person" />LOGIN</Link>
 )
 }
     </div>
+        </div>
+        
       </div>
     </div>
   </nav>

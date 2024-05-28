@@ -168,6 +168,13 @@
    .rating{
     margin-left: 0px !important;
    }
+   .phone{
+    margin-left: 40px !important;
+    margin-top: 15px;
+ }
+ .search-container{
+    display: none;
+ }
 }
 
 .lax{
@@ -177,12 +184,13 @@
     width: 150px;
     height: 40px;
     align-items: center;
-    margin-left: 350px;
+    /* margin-left: 350px; */
     margin-top: 7px;
 }
 .login{
-    margin-top: 15px;
+    margin-top: 7.3px;
     font-size: 14px;
+    margin-left: 100px !important;
 }
 .phone{
    margin-left: 100px;
@@ -864,6 +872,13 @@ padding-bottom: 5px;
     .freedd{
         display: none !important;
     }
+    .logo{
+        width: 150px;
+        height: 40px;
+        align-items: center;
+        margin-left: 0px !important;
+        margin-top: 7px;
+        }
     
 }
 /* --------------login--------- */
@@ -947,13 +962,13 @@ padding-bottom: 5px;
         width: 150px;
         height: 40px;
         align-items: center;
-        margin-left: 350px;
+        margin-left: 450px;
         margin-top: 7px;
         }
-        .login{
+        /* .login{
         margin-top: 15px;
         font-size: 14px;
-        }
+        } */
         .phone{
         margin-left: 100px;
         margin-top: 15px;
@@ -1279,3 +1294,4 @@ padding-bottom: 5px;
         background-color: rgba(247, 247, 247, 1);
         margin-left: 20px;
         }
+        
