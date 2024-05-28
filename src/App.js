@@ -85,7 +85,7 @@ import FoodandDrink from './Components/Pages/FoodandDrink';
 import Food from './Components/Pages/Food';
 import Drinks from './Components/Pages/Drinks';
 import Smoking from './Components/Pages/Smoking';
-import Lighter from './Components/Pages/Lighter';
+import Lighter from './Components/Pages/Adminside/Smoking/Lighter';
 import Electrical from './Components/Pages/Electrical';
 import Essentional from './Components/Pages/Essentional';
 import Poundline from './Components/Pages/Poundline';
@@ -97,9 +97,9 @@ import Partybin from './Components/Pages/Partybin';
 import Craft from './Components/Pages/Craft';
 import Carproduct from './Components/Pages/Carproduct';
 import Candels from './Components/Pages/Candels';
-import Foods from './Components/Pages/Foods';
 
-import Palletdeals from './Components/Pages/Palletdeals';
+
+
 import Shopbybrand from './Components/Pages/Shopbybrand';
 import Newarrivals from './Components/Pages/Adminside/NewArrevals/Newarrivals';
 import Giftcard from './Components/Pages/Giftcard';
@@ -126,7 +126,13 @@ import Drinkform from './Components/Pages/Adminside/Drinks/Drinkform';
 import Listofdrink from './Components/Pages/Adminside/Drinks/Listofdrink';
 import Updatedrink from './Components/Pages/Adminside/Drinks/Updatedrink';
 import Drinkproduct from './Components/Pages/Adminside/Drinks/Drinkproduct';
-
+import Lighterform from './Components/Pages/Adminside/Smoking/Lighterform';
+import Listoflighter from './Components/Pages/Adminside/Smoking/Listoflighter';
+import Updatelighter from './Components/Pages/Adminside/Smoking/Updatelighter';
+import Electricalform from "./Components/Pages/Adminside/Electrical/Electricalform"
+import  Listofelectrical from "./Components/Pages/Adminside/Electrical/Listofelectrical"
+import Updateelectrical from './Components/Pages/Adminside/Electrical/Updateelectrical'
+import Electricalde from './Components/Pages/Adminside/Electrical/Electricalde';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -145,6 +151,7 @@ const App = () => {
     <>
       <Routes>
         {/* Admin Routes */}
+        
         <Route path='/adminpanal' element={<AdminLayout><Adminside /></AdminLayout>} />
         <Route path='/adminsunday' element={<AdminLayout><Form /></AdminLayout>} />
         <Route path='/list' element={<AdminLayout><Listofproducts/></AdminLayout>} />
@@ -161,6 +168,12 @@ const App = () => {
         <Route path='/drinkform' element={<AdminLayout><Drinkform /></AdminLayout>} />
         <Route path='/listdrink' element={<AdminLayout><Listofdrink/></AdminLayout>} />
         <Route path='/listdrink/:id' element={<AdminLayout><Updatedrink /></AdminLayout>} />
+        <Route path='/lighterform' element={<AdminLayout><Lighterform /></AdminLayout>} />
+        <Route path='/listlighter' element={<AdminLayout><Listoflighter/></AdminLayout>} />
+        <Route path='/listlighter/:id' element={<AdminLayout><Updatelighter /></AdminLayout>} /> 
+        <Route path='/electricalform' element={<AdminLayout><Electricalform /></AdminLayout>} />
+        <Route path='/listelectric' element={<AdminLayout><Listofelectrical/></AdminLayout>} />
+        <Route path='/listelectric/:id' element={<AdminLayout><Updateelectrical /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -169,7 +182,7 @@ const App = () => {
         <Route path='/drinks' element={<MainLayout><Drinkproduct /></MainLayout>} />
         <Route path='/smoking' element={<MainLayout><Smoking /></MainLayout>} />
         <Route path='/lighter' element={<MainLayout><Lighter /></MainLayout>} />
-        <Route path='/electrical' element={<MainLayout><Electrical /></MainLayout>} />
+        <Route path='/electrical' element={<MainLayout><Electricalde /></MainLayout>} />
         <Route path='/essentional' element={<MainLayout><Essentional /></MainLayout>} />
         <Route path='/poundline' element={<MainLayout><Poundline /></MainLayout>} />
         <Route path='/bathroombeauty' element={<MainLayout><Bathroombeauty /></MainLayout>} />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Adminnavbar from '../Adminnavbar';
 
 const Listofdrink = () => {
     const [user, setUsers] = useState([]);
@@ -34,8 +35,9 @@ const Listofdrink = () => {
     
   return (
     <div>
+        <Adminnavbar/>
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Foods Products</h4>
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Drinks Products</h4>
            <Link to="/drinkform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
@@ -67,7 +69,7 @@ const Listofdrink = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listfood/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listdrink/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>

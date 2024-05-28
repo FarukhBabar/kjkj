@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import "../admin.css"
 import Adminnavbar from '../Adminnavbar'
 
-const FoodForm = () => {
+const Lighterform = () => {
   const [Image , setImage]=useState(null)
   const [name , setname]=useState()
   const [title , settitle] =useState()
@@ -40,14 +40,14 @@ const FoodForm = () => {
       return;
     }
     try {
-      let result = await fetch("http://localhost:8001/api/v1/auth/Foodproducts" , {
+      let result = await fetch("http://localhost:8001/api/v1/auth/ligproducts" , {
         method: "post",
         body :formdata
       
       })
       result = await result.json();
       if(result){
-        nevigate("/foodform")
+        nevigate("/lighterform")
         alert("Product added sucessfully")
         }
         else{
@@ -61,7 +61,7 @@ const FoodForm = () => {
   return (
     <div>
       <Adminnavbar/>
-      <Link to="/listfood" className="btn btn-success mss" >Product-list</Link>
+      <Link to="/listlighter" className="btn btn-success mss" >Product-list</Link>
       <form className='marr '>
   <div className="mb-3 maa ">
     <label  className="form-label mt-2">ITem Name</label>
@@ -93,4 +93,4 @@ const FoodForm = () => {
   )
 }
 
-export default FoodForm
+export default Lighterform

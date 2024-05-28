@@ -3,19 +3,19 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Adminnavbar from '../Adminnavbar';
 
-const Listoffoods = () => {
+const Listoflighter = () => {
     const [user, setUsers] = useState([]);
     
 
     useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/fooduser")
+      axios.get("http://localhost:8001/api/v1/data/liguser")
         .then(response => setUsers(response.data))
         .catch(error => console.log(error));
     }, []);
     const deleteuser = async(id)=>{
         // console.log(id)
         try {
-            let result= await fetch(`http://localhost:8001/api/v1/data/fooduserid/${id}`,{
+            let result= await fetch(`http://localhost:8001/api/v1/data/lighuserid/${id}`,{
           method:"delete"
        
         })
@@ -37,8 +37,8 @@ const Listoffoods = () => {
     <div>
         <Adminnavbar/>
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Foods Products</h4>
-           <Link to="/foodform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Lighter Products</h4>
+           <Link to="/lighterform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
                      <tr className='btn-dark text-light text-center'>
@@ -69,7 +69,7 @@ const Listoffoods = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listfood/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listlighter/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>
@@ -89,4 +89,4 @@ const Listoffoods = () => {
   )
 }
 
-export default Listoffoods
+export default Listoflighter
