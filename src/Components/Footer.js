@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div>
@@ -12,20 +13,20 @@ const Footer = () => {
             <div className="col-6 col-lg-4">
               <h5 className="text-black footer-title-01">CUSTOMER SERVICE</h5>
               <ul className="list-unstyled footer-link-01 m-0">
-                <li><a className="tex text-black text-opacity-75" href="#">Contact Us</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">About Us</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Delivery</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Export</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Help / FAQ</a></li>
+                <li><Link className="tex text-black text-opacity-75" to="/contact">Contact Us</Link></li>
+                <li><Link className="tex text-black text-opacity-75" to="/aboutus">About Us</Link></li>
+                <li><Link className="tex text-black text-opacity-75" to="/delivery">Delivery</Link></li>
+                <li><Link className="tex text-black text-opacity-75" to="/export">Export</Link></li>
+                <li><Link className="tex text-black text-opacity-75" to="/faq">Help / FAQ</Link></li>
               </ul>
             </div>
             <div className="col-6 col-lg-3">
               <h5 className="text-black footer-title-01">Website</h5>
               <ul className="list-unstyled footer-link-01 m-0">
-                <li><a className="tex text-black text-opacity-75" href="#">Blog</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Privacy Policy</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Cookie Policy</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">Terms &amp; Conditions</a></li>
+                <li><Link className="tex text-black text-opacity-75" to="/blog">Blog</Link></li>
+                <li><a className="tex text-black text-opacity-75" href="/privacy">Privacy Policy</a></li>
+                <li><a className="tex text-black text-opacity-75" href="/cookies">Cookie Policy</a></li>
+                <li><a className="tex text-black text-opacity-75" href="/termscondition">Terms &amp; Conditions</a></li>
               </ul>
             </div>
             <div className="col-6 col-lg-4">

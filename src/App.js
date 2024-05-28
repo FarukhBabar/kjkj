@@ -133,6 +133,24 @@ import Electricalform from "./Components/Pages/Adminside/Electrical/Electricalfo
 import  Listofelectrical from "./Components/Pages/Adminside/Electrical/Listofelectrical"
 import Updateelectrical from './Components/Pages/Adminside/Electrical/Updateelectrical'
 import Electricalde from './Components/Pages/Adminside/Electrical/Electricalde';
+import Smokingessentials from './Components/Pages/Adminside/SmokingEssentials/Smokingessentials';
+import Smokingessform from './Components/Pages/Adminside/SmokingEssentials/Smokingessform';
+import Smokingesslist from './Components/Pages/Adminside/SmokingEssentials/Smokingesslist';
+import Updatesmokingess from './Components/Pages/Adminside/SmokingEssentials/Updatesmokingess';
+import Blog from './Components/Footerpages/Blog';
+import Hotwater from './Components/Footerpages/Hotwater';
+import Privacy from './Components/Footerpages/Privacy';
+import Termscondition from './Components/Footerpages/Terms&condition';
+import Cookies from './Components/Footerpages/Cookies';
+import Contactus from './Components/Footerpages/Contactus';
+import Aboutus from './Components/Footerpages/Aboutus';
+import Delivery from './Components/Footerpages/Delivery';
+import Export from './Components/Footerpages/Export';
+import Faq from './Components/Footerpages/Faq';
+import Bathroomform from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomform';
+import Bathroomlist from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomlist';
+import Updatebathroom from './Components/Pages/Adminside/Poudliene/Bathroom/Updatebathroom';
+import Bathroomp from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomp';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -174,6 +192,12 @@ const App = () => {
         <Route path='/electricalform' element={<AdminLayout><Electricalform /></AdminLayout>} />
         <Route path='/listelectric' element={<AdminLayout><Listofelectrical/></AdminLayout>} />
         <Route path='/listelectric/:id' element={<AdminLayout><Updateelectrical /></AdminLayout>} /> 
+        <Route path='/essionaform' element={<AdminLayout><Smokingessform /></AdminLayout>} />
+        <Route path='/listsmokigess' element={<AdminLayout><Smokingesslist/></AdminLayout>} />
+        <Route path='/listsmokigess/:id' element={<AdminLayout><Updatesmokingess /></AdminLayout>} /> 
+        <Route path='/bathform' element={<AdminLayout><Bathroomform /></AdminLayout>} />
+        <Route path='/listbathrom' element={<AdminLayout><Bathroomlist/></AdminLayout>} />
+        <Route path='/listbathrom/:id' element={<AdminLayout><Updatebathroom /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -183,9 +207,9 @@ const App = () => {
         <Route path='/smoking' element={<MainLayout><Smoking /></MainLayout>} />
         <Route path='/lighter' element={<MainLayout><Lighter /></MainLayout>} />
         <Route path='/electrical' element={<MainLayout><Electricalde /></MainLayout>} />
-        <Route path='/essentional' element={<MainLayout><Essentional /></MainLayout>} />
+        <Route path='/essentional' element={<MainLayout><Smokingessentials /></MainLayout>} />
         <Route path='/poundline' element={<MainLayout><Poundline /></MainLayout>} />
-        <Route path='/bathroombeauty' element={<MainLayout><Bathroombeauty /></MainLayout>} />
+        <Route path='/bathroombeauty' element={<MainLayout><Bathroomp /></MainLayout>} />
         <Route path='/First Aid Pharmacy Personal' element={<MainLayout><Firstaidpharmacy /></MainLayout>} />
         <Route path='/Electric' element={<MainLayout><Electric /></MainLayout>} />
         <Route path='/Diy' element={<MainLayout><Diytools /></MainLayout>} />
@@ -202,7 +226,16 @@ const App = () => {
         <Route path='/Brighthomly' element={<MainLayout><Giftcard /></MainLayout>} />
         <Route path='/log' element={<MainLayout><Login /></MainLayout>} />
         <Route path='/Register' element={<MainLayout><Register /></MainLayout>} />
-
+        <Route path='/blog' element={<MainLayout><Blog /></MainLayout>} />
+        <Route path='/hotwater' element={<MainLayout><Hotwater/></MainLayout>} />
+        <Route path='/privacy' element={<MainLayout><Privacy/></MainLayout>} />
+        <Route path='/termscondition' element={<MainLayout><Termscondition/></MainLayout>} />
+        <Route path='/cookies' element={<MainLayout><Cookies/></MainLayout>} />
+        <Route path='/contact' element={<MainLayout><Contactus/></MainLayout>} />
+        <Route path='/aboutus' element={<MainLayout><Aboutus/></MainLayout>} />
+        <Route path='/delivery' element={<MainLayout><Delivery/></MainLayout>} />
+        <Route path='/export' element={<MainLayout><Export/></MainLayout>} />
+        <Route path='/faq' element={<MainLayout><Faq/></MainLayout>} />
       </Routes>
     </>
   );

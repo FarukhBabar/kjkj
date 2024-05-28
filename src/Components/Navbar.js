@@ -78,7 +78,7 @@ const Navbar = () => {
         <img src="https://www.efghousewares.co.uk/Content/14/images/Deliverybanner/d111f8175d1341dc869b9e957676bdfb.png" className="freedel mt-1" alt />
       </a>
       <div className="mt-2 ms-1">
-        <a href className="text-decoration-none text "> FREE UK DELIVERY AVAILABLE
+        <a href className="text-decoration-none  "> FREE UK DELIVERY AVAILABLE
         </a>
       </div>
     </div>

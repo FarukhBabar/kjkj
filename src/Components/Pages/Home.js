@@ -4,8 +4,38 @@ import Footer from '../Footer'
 const Home = () => {
   return (
     <>
+   <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={1} aria-label="Slide 2" />
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={2} aria-label="Slide 3" />
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="/Images/Frame 3.png" className="d-block w-100" alt="..." />
+      
+    </div>
+    <div className="carousel-item ">
+      <img src="/Images/Frame 2.png" className="d-block w-100" alt="..." />
+      
+    </div>
+    <div className="carousel-item ">
+      <img src="/Images/Frame 6.png" className="d-block w-100" alt="..." />
+      
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+
    <div className="container">
-  <div className="row ">
+  {/* <div className="row ">
     <div className="col-lg-4 col-md-3 col-sm-12">
       <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/d933897ad6e74cd38b9a1deb550590b8.jpg" alt className="Home" />
     </div>
@@ -15,7 +45,7 @@ const Home = () => {
     <div className="col-lg-4 col-md-3 col-sm-12">
       <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/960a07b2eac5487f90acf4a04f2a1f82.jpg" alt className="Home" />
     </div>
-  </div>
+  </div> */}
   <div className="row ">
     <div className="col-lg-6 col-md-6 col-sm-12"><img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/a6adbe3f11024640a51b1d6ace221296.jpg" alt className="banner" /></div>
     <div className="col-lg-6 col-md-6 col-sm-12"><img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/5ba271744e4846838cf41949fceeaee5.jpg" alt className="banner" /></div>

@@ -77,7 +77,17 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listlighter">Lighter & Matches</Link></li>
                   <li><Link className="dropdown-item" to="/listelectric">Electrical</Link></li>
-                  <li>
+                  <li><Link className="dropdown-item" to="/listsmokigess">Smoking Essentials</Link></li>
+                </ul>
+              </li>
+              <li className="nav-item dropend">
+                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pound Lines
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" to="/listbathrom">Bathroom / Cosmetics / Beauty</Link></li>
+                  <li><Link className="dropdown-item" to="/listdrink">First Aid/Pharmacy/Personal</Link></li>
+                  {/* <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li className="nav-item dropend">
@@ -104,7 +114,7 @@ const Adminnavbar = () => {
                         </ul>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
             </ul>
