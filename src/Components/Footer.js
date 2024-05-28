@@ -33,8 +33,8 @@ const Footer = () => {
               <h5 className="text-black footer-title-01">Contact Us</h5>
               <ul className="list-unstyled footer-link-01 m-0">
                 <li><a className="tex text-black text-opacity-75" href="#">29 Mollison Avenue, Brimsdown, Enfield, EN3 7NL</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">E:enquiries@efghousewares.co.uk</a></li>
-                <li><a className="tex text-black text-opacity-75" href="#">T: 0208 805 5756</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">E:enquiries@fdd3wea.co.uk</a></li>
+                <li><a className="tex text-black text-opacity-75" href="#">T: 0208 12 12123</a></li>
                 {/* <li><a className="text-white text-opacity-75" href="#">Get the app</a></li>
                 <li><a className="text-white text-opacity-75" href="#">Store locator</a></li> */}
               </ul>
