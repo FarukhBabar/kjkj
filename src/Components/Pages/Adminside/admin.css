@@ -54,6 +54,13 @@
     /* height: auto; */
     margin-left: 0px !important;
   }
+  .bt2{
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+  .singleimg{
+    width: 300px !important;
+  }
 }
 /* ==============================navbar============== */
 .navbar-nav .nav-link {
@@ -85,4 +92,43 @@
   .dropend .dropdown-toggle {
     margin-left: 0.5em;
   }
+  
+}
+
+/* ===============Singlepage=============== */
+.mainn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px rgb(176, 174, 174) ;
+}
+.bt2{
+  background-color: #7EA1FD !important;
+  color: white !important;
+  margin-top: 20px;
+}
+.bt2:hover{
+  background-color: white !important;
+  color: #7EA1FD !important;
+}
+.inn{
+  background-color:#7EA1FD  !important;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border:none;
+}
+.Quabtity{
+  display: flex;
+}
+.buy{
+  width: 300px !important;
+}
+.btn1{
+  background-color: white !important;
+  color: rgb#7EA1FD !important;
+  box-shadow:  1px  1px rgb(105, 102, 102) !important;
+  margin-top: 20px;
+}
+.btn1:hover{
+  background-color:#7EA1FD  !important;
+  color: rgb(249, 238, 238) !important;
+  
 }

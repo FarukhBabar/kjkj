@@ -70,7 +70,7 @@ const Smokingessform = () => {
     {/* <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div> */}
   </div>
   <div className="mb-3 maa ">
-    <label  className="form-label">Title</label>
+    <label  className="form-label">Description</label>
     <input type="text" className={`form-control form-control-lg ${titleError ? 'is-invalid' : ''}`}  name='title' value={title} onChange={(e)=>settitle(e.target.value)} placeholder='Enter your Item title' />
     {titleError && <div className="invalid-feedback">Please enter your title</div>}
   </div>

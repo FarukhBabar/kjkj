@@ -152,6 +152,7 @@ import Bathroomlist from './Components/Pages/Adminside/Poudliene/Bathroom/Bathro
 import Updatebathroom from './Components/Pages/Adminside/Poudliene/Bathroom/Updatebathroom';
 import Bathroomp from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomp';
 import Contactuser from './Components/Pages/Adminside/Contactuser';
+import Sundayoffersinglr from './Components/Pages/Adminside/Sundayoffer/Sundayoffersinglr';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -238,6 +239,7 @@ const App = () => {
         <Route path='/delivery' element={<MainLayout><Delivery/></MainLayout>} />
         <Route path='/export' element={<MainLayout><Export/></MainLayout>} />
         <Route path='/faq' element={<MainLayout><Faq/></MainLayout>} />
+        <Route path='/Supersunday/:id' element={<MainLayout><Sundayoffersinglr/></MainLayout>}/>
       </Routes>
     </>
   );
