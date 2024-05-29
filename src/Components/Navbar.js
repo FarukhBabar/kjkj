@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Style.css'
 import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
-
+import { useCart } from './Pages/Adminside/CartContext'
 const Navbar = () => {
   const userlogin = localStorage.getItem("user");
   const navigate = useNavigate();
+  const { cartItems } = useCart();
+const [cartCount, setCartCount] = useState(0);
+
+useEffect(() => {
+   
+  setCartCount(cartItems.length);
+}, [cartItems]);
+
+
   const Logout=()=>{
     localStorage.clear("user")
     alert("Logout Sucessfully")
@@ -57,7 +66,7 @@ const Navbar = () => {
           <Link className="nav-link ms-5 text-white" to="/Palletdeals">PALLETS DEALS</Link>
           <Link className="nav-link ms-5 text-white" to="/Shopbybrand">SHOP BY BRAND</Link>
           <Link className="nav-link ms-5 text-white" to="/newarriv">NEW ARRIVALS</Link>
-          <div className="ms-3 login">
+          <div className=" login">
       <Link to="/Register" className="mt-2 text-decoration-none text-white"><i className="bi bi-person" />REGISTER &nbsp;|&nbsp;</Link>
       {userlogin?(
 
@@ -69,6 +78,11 @@ const Navbar = () => {
 )
 }
     </div>
+   < div className="cart scart mt-1 ms-4 text-decoration-none text-white position-relative">
+        <Link to="/addtocart" className="text-decoration-none text-white">
+         <h5><i className="bi bi-cart" />  ({cartCount})</h5> 
+        </Link>
+      </div>
         </div>
         
       </div>

@@ -153,6 +153,8 @@ import Updatebathroom from './Components/Pages/Adminside/Poudliene/Bathroom/Upda
 import Bathroomp from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomp';
 import Contactuser from './Components/Pages/Adminside/Contactuser';
 import Sundayoffersinglr from './Components/Pages/Adminside/Sundayoffer/Sundayoffersinglr';
+import { CartProvider } from './Components/Pages/Adminside/CartContext';
+import Addtocart from './Components/Pages/Adminside/Addtocart';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -169,6 +171,7 @@ const MainLayout = ({ children }) => (
 const App = () => {
   return (
     <>
+     <CartProvider>
       <Routes>
         {/* Admin Routes */}
         
@@ -211,6 +214,7 @@ const App = () => {
         <Route path='/lighter' element={<MainLayout><Lighter /></MainLayout>} />
         <Route path='/electrical' element={<MainLayout><Electricalde /></MainLayout>} />
         <Route path='/essentional' element={<MainLayout><Smokingessentials /></MainLayout>} />
+        <Route path='/addtocart' element={<MainLayout><Addtocart/></MainLayout>}/>
         <Route path='/poundline' element={<MainLayout><Poundline /></MainLayout>} />
         <Route path='/bathroombeauty' element={<MainLayout><Bathroomp /></MainLayout>} />
         <Route path='/First Aid Pharmacy Personal' element={<MainLayout><Firstaidpharmacy /></MainLayout>} />
@@ -241,6 +245,7 @@ const App = () => {
         <Route path='/faq' element={<MainLayout><Faq/></MainLayout>} />
         <Route path='/Supersunday/:id' element={<MainLayout><Sundayoffersinglr/></MainLayout>}/>
       </Routes>
+      </CartProvider>
     </>
   );
 };
