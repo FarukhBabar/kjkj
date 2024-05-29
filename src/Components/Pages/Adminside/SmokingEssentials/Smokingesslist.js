@@ -4,14 +4,20 @@ import { Link } from 'react-router-dom';
 import Adminnavbar from '../Adminnavbar';
 
 const Smokingesslist = () => {
-    const [user, setUsers] = useState([]);
-    
+   
 
-    useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/Smokuser")
-        .then(response => setUsers(response.data))
-        .catch(error => console.log(error));
-    }, []);
+    const [user, setUsers] = useState([]);
+    const setUsersData = async() =>{
+      let result = await fetch("http://localhost:8001/api/v1/data/Smokuser")
+      result = await result.json()       
+      setUsers(result)        
+      console.log(result)
+  }
+
+
+    useEffect(()=>{
+      setUsersData()
+  },[])
     const deleteuser = async(id)=>{
         // console.log(id)
         try {
@@ -21,7 +27,7 @@ const Smokingesslist = () => {
         })
         result= await result.json()
         if(result){
-            alert("Item Deleted Sucessfully")
+          setUsersData()
         }
         
        
@@ -32,6 +38,7 @@ const Smokingesslist = () => {
         
         
       }
+    
     
   return (
     <div>

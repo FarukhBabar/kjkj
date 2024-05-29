@@ -151,6 +151,7 @@ import Bathroomform from './Components/Pages/Adminside/Poudliene/Bathroom/Bathro
 import Bathroomlist from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomlist';
 import Updatebathroom from './Components/Pages/Adminside/Poudliene/Bathroom/Updatebathroom';
 import Bathroomp from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomp';
+import Contactuser from './Components/Pages/Adminside/Contactuser';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -198,6 +199,7 @@ const App = () => {
         <Route path='/bathform' element={<AdminLayout><Bathroomform /></AdminLayout>} />
         <Route path='/listbathrom' element={<AdminLayout><Bathroomlist/></AdminLayout>} />
         <Route path='/listbathrom/:id' element={<AdminLayout><Updatebathroom /></AdminLayout>} /> 
+        <Route path='/listcontact' element={<AdminLayout><Contactuser /></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />

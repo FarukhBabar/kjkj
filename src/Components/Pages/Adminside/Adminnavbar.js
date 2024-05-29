@@ -122,6 +122,9 @@ const Adminnavbar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="/" >UserPanal</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/listcontact" >Contact Users</Link>
+          </li>
         </ul>
       </div>
     </div>

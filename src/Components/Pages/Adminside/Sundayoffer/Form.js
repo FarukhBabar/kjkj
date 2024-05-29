@@ -46,9 +46,10 @@ const Form = () => {
       
       })
       result = await result.json();
+      
       if(result){
         nevigate("/adminsunday")
-        alert("Product added sucessfully")
+       alert("Product added sucessfully")
         }
         else{
           alert("Error in connection")

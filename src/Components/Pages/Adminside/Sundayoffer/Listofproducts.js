@@ -5,13 +5,17 @@ import Adminnavbar from '../Adminnavbar';
 
 const Listofproducts = () => {
     const [user, setUsers] = useState([]);
-    
+    const setUsersData = async() =>{
+      let result = await fetch("http://localhost:8001/api/v1/data/user")
+      result = await result.json()       
+      setUsers(result)        
+      console.log(result)
+  }
 
-    useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/user")
-        .then(response => setUsers(response.data))
-        .catch(error => console.log(error));
-    }, []);
+
+    useEffect(()=>{
+      setUsersData()
+  },[])
     const deleteuser = async(id)=>{
         // console.log(id)
         try {
@@ -21,7 +25,7 @@ const Listofproducts = () => {
         })
         result= await result.json()
         if(result){
-            alert("Item Deleted Sucessfully")
+          setUsersData()
         }
         
        

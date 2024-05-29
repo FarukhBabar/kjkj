@@ -6,32 +6,41 @@ import Adminnavbar from '../Adminnavbar';
 const Listoflighter = () => {
     const [user, setUsers] = useState([]);
     
+    const setUsersData = async() =>{
+        let result = await fetch("http://localhost:8001/api/v1/data/liguser")
+        result = await result.json()       
+        setUsers(result)        
+        console.log(result)
+    }
+  
+  
+      useEffect(()=>{
+        setUsersData()
+    },[])
+      const deleteuser = async(id)=>{
+          // console.log(id)
+          try {
+              let result= await fetch(`http://localhost:8001/api/v1/data/lighuserid/${id}`,{
+            method:"delete"
+         
+          })
+          result= await result.json()
+          if(result){
+            setUsersData()
+          }
+          
+         
+      
+          } catch (error) {
+              alert("Error in deleting data")
+          }
+          
+          
+        }
+      
+      
 
-    useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/liguser")
-        .then(response => setUsers(response.data))
-        .catch(error => console.log(error));
-    }, []);
-    const deleteuser = async(id)=>{
-        // console.log(id)
-        try {
-            let result= await fetch(`http://localhost:8001/api/v1/data/lighuserid/${id}`,{
-          method:"delete"
-       
-        })
-        result= await result.json()
-        if(result){
-            alert("Item Deleted Sucessfully")
-        }
-        
-       
-    
-        } catch (error) {
-            alert("Error in deleting data")
-        }
-        
-        
-      }
+   
     
   return (
     <div>

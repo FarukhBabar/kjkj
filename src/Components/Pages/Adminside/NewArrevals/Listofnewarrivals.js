@@ -8,40 +8,46 @@
 
 // export default Listofnewarrivals
 import React, { useEffect, useState } from 'react'
-import axios from 'axios';
+
 import { Link } from 'react-router-dom';
 import Adminnavbar from '../Adminnavbar';
 
 const Listofnewarrivals = () => {
     const [user, setUsers] = useState([]);
     
-
-    useEffect(() => {
-      axios.get("http://localhost:8001/api/v1/data/newuser")
-        .then(response => setUsers(response.data))
-        .catch(error => console.log(error));
-    }, []);
-    const deleteuser = async(id)=>{
-        // console.log(id)
-        try {
-            let result= await fetch(`http://localhost:8001/api/v1/data/newuserid/${id}`,{
-          method:"delete"
-       
-        })
-        result= await result.json()
-        if(result){
-            alert("Item Deleted Sucessfully")
+     
+    const setUsersData = async() =>{
+        let result = await fetch("http://localhost:8001/api/v1/data/newuser")
+        result = await result.json()       
+        setUsers(result)        
+        console.log(result)
+    }
+  
+  
+      useEffect(()=>{
+        setUsersData()
+    },[])
+      const deleteuser = async(id)=>{
+          // console.log(id)
+          try {
+              let result= await fetch(`http://localhost:8001/api/v1/data/newuserid/${id}`,{
+            method:"delete"
+         
+          })
+          result= await result.json()
+          if(result){
+            setUsersData()
+          }
+          
+         
+      
+          } catch (error) {
+              alert("Error in deleting data")
+          }
+          
+          
         }
-        
-       
-    
-        } catch (error) {
-            alert("Error in deleting data")
-        }
-        
-        
-      }
-    
+      
   return (
     <div>
         <Adminnavbar/>

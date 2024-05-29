@@ -1,7 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Contactus = () => {
+  const[name, setName] = useState('')
+    const[email, setEmail] = useState('')
+    const[phone, setAddress] = useState('')
+    const[message, setMessage] = useState('')
+
+    const navigate= useNavigate()
+    const registerUser = async(e) =>{
+      e.preventDefault();
+      
+      let result = await fetch("http://localhost:8001/api/v1/auth/contact",{
+          method: 'post',
+          body: JSON.stringify({name,  phone,email, message}),
+          headers:{
+              "Content-Type": "application/json"
+          }
+      })
+      result = await result.json();
+      if(result){
+          navigate('/')
+          alert("Message Send Successfully ")
+      }
+      console.log(result)
+
+      // console.log({name, email, password, address, phone})
+  }
   return (
     <div>
         <div className="container">
@@ -41,12 +67,12 @@ const Contactus = () => {
   </div>
   <div className="row contactform">
     <div className="col-md-8">
-      <form action="/post" method="post">
-        <input className="form-control" name="name" placeholder="Name..." /><br />
-        <input className="form-control" name="phone" placeholder="Phone..." /><br />
-        <input className="form-control" name="email" placeholder="E-mail..." /><br />
-        <textarea className="form-control" name="text" placeholder="How can we help you?" style={{height: 150}} defaultValue={""} /><br />
-        <input className="butto" type="submit" defaultValue="Send" /><br /><br />
+      <form action="" method="">
+        <input className="form-control" onChange={(e)=>setName(e.target.value)} type="text" value={name} name="name" placeholder="Name..." /><br />
+        <input className="form-control" onChange={(e)=>setEmail(e.target.value)} value={email}  name="phone" placeholder="Phone..." /><br />
+        <input className="form-control" onChange={(e)=>setAddress(e.target.value)} value={phone} name="email" placeholder="E-mail..." /><br />
+        <textarea className="form-control" onChange={(e)=>setMessage(e.target.value)} value={message} name="text" placeholder="How can we help you?" style={{height: 150}} defaultValue={""} /><br />
+        <input className="butto" onClick={registerUser} type="submit" /><br /><br />
       </form>
     </div>
   </div>
