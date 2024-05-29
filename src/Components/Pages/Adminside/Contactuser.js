@@ -42,8 +42,8 @@ console.log("usres", usersData)
                 <tr className='btn-dark text-light text-center'>
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Email</th>
                     <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
                     <th scope="col">Message</th>
                     <th scope="col">Operations</th>
                 </tr>
