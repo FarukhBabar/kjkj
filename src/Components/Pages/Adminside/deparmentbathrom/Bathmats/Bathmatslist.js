@@ -3,12 +3,12 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Adminnavbar from '../../Adminnavbar';
 
-const Mirrorlist = () => {
+const Bathmatslist = () => {
     const [user, setUsers] = useState([]);
     
 
     const setUsersData = async() =>{
-        let result = await fetch("http://localhost:8001/api/v1/data/mirroruser")
+        let result = await fetch("http://localhost:8001/api/v1/data/bathmatesuser")
         result = await result.json()       
         setUsers(result)        
         console.log(result)
@@ -21,7 +21,7 @@ const Mirrorlist = () => {
       const deleteuser = async(id)=>{
           // console.log(id)
           try {
-              let result= await fetch(`http://localhost:8001/api/v1/data/mirroruserid/${id}`,{
+              let result= await fetch(`http://localhost:8001/api/v1/data/bathmatesuserid/${id}`,{
             method:"delete"
          
           })
@@ -42,8 +42,8 @@ const Mirrorlist = () => {
     <div>
         <Adminnavbar/>
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Mirror Products</h4>
-           <Link to="/mirrorform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Bathmates Products</h4>
+           <Link to="/bathmateform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
                      <tr className='btn-dark text-light text-center'>
@@ -74,7 +74,7 @@ const Mirrorlist = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listmirror/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listbathmate/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>
@@ -94,4 +94,4 @@ const Mirrorlist = () => {
   )
 }
 
-export default Mirrorlist
+export default Bathmatslist

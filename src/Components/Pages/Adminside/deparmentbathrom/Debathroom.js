@@ -28,7 +28,7 @@ const Debathroom = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Diy"><img src="/Images/bathrom1.png" alt className="img3" /></Link>   
+          <Link to="/bathmatesmain"><img src="/Images/bathrom1.png" alt className="img3" /></Link>   
         </div>
       </div>
     </div>

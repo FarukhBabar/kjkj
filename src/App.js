@@ -93,6 +93,11 @@ import Showerlist from './Components/Pages/Adminside/deparmentbathrom/Shower/Sho
 import Showerupdate from './Components/Pages/Adminside/deparmentbathrom/Shower/Showerupdate';
 import Showermain from './Components/Pages/Adminside/deparmentbathrom/Shower/Showermain';
 import Showersingle from './Components/Pages/Adminside/deparmentbathrom/Shower/Showersingle';
+import Bathmatsmain from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatsmain';
+import Bathmatssinglr from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatssinglr';
+import Bathmatsform from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatsform';
+import Bathmatslist from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatslist';
+import Bathmatsupdate from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatsupdate';
 
 
 // Admin Layout without Navbar
@@ -157,6 +162,9 @@ const App = () => {
         <Route path='/listshower' element={<AdminLayout><Showerlist/></AdminLayout>} />
         <Route path='/listshower/:id' element={<AdminLayout><Showerupdate /></AdminLayout>} /> 
        
+        <Route path='/bathmateform' element={<AdminLayout><Bathmatsform /></AdminLayout>} />
+        <Route path='/listbathmate' element={<AdminLayout><Bathmatslist/></AdminLayout>} />
+        <Route path='/listbathmate/:id' element={<AdminLayout><Bathmatsupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -215,6 +223,9 @@ const App = () => {
 
         <Route path='/showermain' element={<MainLayout><Showermain/></MainLayout>}/>
         <Route path='/showersinglepage/:id' element={<MainLayout><Showersingle/></MainLayout>}/>
+
+        <Route path='/bathmatesmain' element={<MainLayout><Bathmatsmain/></MainLayout>}/>
+        <Route path='/bathmatessinglepage/:id' element={<MainLayout><Bathmatssinglr/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
