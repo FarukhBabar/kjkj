@@ -124,6 +124,8 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listbathromde">Bathroom Scales</Link></li>
                   <li><Link className="dropdown-item" to="/listmirror">Mirrors</Link></li>
+                  <li><Link className="dropdown-item" to="/listshower">Shower</Link></li>
+                  <li><Link className="dropdown-item" to="/listmirror">Mirrors</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />
                   </li>

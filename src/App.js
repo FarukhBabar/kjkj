@@ -88,6 +88,11 @@ import Mirrorlist from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mir
 import Updatemirror from './Components/Pages/Adminside/deparmentbathrom/Mirror/Updatemirror'
 import Mirrormain from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrormain'
 import Mirrorsinglepage from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrorsinglepage'
+import Showerform from './Components/Pages/Adminside/deparmentbathrom/Shower/Showerform';
+import Showerlist from './Components/Pages/Adminside/deparmentbathrom/Shower/Showerlist';
+import Showerupdate from './Components/Pages/Adminside/deparmentbathrom/Shower/Showerupdate';
+import Showermain from './Components/Pages/Adminside/deparmentbathrom/Shower/Showermain';
+import Showersingle from './Components/Pages/Adminside/deparmentbathrom/Shower/Showersingle';
 
 
 // Admin Layout without Navbar
@@ -147,6 +152,10 @@ const App = () => {
         <Route path='/mirrorform' element={<AdminLayout><Mirrorform /></AdminLayout>} />
         <Route path='/listmirror' element={<AdminLayout><Mirrorlist/></AdminLayout>} />
         <Route path='/listmirror/:id' element={<AdminLayout><Updatemirror /></AdminLayout>} /> 
+
+        <Route path='/showerform' element={<AdminLayout><Showerform /></AdminLayout>} />
+        <Route path='/listshower' element={<AdminLayout><Showerlist/></AdminLayout>} />
+        <Route path='/listshower/:id' element={<AdminLayout><Showerupdate /></AdminLayout>} /> 
        
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -203,6 +212,9 @@ const App = () => {
 
         <Route path='/mirrormain' element={<MainLayout><Mirrormain/></MainLayout>}/>
         <Route path='/mirrorsinglepage/:id' element={<MainLayout><Mirrorsinglepage/></MainLayout>}/>
+
+        <Route path='/showermain' element={<MainLayout><Showermain/></MainLayout>}/>
+        <Route path='/showersinglepage/:id' element={<MainLayout><Showersingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
