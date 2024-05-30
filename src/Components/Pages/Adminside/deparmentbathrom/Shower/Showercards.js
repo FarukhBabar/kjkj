@@ -7,7 +7,7 @@ const Showercards = ({ user }) => {
       <div className="card11212 ">
         <h5 className='image'>
        
-          <Link to={`/mirrorsinglepage/${user._id}`} className="btn">
+          <Link to={`/showersinglepage/${user._id}`} className="btn">
             {user.image && (
               <a href=''>
               <img
