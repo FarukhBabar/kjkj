@@ -1,19 +1,20 @@
+
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useCart } from '../CartContext';
 import '../admin.css';
 import Footer from '../../../Footer';
 
-const Sundayoffersinglr = () => {
+const Palletsingle = () => {
   const [qty, setQty] = useState(1); // Initialize with 1 for a default value
   const [product, setProduct] = useState({});
   const { addToCart } = useCart();
   let params = useParams();
   const navigate = useNavigate();
 
-  const getSingleUser = async () => {
+  const GetSingleData = async () => {
     try {
-      const response = await fetch(`http://localhost:8001/singalepage/${params.id}`);
+      const response = await fetch(`http://localhost:8001/api/v1/data/palletsingle/${params.id}`);
       const result = await response.json();
       setProduct(result);
     } catch (error) {
@@ -22,7 +23,7 @@ const Sundayoffersinglr = () => {
   };
 
   useEffect(() => {
-    getSingleUser();
+    GetSingleData();
   }, []);
 
   const incQty = () => {
@@ -121,4 +122,4 @@ const Sundayoffersinglr = () => {
   );
 };
 
-export default Sundayoffersinglr;
+export default Palletsingle;

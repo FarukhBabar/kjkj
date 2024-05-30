@@ -155,6 +155,14 @@ import Contactuser from './Components/Pages/Adminside/Contactuser';
 import Sundayoffersinglr from './Components/Pages/Adminside/Sundayoffer/Sundayoffersinglr';
 import { CartProvider } from './Components/Pages/Adminside/CartContext';
 import Addtocart from './Components/Pages/Adminside/Addtocart';
+import Smokingsinglepage from './Components/Pages/Adminside/SmokingEssentials/Smokingsinglepage';
+import Lightersinglepage from './Components/Pages/Adminside/Smoking/Lightersinglepage';
+import Bathroomsingle from './Components/Pages/Adminside/Poudliene/Bathroom/Bathroomsingle';
+import Palletsingle from './Components/Pages/Adminside/Palletdeals/Palletsingle';
+import Newarrivalsingr from './Components/Pages/Adminside/NewArrevals/Newarrivalsingr';
+import Foodssingle from './Components/Pages/Adminside/Foods/Foodssingle';
+import Electricalsinglepage from './Components/Pages/Adminside/Electrical/Electricalsinglepage';
+import Drinkssingle from './Components/Pages/Adminside/Drinks/Drinkssingle';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -244,6 +252,14 @@ const App = () => {
         <Route path='/export' element={<MainLayout><Export/></MainLayout>} />
         <Route path='/faq' element={<MainLayout><Faq/></MainLayout>} />
         <Route path='/Supersunday/:id' element={<MainLayout><Sundayoffersinglr/></MainLayout>}/>
+        <Route path='/essentional/:id' element={<MainLayout><Smokingsinglepage/></MainLayout>}/>
+        <Route path='/lightersingle/:id' element={<MainLayout><Lightersinglepage/></MainLayout>}/>
+        <Route path='/bathroomsingle/:id' element={<MainLayout><Bathroomsingle/></MainLayout>}/>
+        <Route path='/palletsingle/:id' element={<MainLayout><Palletsingle/></MainLayout>}/>
+        <Route path='/newarrsingle/:id' element={<MainLayout><Newarrivalsingr/></MainLayout>}/>
+        <Route path='/foodssinglepage/:id' element={<MainLayout><Foodssingle/></MainLayout>}/>
+        <Route path='/electricalsinglepage/:id' element={<MainLayout><Electricalsinglepage/></MainLayout>}/>
+        <Route path='/drinkssinglepage/:id' element={<MainLayout><Drinkssingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

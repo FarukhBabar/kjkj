@@ -44,7 +44,7 @@ useEffect(() => {
     </div> */}
     <div className>
     
-      <img src="https://linkwwwebsite.000webhostapp.com/FinalLogo1.png" alt className="logo" />
+      <img src="/Images/Final Logo 1.png" alt className="logo" />
     </div>
     <div className="phone">
       <p><i className="bi bi-telephone" />0208 805 5756</p>

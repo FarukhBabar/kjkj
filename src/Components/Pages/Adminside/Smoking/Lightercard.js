@@ -7,7 +7,7 @@ const Lightercard = ({ user }) => {
       <div className="card11212 ">
         <h5 className='image'>
        
-          {/* <Link to={`/freedel/${user._id}`} className="btn"> */}
+          <Link to={`/lightersingle/${user._id}`} className="btn">
             {user.image && (
               <a href=''>
               <img
@@ -17,7 +17,7 @@ const Lightercard = ({ user }) => {
                 style={{ height: '60%', width: '99%' }}
               /> </a>
             )}
-          {/* </Link> */}
+          </Link>
          
         </h5>
         <h5 className='ms-2'>{user.name.slice(0, 25)}</h5>

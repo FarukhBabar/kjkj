@@ -4,7 +4,7 @@ import { useCart } from '../CartContext';
 import '../admin.css';
 import Footer from '../../../Footer';
 
-const Sundayoffersinglr = () => {
+const Smokingsinglepage = () => {
   const [qty, setQty] = useState(1); // Initialize with 1 for a default value
   const [product, setProduct] = useState({});
   const { addToCart } = useCart();
@@ -13,7 +13,7 @@ const Sundayoffersinglr = () => {
 
   const getSingleUser = async () => {
     try {
-      const response = await fetch(`http://localhost:8001/singalepage/${params.id}`);
+      const response = await fetch(`http://localhost:8001/smokingsingalepage/${params.id}`);
       const result = await response.json();
       setProduct(result);
     } catch (error) {
@@ -121,4 +121,4 @@ const Sundayoffersinglr = () => {
   );
 };
 
-export default Sundayoffersinglr;
+export default Smokingsinglepage;
