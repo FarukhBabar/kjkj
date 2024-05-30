@@ -7,7 +7,7 @@ const Bathmatscards = ({ user }) => {
       <div className="card11212 ">
         <h5 className='image'>
        
-          <Link to={`/bathroomsinglepage/${user._id}`} className="btn">
+          <Link to={`/bathmatessinglepage/${user._id}`} className="btn">
             {user.image && (
               <a href=''>
               <img
