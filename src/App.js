@@ -1,93 +1,11 @@
-// import React from 'react'
-// import Navbar from './Components/Navbar'
-// import { Route, Routes } from 'react-router-dom'
-// import Home from './Components/Pages/Home'
-// import Department from './Components/Pages/Department'
-// import FoodandDrink from './Components/Pages/FoodandDrink'
-// import Food from './Components/Pages/Food'
-// import Drinks from './Components/Pages/Drinks'
-// import Smoking from './Components/Pages/Smoking'
-// import Lighter from './Components/Pages/Lighter'
-// import Electrical from './Components/Pages/Electrical'
-// import Essentional from './Components/Pages/Essentional'
-// import Poundline from './Components/Pages/Poundline'
-// import Bathroombeauty from './Components/Pages/Bathroombeauty'
-// import Firstaidpharmacy from './Components/Pages/Firstaidpharmacy'
-// import Electric from './Components/Pages/Electric'
-// import Diytools from './Components/Pages/Diytools'
-// import Partybin from './Components/Pages/Partybin'
-// import Craft from './Components/Pages/Craft'
-// import Carproduct from './Components/Pages/Carproduct'
-// import Candels from './Components/Pages/Candels'
-// import Foods from './Components/Pages/Foods'
-
-// import Palletdeals from './Components/Pages/Palletdeals'
-// import Shopbybrand from './Components/Pages/Shopbybrand'
-// import Newarrivals from './Components/Pages/Newarrivals'
-// import Giftcard from './Components/Pages/Giftcard'
-// import Login from './Components/Pages/Login'
-// import Register from './Components/Pages/Register'
-// import Form from './Components/Pages/Adminside/Sundayoffer/Form'
-// import Adminside from './Components/Pages/Adminside/Adminside'
-// import Sundaypage from './Components/Pages/Adminside/Sundayoffer/Sundayoffer'
-// import Listofproducts from './Components/Pages/Adminside/Sundayoffer/Listofproducts'
-// import Update from './Components/Pages/Adminside/Sundayoffer/Update'
-// const App = () => {
-//   return (
-//     <div>
-//       <Navbar/>
-//       <Routes>
-//         <Route path='/' element={<Home/>}/>
-//         <Route path='/deparments' element={<Department/>}/>
-//         <Route path='/foodanddrinks' element={<FoodandDrink/>}/>
-//         <Route path='/foods' element={<Food/>}/>
-//         <Route path='/drinks' element={<Drinks/>}/>
-//         <Route path='/smoking' element={<Smoking/>}/>
-//         <Route path='/lighter' element={<Lighter/>}/>
-//         <Route path='/electrical' element={<Electrical/>}/>
-//         <Route path='/essentional' element={<Essentional/>}/>
-//         <Route path='/poundline' element={<Poundline/>}/>
-//         <Route path='/bathroombeauty' element={<Bathroombeauty/>}/>
-//         <Route path='/First Aid Pharmacy Personal' element={<Firstaidpharmacy/>}/>
-//         <Route path='/Electric' element={<Electric/>}/>
-//         <Route path='/Diy' element={<Diytools/>}/>
-//         <Route path='/Disposables Party Bin Liners' element={<Partybin/>} />
-//         <Route path='/Craft' element={<Craft/>} />
-//         <Route path='/Carproduct' element={<Carproduct/>} />
-//         <Route path='/Candles Air Freshner' element={<Candels/>} />
-//         <Route path='/Food' element={<Foods/>} />
-//         <Route path='/Supersunday' element={<Sundaypage/>} />
-//         <Route path='/Palletdeals' element={<Palletdeals/>} />
-//         <Route path='/Shopbybrand' element={<Shopbybrand/>} />
-//         <Route path='/Newarrivals' element={<Newarrivals/>} />
-//         <Route path='/Giftmakercard' element={<Giftcard/>} />
-//         <Route path='/Brighthomly' element={<Giftcard/>} />
-//         <Route path='/log' element={<Login/>}/>
-//         <Route path='/Register' element={<Register/>} />
-//         {/* <Route path='/adminpanal' element={<Adminside/>} /> */}
-//         <Route path='/adminsunday' element={<Form/>} />
-//         <Route path='/list' element={<Adminside/>} />
-//          <Route path='/list/:id' element={<Update/>}/>
-//       </Routes>
-//     </div>
-//   )
-// }
-
-// export default App
-
-
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
 import Department from './Components/Pages/Department';
 import FoodandDrink from './Components/Pages/FoodandDrink';
-import Food from './Components/Pages/Food';
-import Drinks from './Components/Pages/Drinks';
 import Smoking from './Components/Pages/Smoking';
 import Lighter from './Components/Pages/Adminside/Smoking/Lighter';
-import Electrical from './Components/Pages/Electrical';
-import Essentional from './Components/Pages/Essentional';
 import Poundline from './Components/Pages/Poundline';
 import Bathroombeauty from './Components/Pages/Bathroombeauty';
 import Firstaidpharmacy from './Components/Pages/Firstaidpharmacy';
@@ -97,15 +15,11 @@ import Partybin from './Components/Pages/Partybin';
 import Craft from './Components/Pages/Craft';
 import Carproduct from './Components/Pages/Carproduct';
 import Candels from './Components/Pages/Candels';
-
-
-
 import Shopbybrand from './Components/Pages/Shopbybrand';
 import Newarrivals from './Components/Pages/Adminside/NewArrevals/Newarrivals';
 import Giftcard from './Components/Pages/Giftcard';
 import Login from './Components/Pages/Login';
 import Register from './Components/Pages/Register';
-
 import Adminside from './Components/Pages/Adminside/Adminside';
 import Form from './Components/Pages/Adminside/Sundayoffer/Form'; 
 import Listofproducts from './Components/Pages/Adminside/Sundayoffer/Listofproducts';
@@ -163,6 +77,19 @@ import Newarrivalsingr from './Components/Pages/Adminside/NewArrevals/Newarrival
 import Foodssingle from './Components/Pages/Adminside/Foods/Foodssingle';
 import Electricalsinglepage from './Components/Pages/Adminside/Electrical/Electricalsinglepage';
 import Drinkssingle from './Components/Pages/Adminside/Drinks/Drinkssingle';
+import Debathroom from './Components/Pages/Adminside/deparmentbathrom/Debathroom';
+import Bathroomformde from './Components/Pages/Adminside/deparmentbathrom/Bathroomscale.js/Bathroomformde';
+import Bathroomlistde from './Components/Pages/Adminside/deparmentbathrom/Bathroomscale.js/Bathroomlistde';
+import Updatebathroomde from './Components/Pages/Adminside/deparmentbathrom/Bathroomscale.js/Updatebathroomde';
+import Bathroommain from './Components/Pages/Adminside/deparmentbathrom/Bathroomscale.js/Bathroommain';
+import Bathroomsinglede from './Components/Pages/Adminside/deparmentbathrom/Bathroomscale.js/Bathroomsinglede';
+import Mirrorform from "./Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrorform"
+import Mirrorlist from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrorlist'
+import Updatemirror from './Components/Pages/Adminside/deparmentbathrom/Mirror/Updatemirror'
+import Mirrormain from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrormain'
+import Mirrorsinglepage from './Components/Pages/Adminside/deparmentbathrom/Mirror/Mirrorsinglepage'
+
+
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -212,6 +139,15 @@ const App = () => {
         <Route path='/listbathrom' element={<AdminLayout><Bathroomlist/></AdminLayout>} />
         <Route path='/listbathrom/:id' element={<AdminLayout><Updatebathroom /></AdminLayout>} /> 
         <Route path='/listcontact' element={<AdminLayout><Contactuser /></AdminLayout>} />
+
+        <Route path='/bathroomform' element={<AdminLayout><Bathroomformde /></AdminLayout>} />
+        <Route path='/listbathromde' element={<AdminLayout><Bathroomlistde/></AdminLayout>} />
+        <Route path='/listbathromde/:id' element={<AdminLayout><Updatebathroomde /></AdminLayout>} /> 
+
+        <Route path='/mirrorform' element={<AdminLayout><Mirrorform /></AdminLayout>} />
+        <Route path='/listmirror' element={<AdminLayout><Mirrorlist/></AdminLayout>} />
+        <Route path='/listmirror/:id' element={<AdminLayout><Updatemirror /></AdminLayout>} /> 
+       
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -260,6 +196,13 @@ const App = () => {
         <Route path='/foodssinglepage/:id' element={<MainLayout><Foodssingle/></MainLayout>}/>
         <Route path='/electricalsinglepage/:id' element={<MainLayout><Electricalsinglepage/></MainLayout>}/>
         <Route path='/drinkssinglepage/:id' element={<MainLayout><Drinkssingle/></MainLayout>}/>
+
+        <Route path='/deparmentbathroom' element={<MainLayout><Debathroom/></MainLayout>}/>
+        <Route path='/bathroommain' element={<MainLayout><Bathroommain/></MainLayout>}/>
+        <Route path='/bathroomsinglepage/:id' element={<MainLayout><Bathroomsinglede/></MainLayout>}/>
+
+        <Route path='/mirrormain' element={<MainLayout><Mirrormain/></MainLayout>}/>
+        <Route path='/mirrorsinglepage/:id' element={<MainLayout><Mirrorsinglepage/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
