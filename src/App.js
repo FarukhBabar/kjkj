@@ -108,6 +108,27 @@ import Showheadsingle from './Components/Pages/Adminside/deparmentbathrom/Shower
 import Showheadform from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadform'
 import Showheadlist from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadlist'
 import Showheadupdate from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadupdate'
+import Disposiblecat from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposiblesub/Disposiblecat'
+import Disposibleform from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposibleform'
+import Disposiblelist from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposiblelist'
+import Disposibleupdate from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposibleupdate'
+import Disposiblemain from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposiblemain'
+import Disposiblesingle from './Components/Pages/Adminside/deparmentbathrom/Disposible/Disposiblesingle'
+import Tablewearform from './Components/Pages/Adminside/deparmentbathrom/Disposible/Tablewear/Tablewearform'
+import Tablewearlist from './Components/Pages/Adminside/deparmentbathrom/Disposible/Tablewear/Tablewearlist'
+import Tablewearupdate from './Components/Pages/Adminside/deparmentbathrom/Disposible/Tablewear/Tablewearupdate'
+import Tablewear from './Components/Pages/Adminside/deparmentbathrom/Disposible/Tablewear/Tablewear';
+import Tablewearsingle from './Components/Pages/Adminside/deparmentbathrom/Disposible/Tablewear/Tablewearsingle'
+import Loundrysubcat from './Components/Pages/Adminside/deparmentbathrom/Laundry/Loundrysubcat';
+import Airers from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airers'
+import Airerssingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airerssingle'
+import Airersform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airersform'
+import Airerslist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airerslist'
+import Airersupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airersupdate'
+
+
+
+
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -181,6 +202,18 @@ const App = () => {
         <Route path='/showheadform' element={<AdminLayout><Showheadform /></AdminLayout>} />
         <Route path='/listshowhead' element={<AdminLayout><Showheadlist/></AdminLayout>} />
         <Route path='/listshowhead/:id' element={<AdminLayout><Showheadupdate /></AdminLayout>} /> 
+
+        <Route path='/disposibleform' element={<AdminLayout><Disposibleform /></AdminLayout>} />
+        <Route path='/listdisposible' element={<AdminLayout><Disposiblelist/></AdminLayout>} />
+        <Route path='/listdisposible/:id' element={<AdminLayout><Disposibleupdate /></AdminLayout>} /> 
+
+        <Route path='/tablewearform' element={<AdminLayout><Tablewearform /></AdminLayout>} />
+        <Route path='/listTablewear' element={<AdminLayout><Tablewearlist/></AdminLayout>} />
+        <Route path='/listTablewear/:id' element={<AdminLayout><Tablewearupdate /></AdminLayout>} /> 
+
+        <Route path='/airersform' element={<AdminLayout><Airersform /></AdminLayout>} />
+        <Route path='/listaiers' element={<AdminLayout><Airerslist/></AdminLayout>} />
+        <Route path='/listairers/:id' element={<AdminLayout><Airersupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -231,6 +264,8 @@ const App = () => {
         <Route path='/drinkssinglepage/:id' element={<MainLayout><Drinkssingle/></MainLayout>}/>
 
         <Route path='/deparmentbathroom' element={<MainLayout><Debathroom/></MainLayout>}/>
+        <Route path='/deparmentdisposible' element={<MainLayout><Disposiblecat/></MainLayout>}/>
+        <Route path='/deparmentloundry' element={<MainLayout><Loundrysubcat/></MainLayout>}/>
         <Route path='/bathroommain' element={<MainLayout><Bathroommain/></MainLayout>}/>
         <Route path='/bathroomsinglepage/:id' element={<MainLayout><Bathroomsinglede/></MainLayout>}/>
 
@@ -248,6 +283,15 @@ const App = () => {
 
         <Route path='/showerhead' element={<MainLayout><Showhead/></MainLayout>}/>
         <Route path='/showerheadsinglepage/:id' element={<MainLayout><Showheadsingle/></MainLayout>}/>
+
+        <Route path='/disposible' element={<MainLayout><Disposiblemain/></MainLayout>}/>
+        <Route path='/disposiblesinglepage/:id' element={<MainLayout><Disposiblesingle/></MainLayout>}/>
+
+        <Route path='/tablewear' element={<MainLayout><Tablewear/></MainLayout>}/>
+        <Route path='/tablewearsinglepage/:id' element={<MainLayout><Tablewearsingle/></MainLayout>}/>
+
+        <Route path='/airers' element={<MainLayout><Airers/></MainLayout>}/>
+        <Route path='/airerssinglepage/:id' element={<MainLayout><Airerssingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

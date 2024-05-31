@@ -32,7 +32,7 @@ const Department = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Group 19.png" alt className="img" /></a>
+        <Link to='/deparmentloundry'><img src="./Images/Group 19.png" alt className="img" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -59,7 +59,7 @@ const Department = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Group 24.png" alt className="img1" /></a> 
+        <Link to='/deparmentdisposible'><img src="./Images/Group 24.png" alt className="img1" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
