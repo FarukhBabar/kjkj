@@ -98,8 +98,16 @@ import Bathmatssinglr from './Components/Pages/Adminside/deparmentbathrom/Bathma
 import Bathmatsform from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatsform';
 import Bathmatslist from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatslist';
 import Bathmatsupdate from './Components/Pages/Adminside/deparmentbathrom/Bathmats/Bathmatsupdate';
-
-
+import Bathacessoriessingle from './Components/Pages/Adminside/deparmentbathrom/Bathroomacessories/Bathacessoriessingle';
+import Bathacessories from './Components/Pages/Adminside/deparmentbathrom/Bathroomacessories/Bathacessories';
+import Bathacessroiesform from './Components/Pages/Adminside/deparmentbathrom/Bathroomacessories/Bathacessroiesform';
+import Bathacessorieslist from './Components/Pages/Adminside/deparmentbathrom/Bathroomacessories/Bathacessorieslist';
+import Bathacessoriesupdate from './Components/Pages/Adminside/deparmentbathrom/Bathroomacessories/Bathacessoriesupdate';
+import Showhead from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showhead';
+import Showheadsingle from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadsingle'
+import Showheadform from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadform'
+import Showheadlist from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadlist'
+import Showheadupdate from './Components/Pages/Adminside/deparmentbathrom/Showershead/Showheadupdate'
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <div>{children}</div>
@@ -165,6 +173,14 @@ const App = () => {
         <Route path='/bathmateform' element={<AdminLayout><Bathmatsform /></AdminLayout>} />
         <Route path='/listbathmate' element={<AdminLayout><Bathmatslist/></AdminLayout>} />
         <Route path='/listbathmate/:id' element={<AdminLayout><Bathmatsupdate /></AdminLayout>} /> 
+
+        <Route path='/bathacessform' element={<AdminLayout><Bathacessroiesform /></AdminLayout>} />
+        <Route path='/listbathacess' element={<AdminLayout><Bathacessorieslist/></AdminLayout>} />
+        <Route path='/listbathacess/:id' element={<AdminLayout><Bathacessoriesupdate /></AdminLayout>} /> 
+
+        <Route path='/showheadform' element={<AdminLayout><Showheadform /></AdminLayout>} />
+        <Route path='/listshowhead' element={<AdminLayout><Showheadlist/></AdminLayout>} />
+        <Route path='/listshowhead/:id' element={<AdminLayout><Showheadupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -226,6 +242,12 @@ const App = () => {
 
         <Route path='/bathmatesmain' element={<MainLayout><Bathmatsmain/></MainLayout>}/>
         <Route path='/bathmatessinglepage/:id' element={<MainLayout><Bathmatssinglr/></MainLayout>}/>
+
+        <Route path='/bathacessories' element={<MainLayout><Bathacessories/></MainLayout>}/>
+        <Route path='/bathacesssinglepage/:id' element={<MainLayout><Bathacessoriessingle/></MainLayout>}/>
+
+        <Route path='/showerhead' element={<MainLayout><Showhead/></MainLayout>}/>
+        <Route path='/showerheadsinglepage/:id' element={<MainLayout><Showheadsingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

@@ -7,7 +7,7 @@ const Debathroom = () => {
   return (
     <div><div>
   <div className="department">
-    <p className="departments">Departments</p>
+    <p className="departments">DEPARTMENTS > BATHROOM</p>
   </div>
   <div className="container">
   <div className="row justify-content-center mt-3">
@@ -35,12 +35,12 @@ const Debathroom = () => {
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/bathroombeauty"><img src="/Images/batheroom2.png" alt className="img" /></Link>   
+          <Link to="/bathacessories"><img src="/Images/batheroom2.png" alt className="img" /></Link>   
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/First Aid Pharmacy Personal"><img src="/Images/bathrrom6.png" alt className="img1" /></Link> 
+          <Link to="/showerhead"><img src="/Images/bathrrom6.png" alt className="img1" /></Link> 
         </div>
       </div>
       

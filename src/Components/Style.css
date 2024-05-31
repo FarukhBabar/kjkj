@@ -459,7 +459,7 @@
     transform: rotateX(0.1deg) rotateY(0.1deg) rotateZ(0.1deg) scaleX(1.1) scaleY(1.1) scaleZ(1.1);
 }
 .departments{
-    font-size: 31px;
+    font-size: 26px;
     color: white;
     margin-left: 18px;
     padding-bottom: 4px;
