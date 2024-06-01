@@ -165,38 +165,7 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listdisposible">Bin Bag</Link></li>
                   <li><Link className="dropdown-item" to="/listTablewear">Table Wear</Link></li>
-                  {/* <li><Link className="dropdown-item" to="/listaiers">Airers</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathmate">Bathmates</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathacess">Bathroom Acessories</Link></li>
-                  <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li> */}
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                
                 </ul>
               </li>
               <li className="nav-item dropend">
@@ -205,37 +174,10 @@ const Adminnavbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listaiers">Airers</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathmate">Bathmates</Link></li>
+                  <li><Link className="dropdown-item" to="/listioring">Ironing Boards</Link></li>
                   <li><Link className="dropdown-item" to="/listbathacess">Bathroom Acessories</Link></li>
                   <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                  
                 </ul>
               </li>
             </ul>

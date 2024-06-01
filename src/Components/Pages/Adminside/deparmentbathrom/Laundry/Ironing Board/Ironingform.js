@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import "../../admin.css"
+import "../../../admin.css"
 
 
-const Bathroomform = () => {
+const Ironingform = () => {
   const [Image , setImage]=useState(null)
   const [name , setname]=useState()
   const [title , settitle] =useState()
@@ -40,14 +40,14 @@ const Bathroomform = () => {
       return;
     }
     try {
-      let result = await fetch("http://localhost:8001/api/v1/auth/bathromproducts" , {
+      let result = await fetch("http://localhost:8001/api/v1/auth/Ironingproducts" , {
         method: "post",
         body :formdata
       
       })
       result = await result.json();
       if(result){
-        nevigate("/bathform")
+        nevigate("/bathroomform")
         alert("Product added sucessfully")
         }
         else{
@@ -59,9 +59,10 @@ const Bathroomform = () => {
     
     }
   return (
+
     <div>
-     
-      <Link to="/listbathrom" className="btn btn-success mss" >Product-list</Link>
+    
+      <Link to="/listioring" className="btn btn-success mss mt-2" >Product-list</Link>
       <form className='marr '>
   <div className="mb-3 maa ">
     <label  className="form-label mt-2">ITem Name</label>
@@ -93,4 +94,4 @@ const Bathroomform = () => {
   )
 }
 
-export default Bathroomform
+export default Ironingform;

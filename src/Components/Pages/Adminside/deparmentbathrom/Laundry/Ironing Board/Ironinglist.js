@@ -3,12 +3,12 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 
-const Listofdrink = () => {
+const Ironinglist = () => {
     const [user, setUsers] = useState([]);
     
 
     const setUsersData = async() =>{
-        let result = await fetch("http://localhost:8001/api/v1/data/driuser")
+        let result = await fetch("http://localhost:8001/api/v1/data/ironinguser")
         result = await result.json()       
         setUsers(result)        
         console.log(result)
@@ -21,7 +21,7 @@ const Listofdrink = () => {
       const deleteuser = async(id)=>{
           // console.log(id)
           try {
-              let result= await fetch(`http://localhost:8001/api/v1/data/driuserid/${id}`,{
+              let result= await fetch(`http://localhost:8001/api/v1/data/ironinguserid/${id}`,{
             method:"delete"
          
           })
@@ -40,10 +40,10 @@ const Listofdrink = () => {
         }
   return (
     <div>
-      
+       
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Drinks Products</h4>
-           <Link to="/drinkform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Disposible Products</h4>
+           <Link to="/ioringform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
                      <tr className='btn-dark text-light text-center'>
@@ -74,7 +74,7 @@ const Listofdrink = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listdrink/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listioring/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>
@@ -94,4 +94,4 @@ const Listofdrink = () => {
   )
 }
 
-export default Listofdrink
+export default Ironinglist;

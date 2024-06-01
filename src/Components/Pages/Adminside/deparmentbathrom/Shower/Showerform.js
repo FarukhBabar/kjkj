@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import "../../admin.css"
-import Adminnavbar from '../../Adminnavbar'
+
 
 const Showerform = () => {
   const [Image , setImage]=useState(null)
@@ -61,7 +61,7 @@ const Showerform = () => {
   return (
 
     <div>
-      <Adminnavbar/>
+     
       <Link to="/listshower" className="btn btn-success mss mt-2" >Product-list</Link>
       <form className='marr '>
   <div className="mb-3 maa ">

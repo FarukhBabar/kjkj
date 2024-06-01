@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 
-const Tablewearupdate = () => {
+const Ioriningupdate = () => {
     const [name, setName] = useState('');
     const [title, setTitle] = useState('');
     const [price, setPrice] = useState('');
@@ -14,7 +14,7 @@ const Tablewearupdate = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:8001/api/v1/auth/tablewearsingle/${params.id}`);
+                const response = await fetch(`http://localhost:8001/api/v1/auth/Ironingsingle/${params.id}`);
                 const result = await response.json();
                 setName(result.name);
                 setTitle(result.title);
@@ -37,7 +37,7 @@ const Tablewearupdate = () => {
                 formdata.append('title' , title)
                 formdata.append('image' , image)
                 try {
-                    let result = await fetch(`http://localhost:8001/api/v1/auth/tablewearsingle/${params.id}` , {
+                    let result = await fetch(`http://localhost:8001/api/v1/auth/Ironingsingle/${params.id}` , {
         method: "put",
         body :formdata
       
@@ -59,7 +59,7 @@ const Tablewearupdate = () => {
 
     return (
         <div className=''>
-           
+       
             <form className='marr'>
                 <div className="mb-3 maa">
                     <label className="form-label mt-2">Item Name</label>
@@ -84,4 +84,4 @@ const Tablewearupdate = () => {
     );
 }
 
-export default Tablewearupdate;
+export default Ioriningupdate;

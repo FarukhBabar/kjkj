@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Adminnavbar from '../Adminnavbar';
+
 
 const Updatesmokingess = () => {
     const [name, setName] = useState('');
@@ -60,7 +60,7 @@ const Updatesmokingess = () => {
 
     return (
         <div>
-            <Adminnavbar/>
+           
             <form className='marr'>
                 <div className="mb-3 maa">
                     <label className="form-label mt-2">Item Name</label>

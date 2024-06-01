@@ -125,13 +125,18 @@ import Airerssingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/
 import Airersform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airersform'
 import Airerslist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airerslist'
 import Airersupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Airers/Airersupdate'
-
-
-
-
+import Iorining from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Iorining'
+import Ioriningsingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ioriningsingle'
+import Ironingform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ironingform'
+import Ironinglist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ironinglist'
+import Ioriningupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ioriningupdate'
+import Adminnavbar from './Components/Pages/Adminside/Adminnavbar';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
+  <>
+  <Adminnavbar/>
   <div>{children}</div>
+  </>
 );
 
 // Main Layout with Navbar
@@ -214,6 +219,10 @@ const App = () => {
         <Route path='/airersform' element={<AdminLayout><Airersform /></AdminLayout>} />
         <Route path='/listaiers' element={<AdminLayout><Airerslist/></AdminLayout>} />
         <Route path='/listairers/:id' element={<AdminLayout><Airersupdate /></AdminLayout>} /> 
+
+        <Route path='/ioringform' element={<AdminLayout><Ironingform /></AdminLayout>} />
+        <Route path='/listioring' element={<AdminLayout><Ironinglist/></AdminLayout>} />
+        <Route path='/listioring/:id' element={<AdminLayout><Ioriningupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -292,6 +301,9 @@ const App = () => {
 
         <Route path='/airers' element={<MainLayout><Airers/></MainLayout>}/>
         <Route path='/airerssinglepage/:id' element={<MainLayout><Airerssingle/></MainLayout>}/>
+
+        <Route path='/iorining' element={<MainLayout><Iorining/></MainLayout>}/>
+        <Route path='/ioriningsinglepage/:id' element={<MainLayout><Ioriningsingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import "../admin.css"
-import Adminnavbar from '../Adminnavbar'
+
 
 const Smokingessform = () => {
   const [Image , setImage]=useState(null)
@@ -60,7 +60,7 @@ const Smokingessform = () => {
     }
   return (
     <div>
-      <Adminnavbar/>
+      
       <Link to="/listsmokigess" className="btn btn-success mss" >Product-list</Link>
       <form className='marr '>
   <div className="mb-3 maa ">

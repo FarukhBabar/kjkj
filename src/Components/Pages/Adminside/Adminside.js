@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import "./admin.css"
-import Adminnavbar from './Adminnavbar';
+
 
 const Listofproducts = () => {
     const [user, setUsers] = useState([]);
@@ -86,7 +86,7 @@ const Listofproducts = () => {
 
     </div> */}
   
-  <Adminnavbar/>
+  
 
     
    

@@ -10,7 +10,7 @@
 import React, { useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom';
-import Adminnavbar from '../Adminnavbar';
+
 
 const Listofnewarrivals = () => {
     const [user, setUsers] = useState([]);
@@ -50,7 +50,7 @@ const Listofnewarrivals = () => {
       
   return (
     <div>
-        <Adminnavbar/>
+       
     <div className='container w-75'>
            <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of New Arrivals Products</h4>
            <Link to="/newarrivals" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  

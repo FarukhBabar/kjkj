@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import Adminnavbar from '../Adminnavbar';
+
 
 const Listoffoods = () => {
     const [user, setUsers] = useState([]);
@@ -42,7 +42,7 @@ const Listoffoods = () => {
     
   return (
     <div>
-        <Adminnavbar/>
+       
     <div className='container w-75'>
            <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Foods Products</h4>
            <Link to="/foodform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
