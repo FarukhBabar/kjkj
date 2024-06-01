@@ -131,6 +131,14 @@ import Ironingform from './Components/Pages/Adminside/deparmentbathrom/Laundry/I
 import Ironinglist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ironinglist'
 import Ioriningupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Ironing Board/Ioriningupdate'
 import Adminnavbar from './Components/Pages/Adminside/Adminnavbar';
+import Laacess from './Components/Pages/Adminside/deparmentbathrom/Laundry/Laundryacessories/Laacess';
+import Laacessform from'./Components/Pages/Adminside/deparmentbathrom/Laundry/Laundryacessories/Laacessfrom'
+import Laacesslist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Laundryacessories/Laacesslist'
+import Laacesssingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/Laundryacessories/Laacesssingle'
+import Laacessupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Laundryacessories//Laacessupdate'
+import Kitechendde from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Kitechendde';
+import Leaning from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Leaning';
+import Gardeningmain from './Components/Pages/Adminside/deparmentbathrom/Gardening/Gardeningmain';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -223,6 +231,10 @@ const App = () => {
         <Route path='/ioringform' element={<AdminLayout><Ironingform /></AdminLayout>} />
         <Route path='/listioring' element={<AdminLayout><Ironinglist/></AdminLayout>} />
         <Route path='/listioring/:id' element={<AdminLayout><Ioriningupdate /></AdminLayout>} /> 
+
+        <Route path='/laacessform' element={<AdminLayout><Laacessform /></AdminLayout>} />
+        <Route path='/listlaacess' element={<AdminLayout><Laacesslist/></AdminLayout>} />
+        <Route path='/listlaacess/:id' element={<AdminLayout><Laacessupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -304,6 +316,15 @@ const App = () => {
 
         <Route path='/iorining' element={<MainLayout><Iorining/></MainLayout>}/>
         <Route path='/ioriningsinglepage/:id' element={<MainLayout><Ioriningsingle/></MainLayout>}/>
+
+        <Route path='/laacess' element={<MainLayout><Laacess/></MainLayout>}/>
+        <Route path='/laacesssinglepage/:id' element={<MainLayout><Laacesssingle/></MainLayout>}/>
+
+        <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
+
+        <Route path='/cleaning' element={<MainLayout><Leaning/></MainLayout>}/>
+
+        <Route path='/gardening' element={<MainLayout><Gardeningmain/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

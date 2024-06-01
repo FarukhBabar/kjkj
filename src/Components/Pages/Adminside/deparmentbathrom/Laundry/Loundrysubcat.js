@@ -23,7 +23,7 @@ const Loundrysubcat = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/showermain"> <img src="/Images/Loundry3.png" alt className="img2" /></Link>
+          <Link to="/laacess"> <img src="/Images/Loundry3.png" alt className="img2" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">

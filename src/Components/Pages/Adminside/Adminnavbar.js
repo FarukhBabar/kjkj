@@ -175,7 +175,7 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listaiers">Airers</Link></li>
                   <li><Link className="dropdown-item" to="/listioring">Ironing Boards</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathacess">Bathroom Acessories</Link></li>
+                  <li><Link className="dropdown-item" to="/listlaacess">Loundry Acessories</Link></li>
                   <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li>
                   
                 </ul>

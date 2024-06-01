@@ -807,6 +807,11 @@ padding-bottom: 5px;
     margin-top: 30px;
    
 }
+.navbarsa{
+    font-size: 13px !important;
+    margin-top: 1.4px;
+    margin-left: 35px !important;
+}
     .input2{
     width: 220px;
     height: 30px;
@@ -1294,4 +1299,37 @@ padding-bottom: 5px;
         background-color: rgba(247, 247, 247, 1);
         margin-left: 20px;
         }
-        
+        .navbarsa{
+            font-size: 13px !important;
+            margin-top: 1.4px;
+            margin-left: 50px;
+        }
+        .foodsnv{
+            display: inline;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .dropdown-menu {
+            overflow-y: scroll;
+            height: 430px;
+        }
+  @media (max-width: 768px) {
+    .dropdown-menu {
+      width: 100%;
+      padding: 1rem;
+    }
+    .dropdown-menu .d-flex {
+      flex-direction: column !important;
+    }
+    .dropdown-item img {
+      width: 100%;
+      height: auto;
+    }
+    .dropdown-menu .d-flex.flex-md-row {
+      flex-direction: column;
+    }
+    .me-5 {
+      margin-right: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+  }

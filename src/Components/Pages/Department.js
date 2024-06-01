@@ -37,17 +37,17 @@ const Department = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href> <img src="./Images/Group 20.png" alt className="img1" /></a>
+        <Link to='/kitechenwear'> <img src="./Images/Group 20.png" alt className="img1" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Group 21.png" alt className="img2" /></a>
+        <Link to='/cleaning'><img src="./Images/Group 21.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Group 22.png" alt className="img3" /></a>
+        <Link to='/gardening'><img src="./Images/Group 22.png" alt className="img3" /></Link>
       </div>
     </div>
   </div>
