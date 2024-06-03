@@ -333,7 +333,7 @@ const Diymainpage = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href> <img src="./Images/DIY (1).png" alt className="img3" /></a>
+        <a href> <img src="./Images/DIY.png" alt className="img3" /></a>
       </div>
     </div>
   </div>
