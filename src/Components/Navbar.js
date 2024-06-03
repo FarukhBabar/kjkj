@@ -73,11 +73,11 @@ useEffect(() => {
   >
     DEPARTMENTS
   </button></Link> 
-  <div className="dropdown-menu " aria-labelledby="dropdownMenuButton">
+  <div className="dropdown-menu homenavbar " aria-labelledby="dropdownMenuButton">
     <div className="d-flex flex-wrap">
       <div className="d-flex flex-column flex-md-row">
         <div className="me-5 mb-3 mb-md-0">
-        <p className="foodsnv ms-3 d-inline">Batteries</p> <br/><br/>
+       <Link to='/batteries' ><p className="foodsnv ms-3 d-inline">Batteries</p> </Link>  <br/><br/>
           <p className="foodsnv ms-3 d-inline">FOOD&DRINK</p>
           <Link className="dropdown-item" to="/drinks">
             DRINK
@@ -138,7 +138,7 @@ useEffect(() => {
           </Link>
         </div>
         <div className="me-5 mb-3 mb-md-0">
-        <p className="foodsnv ms-3 d-inline">Phone Accessories</p> <br/> <br/>
+        <Link to='/phoneaccessories' ><p className="foodsnv ms-3 d-inline">Phone Accessories</p></Link> <br/> <br/>
         <p className="foodsnv ms-3 d-inline">Diy</p>
           <Link className="dropdown-item" to="/bathroombeauty">
             Air Freshners
@@ -205,7 +205,7 @@ useEffect(() => {
           
         </div>
         <div className="me-5 mb-3 mb-md-0">
-        <p className="foodsnv ms-3 d-inline">Obsolete</p> <br/> <br/>
+        <Link to='/obstical'><p className="foodsnv ms-3 d-inline">OBSOLETE</p> </Link><br/> <br/>
         <p className="foodsnv ms-3 d-inline">HOUSE HOLD</p>
           <Link className="dropdown-item" to="/bathroombeauty">
             Air Freshner

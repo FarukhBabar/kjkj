@@ -156,6 +156,21 @@ import Kidsmain from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts
 import Glasswaremain from './Components/Pages/Adminside/deparmentbathrom/Glassware/Glasswaremain';
 import Electricaldemain from './Components/Pages/Adminside/deparmentbathrom/Electrical/Electricaldemain';
 import Partywaremain from './Components/Pages/Adminside/deparmentbathrom/Partyware/Partywaremain';
+import Batteriesmain from './Components/Pages/Adminside/deparmentbathrom/Batteries/Batteriesmain'
+import Batteriessinge from './Components/Pages/Adminside/deparmentbathrom/Batteries/Batteriessinge'
+import Batteriesupdate from './Components/Pages/Adminside/deparmentbathrom/Batteries/Batteriesupdate';
+import Batteriesform from './Components/Pages/Adminside/deparmentbathrom/Batteries/Batteriesform'
+import Batterieslist from './Components/Pages/Adminside/deparmentbathrom/Batteries/Batterieslist'
+import Phone from './Components/Pages/Adminside/deparmentbathrom/Phoneaccessories/Phone';
+import Phonesingle from './Components/Pages/Adminside/deparmentbathrom/Phoneaccessories/Phonesingle';
+import Phoneform from './Components/Pages/Adminside/deparmentbathrom/Phoneaccessories/Phoneform';
+import Phonelist from './Components/Pages/Adminside/deparmentbathrom/Phoneaccessories/Phonelist';
+import Phoneupdate from './Components/Pages/Adminside/deparmentbathrom/Phoneaccessories/Phoneupdate';
+import Obticalform from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obticalform';
+import Obsticallist from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obsticallist';
+import Obsticalupdate from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obsticalupdate';
+import Obstical from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obstical';
+import Obticalsigle from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obticalsigle';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -252,6 +267,18 @@ const App = () => {
         <Route path='/laacessform' element={<AdminLayout><Laacessform /></AdminLayout>} />
         <Route path='/listlaacess' element={<AdminLayout><Laacesslist/></AdminLayout>} />
         <Route path='/listlaacess/:id' element={<AdminLayout><Laacessupdate /></AdminLayout>} /> 
+
+        <Route path='/batteryform' element={<AdminLayout><Batteriesform /></AdminLayout>} />
+        <Route path='/listbatteries' element={<AdminLayout><Batterieslist/></AdminLayout>} />
+        <Route path='/listbatteries/:id' element={<AdminLayout><Batteriesupdate /></AdminLayout>} /> 
+
+        <Route path='/phoneform' element={<AdminLayout><Phoneform /></AdminLayout>} />
+        <Route path='/listphone' element={<AdminLayout><Phonelist/></AdminLayout>} />
+        <Route path='/listphone/:id' element={<AdminLayout><Phoneupdate /></AdminLayout>} /> 
+        
+        <Route path='/obsticalform' element={<AdminLayout><Obticalform /></AdminLayout>} />
+        <Route path='/listobstical' element={<AdminLayout><Obsticallist/></AdminLayout>} />
+        <Route path='/listobstical/:id' element={<AdminLayout><Obsticalupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -336,6 +363,15 @@ const App = () => {
 
         <Route path='/laacess' element={<MainLayout><Laacess/></MainLayout>}/>
         <Route path='/laacesssinglepage/:id' element={<MainLayout><Laacesssingle/></MainLayout>}/>
+
+        <Route path='/batteries' element={<MainLayout><Batteriesmain/></MainLayout>}/>
+        <Route path='/batteriessinglepage/:id' element={<MainLayout><Batteriessinge/></MainLayout>}/>
+
+        <Route path='/phoneaccessories' element={<MainLayout><Phone/></MainLayout>}/>
+        <Route path='/phonesinglepage/:id' element={<MainLayout><Phonesingle/></MainLayout>}/>
+
+        <Route path='/obstical' element={<MainLayout><Obstical/></MainLayout>}/>
+        <Route path='/obsticalsinglepage/:id' element={<MainLayout><Obticalsigle/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 

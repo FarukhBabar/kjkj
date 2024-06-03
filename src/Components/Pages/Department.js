@@ -135,7 +135,7 @@ const Department = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to=''> <img src="./Images/Group 38.png" alt className="img3" /></Link> 
+        <Link to='/batteries'> <img src="./Images/Group 38.png" alt className="img3" /></Link> 
       </div>
     </div>
   </div>

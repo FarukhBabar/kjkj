@@ -180,6 +180,9 @@ const Adminnavbar = () => {
                   
                 </ul>
               </li>
+              <li><Link className="dropdown-item" to="/listbatteries">Batteries</Link></li>
+              <li><Link className="dropdown-item" to="/listphone">Phone Accessories</Link></li>
+              <li><Link className="dropdown-item" to="/listobstical">OBSOLETE</Link></li>
             </ul>
           </li>
           <li className="nav-item">
