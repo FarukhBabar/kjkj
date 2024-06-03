@@ -139,6 +139,23 @@ import Laacessupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry
 import Kitechendde from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Kitechendde';
 import Leaning from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Leaning';
 import Gardeningmain from './Components/Pages/Adminside/deparmentbathrom/Gardening/Gardeningmain';
+import Homedecoremain from './Components/Pages/Adminside/deparmentbathrom/Home decore/Homedecoremain';
+import Tolitriesmain from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Tolitriesmain';
+import Diymainpage from './Components/Pages/Adminside/deparmentbathrom/Diy/Diymainpage';
+import Artificalmain from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalmain';
+import Stationerymain from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Stationerymain';
+import Textilesmainpage from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Textilesmainpage';
+import Houseclenermain from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Houseclenermain';
+import Plastichousewearmain from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Plastichousewearmain';
+import Petproductsmain from './Components/Pages/Adminside/deparmentbathrom/Pet products/Petproductsmain';
+import Chinamain from './Components/Pages/Adminside/deparmentbathrom/China/Chinamain';
+import Hardwaremain from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Hardwaremain';
+import Seasonalsportsmain from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Seasonalsportsmain';
+import Pestcontromain from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Pestcontromain';
+import Kidsmain from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Kidsmain';
+import Glasswaremain from './Components/Pages/Adminside/deparmentbathrom/Glassware/Glasswaremain';
+import Electricaldemain from './Components/Pages/Adminside/deparmentbathrom/Electrical/Electricaldemain';
+import Partywaremain from './Components/Pages/Adminside/deparmentbathrom/Partyware/Partywaremain';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -325,6 +342,40 @@ const App = () => {
         <Route path='/cleaning' element={<MainLayout><Leaning/></MainLayout>}/>
 
         <Route path='/gardening' element={<MainLayout><Gardeningmain/></MainLayout>}/>
+
+        <Route path='/homedecore' element={<MainLayout><Homedecoremain/></MainLayout>}/>
+
+        <Route path='/toiletries' element={<MainLayout><Tolitriesmain/></MainLayout>}/>
+
+        <Route path='/diye' element={<MainLayout><Diymainpage/></MainLayout>}/>
+
+        <Route path='/flowers' element={<MainLayout><Artificalmain/></MainLayout>}/>
+
+        <Route path='/stationery' element={<MainLayout><Stationerymain/></MainLayout>}/>
+
+        <Route path='/textiles & Accessories' element={<MainLayout><Textilesmainpage/></MainLayout>}/>
+
+        <Route path='/household Cleaners' element={<MainLayout><Houseclenermain/></MainLayout>}/>
+
+        <Route path='/plastic Housewares' element={<MainLayout><Plastichousewearmain/></MainLayout>}/>
+
+        <Route path='/petproducts' element={<MainLayout><Petproductsmain/></MainLayout>}/>
+
+        <Route path='/chinaproducts' element={<MainLayout><Chinamain/></MainLayout>}/>
+
+        <Route path='/hardware' element={<MainLayout><Hardwaremain/></MainLayout>}/>
+
+        <Route path='/seasonalsports' element={<MainLayout><Seasonalsportsmain/></MainLayout>}/>
+
+        <Route path='/pestcontrol' element={<MainLayout><Pestcontromain/></MainLayout>}/>
+
+        <Route path='/kidsproduct' element={<MainLayout><Kidsmain/></MainLayout>}/>
+
+        <Route path='/glassweare' element={<MainLayout><Glasswaremain/></MainLayout>}/>
+
+        <Route path='/electricalde' element={<MainLayout><Electricaldemain/></MainLayout>}/>
+
+        <Route path='/partyware' element={<MainLayout><Partywaremain/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
