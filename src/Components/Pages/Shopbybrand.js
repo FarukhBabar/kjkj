@@ -63,9 +63,9 @@ const Shopbybrand = () => {
       </div>
     </div>
   </div>
-  <h2 className="FEATURED">BRANDS INDEX</h2>
-  <u className="brand"><h2 className="brand">Brands: 0-9</h2></u>
-  <div className="d-flex ms-5">
+  {/* <h2 className="FEATURED">BRANDS INDEX</h2>
+  <u className="brand"><h2 className="brand">Brands: 0-9</h2></u> */}
+  {/* <div className="d-flex ms-5">
     <div><a href>
         <img src="https://www.efghousewares.co.uk//Content/14/PageBuilderImage/1001.jpg" className="brandlog" alt />
       </a></div>
@@ -1054,7 +1054,7 @@ const Shopbybrand = () => {
         </a>
       </div>
     </div>
-  </div>
+  </div> */}
 </div>
 <Footer/>
     </div>
