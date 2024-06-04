@@ -10,7 +10,7 @@ const Textilesmainpage = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Textiles & Accessories.png" alt className="img" /></Link>   
+        <Link to="/aprons"><img src="./Images/Textiles & Accessories.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

@@ -20,12 +20,12 @@ const Poundline = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/First Aid Pharmacy Personal"><img src="../Images/Item → Link (7).png" alt className="img1" /></Link> 
+          <Link to="/firstaid"><img src="../Images/Item → Link (7).png" alt className="img1" /></Link> 
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Electric"> <img src="../Images/Item → Link (6).png" alt className="img2" /></Link>
+          <Link to="/electric"> <img src="../Images/Item → Link (6).png" alt className="img2" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">

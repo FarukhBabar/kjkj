@@ -7,9 +7,7 @@ import FoodandDrink from './Components/Pages/FoodandDrink';
 import Smoking from './Components/Pages/Smoking';
 import Lighter from './Components/Pages/Adminside/Smoking/Lighter';
 import Poundline from './Components/Pages/Poundline';
-import Bathroombeauty from './Components/Pages/Bathroombeauty';
-import Firstaidpharmacy from './Components/Pages/Firstaidpharmacy';
-import Electric from './Components/Pages/Electric';
+import Electric from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electric';
 import Diytools from './Components/Pages/Diytools';
 import Partybin from './Components/Pages/Partybin';
 import Craft from './Components/Pages/Craft';
@@ -171,6 +169,20 @@ import Obsticallist from './Components/Pages/Adminside/deparmentbathrom/Obstical
 import Obsticalupdate from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obsticalupdate';
 import Obstical from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obstical';
 import Obticalsigle from './Components/Pages/Adminside/deparmentbathrom/Obsticals/Obticalsigle';
+import Electricform from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electricform';
+import Electriclist from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electriclist';
+import Electricupdate from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electricupdate';
+import Electricsingle from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electricsingle';
+import Firstaidform from './Components/Pages/Adminside/deparmentbathrom/Firstaidpharmacy/Firstaidform';
+import Firstaidlist from './Components/Pages/Adminside/deparmentbathrom/Firstaidpharmacy/Firstaidlist';
+import Firstaidupdate from './Components/Pages/Adminside/deparmentbathrom/Firstaidpharmacy/Firstaidupdate';
+import Firstaidmain from './Components/Pages/Adminside/deparmentbathrom/Firstaidpharmacy/Firstaidmain';
+import Firstaidsingle from './Components/Pages/Adminside/deparmentbathrom/Firstaidpharmacy/Firstaidsingle';
+import Aprons from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Aprons';
+import Apronssingle from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronssingle';
+import Apronsform from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronsform';
+import Apronsupdate from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronsupdate';
+import Apronslist from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronslist'
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -279,6 +291,18 @@ const App = () => {
         <Route path='/obsticalform' element={<AdminLayout><Obticalform /></AdminLayout>} />
         <Route path='/listobstical' element={<AdminLayout><Obsticallist/></AdminLayout>} />
         <Route path='/listobstical/:id' element={<AdminLayout><Obsticalupdate /></AdminLayout>} /> 
+
+        <Route path='/electricdeform' element={<AdminLayout><Electricform /></AdminLayout>} />
+        <Route path='/listelectricde' element={<AdminLayout><Electriclist/></AdminLayout>} />
+        <Route path='/listelectricde/:id' element={<AdminLayout><Electricupdate /></AdminLayout>} /> 
+
+        <Route path='/firstaidform' element={<AdminLayout><Firstaidform /></AdminLayout>} />
+        <Route path='/listfirstaid' element={<AdminLayout><Firstaidlist/></AdminLayout>} />
+        <Route path='/listfirstaid/:id' element={<AdminLayout><Firstaidupdate /></AdminLayout>} /> 
+
+        <Route path='/apronsform' element={<AdminLayout><Apronsform /></AdminLayout>} />
+        <Route path='/listaprons' element={<AdminLayout><Apronslist/></AdminLayout>} />
+        <Route path='/listaprons/:id' element={<AdminLayout><Apronsupdate /></AdminLayout>} /> 
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -292,8 +316,8 @@ const App = () => {
         <Route path='/addtocart' element={<MainLayout><Addtocart/></MainLayout>}/>
         <Route path='/poundline' element={<MainLayout><Poundline /></MainLayout>} />
         <Route path='/bathroombeauty' element={<MainLayout><Bathroomp /></MainLayout>} />
-        <Route path='/First Aid Pharmacy Personal' element={<MainLayout><Firstaidpharmacy /></MainLayout>} />
-        <Route path='/Electric' element={<MainLayout><Electric /></MainLayout>} />
+       
+        
         <Route path='/Diy' element={<MainLayout><Diytools /></MainLayout>} />
         <Route path='/Disposables Party Bin Liners' element={<MainLayout><Partybin /></MainLayout>} />
         <Route path='/Craft' element={<MainLayout><Craft /></MainLayout>} />
@@ -372,6 +396,15 @@ const App = () => {
 
         <Route path='/obstical' element={<MainLayout><Obstical/></MainLayout>}/>
         <Route path='/obsticalsinglepage/:id' element={<MainLayout><Obticalsigle/></MainLayout>}/>
+
+        <Route path='/electric' element={<MainLayout><Electric/></MainLayout>}/>
+        <Route path='/electricsinglepage/:id' element={<MainLayout><Electricsingle/></MainLayout>}/>
+
+        <Route path='/firstaid' element={<MainLayout><Firstaidmain/></MainLayout>}/>
+        <Route path='/firstaidsinglepage/:id' element={<MainLayout><Firstaidsingle/></MainLayout>}/>
+
+        <Route path='/aprons' element={<MainLayout><Aprons/></MainLayout>}/>
+        <Route path='/apronssinglepage/:id' element={<MainLayout><Apronssingle/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 
