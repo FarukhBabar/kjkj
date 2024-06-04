@@ -127,10 +127,10 @@ useEffect(() => {
           <Link className="dropdown-item" to="/bathroombeauty">
             Aprons
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/bedding">
             Bedding
           </Link>
-          <Link className="dropdown-item" to="/showermain">
+          <Link className="dropdown-item" to="/clothing">
             Clothing
           </Link>
           <Link className="dropdown-item" to="/textiles & Accessories">

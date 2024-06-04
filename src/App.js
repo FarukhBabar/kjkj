@@ -183,6 +183,16 @@ import Apronssingle from './Components/Pages/Adminside/deparmentbathrom/Textilea
 import Apronsform from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronsform';
 import Apronsupdate from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronsupdate';
 import Apronslist from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Aprons/Apronslist'
+import Beddingform from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Bedding/Beddingform';
+import Beddinglist from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Bedding/Beddinglist';
+import Beddingupdate from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Bedding/Beddingupdate';
+import Bedding from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Bedding/Bedding';
+import Beddingsingle from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Bedding/Beddingsingle';
+import Clothing from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothing';
+import Clothingsingle from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothingsingle';
+import Clothingform from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothingform';
+import Clothinglist from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothinglist';
+import Clothingupdate from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothingupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -303,6 +313,14 @@ const App = () => {
         <Route path='/apronsform' element={<AdminLayout><Apronsform /></AdminLayout>} />
         <Route path='/listaprons' element={<AdminLayout><Apronslist/></AdminLayout>} />
         <Route path='/listaprons/:id' element={<AdminLayout><Apronsupdate /></AdminLayout>} /> 
+
+        <Route path='/beddingform' element={<AdminLayout><Beddingform /></AdminLayout>} />
+        <Route path='/listbedding' element={<AdminLayout><Beddinglist/></AdminLayout>} />
+        <Route path='/listbedding/:id' element={<AdminLayout><Beddingupdate /></AdminLayout>} />
+
+        <Route path='/clothingform' element={<AdminLayout><Clothingform/></AdminLayout>} />
+        <Route path='/listclothing' element={<AdminLayout><Clothinglist/></AdminLayout>} />
+        <Route path='/listclothing/:id' element={<AdminLayout><Clothingupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -403,8 +421,6 @@ const App = () => {
         <Route path='/firstaid' element={<MainLayout><Firstaidmain/></MainLayout>}/>
         <Route path='/firstaidsinglepage/:id' element={<MainLayout><Firstaidsingle/></MainLayout>}/>
 
-        <Route path='/aprons' element={<MainLayout><Aprons/></MainLayout>}/>
-        <Route path='/apronssinglepage/:id' element={<MainLayout><Apronssingle/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 
@@ -423,6 +439,15 @@ const App = () => {
         <Route path='/stationery' element={<MainLayout><Stationerymain/></MainLayout>}/>
 
         <Route path='/textiles & Accessories' element={<MainLayout><Textilesmainpage/></MainLayout>}/>
+
+        <Route path='/aprons' element={<MainLayout><Aprons/></MainLayout>}/>
+        <Route path='/apronssinglepage/:id' element={<MainLayout><Apronssingle/></MainLayout>}/>
+
+        <Route path='/bedding' element={<MainLayout><Bedding/></MainLayout>}/>
+        <Route path='/beddingsinglepage/:id' element={<MainLayout><Beddingsingle/></MainLayout>}/>
+
+        <Route path='/clothing' element={<MainLayout><Clothing/></MainLayout>}/>
+        <Route path='/clothingsinglepage/:id' element={<MainLayout><Clothingsingle/></MainLayout>}/>
 
         <Route path='/household Cleaners' element={<MainLayout><Houseclenermain/></MainLayout>}/>
 
