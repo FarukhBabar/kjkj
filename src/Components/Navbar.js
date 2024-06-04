@@ -124,7 +124,7 @@ useEffect(() => {
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Textile</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/aprons">
             Aprons
           </Link>
           <Link className="dropdown-item" to="/bedding">
