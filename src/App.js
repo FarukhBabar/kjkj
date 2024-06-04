@@ -203,6 +203,16 @@ import Akonobolsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Ak
 import Akonobolform from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolform';
 import Akonobolist from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolist';
 import Akonobolupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolupdate';
+import Clockform from './Components/Pages/Adminside/deparmentbathrom/Electrical/Clock/Clockform';
+import Clocklist from './Components/Pages/Adminside/deparmentbathrom/Electrical/Clock/Clocklist';
+import Clockupdate from './Components/Pages/Adminside/deparmentbathrom/Electrical/Clock/Clockupdate';
+import Clock from './Components/Pages/Adminside/deparmentbathrom/Electrical/Clock/Clock';
+import Clocksingle from './Components/Pages/Adminside/deparmentbathrom/Electrical/Clock/Clocksingle';
+import Cameras from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Cameras';
+import Camerasingle from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Camerasingle';
+import Camerasform from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Camerasform';
+import Cameraslist from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Cameraslist';
+import Camerasupdate from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Camerasupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -339,6 +349,14 @@ const App = () => {
         <Route path='/akonobolform' element={<AdminLayout><Akonobolform/></AdminLayout>} />
         <Route path='/listakonobol' element={<AdminLayout><Akonobolist/></AdminLayout>} />
         <Route path='/listakonobol/:id' element={<AdminLayout><Akonobolupdate/></AdminLayout>} />
+
+        <Route path='/clockform' element={<AdminLayout><Clockform/></AdminLayout>} />
+        <Route path='/listclock' element={<AdminLayout><Clocklist/></AdminLayout>} />
+        <Route path='/listclock/:id' element={<AdminLayout><Clockupdate/></AdminLayout>} />
+
+        <Route path='/cameraform' element={<AdminLayout><Camerasform/></AdminLayout>} />
+        <Route path='/listcamera' element={<AdminLayout><Cameraslist/></AdminLayout>} />
+        <Route path='/listcamera/:id' element={<AdminLayout><Camerasupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -444,6 +462,12 @@ const App = () => {
 
         <Route path='/akonobol' element={<MainLayout><Akonobol/></MainLayout>}/>
         <Route path='/akonobolsinglepage/:id' element={<MainLayout><Akonobolsingle/></MainLayout>}/>
+        
+        <Route path='/clock' element={<MainLayout><Clock/></MainLayout>}/>
+        <Route path='/clocksinglepage/:id' element={<MainLayout><Clocksingle/></MainLayout>}/>
+
+        <Route path='/cameras' element={<MainLayout><Cameras/></MainLayout>}/>
+        <Route path='/camerassinglepage/:id' element={<MainLayout><Camerasingle/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 

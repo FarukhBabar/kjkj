@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const Akonobolist = () => {
+const Cameraslist = () => {
     const [user, setUsers] = useState([]);
     
 
     const setUsersData = async() =>{
-        let result = await fetch("http://localhost:8001/api/v1/data/Akonoboluser")
+        let result = await fetch("http://localhost:8001/api/v1/data/camerauser")
         result = await result.json()       
         setUsers(result)        
         console.log(result)
@@ -20,7 +20,7 @@ const Akonobolist = () => {
       const deleteuser = async(id)=>{
           // console.log(id)
           try {
-              let result= await fetch(`http://localhost:8001/api/v1/data/Akonoboluserid/${id}`,{
+              let result= await fetch(`http://localhost:8001/api/v1/data/camerauserid/${id}`,{
             method:"delete"
          
           })
@@ -41,8 +41,8 @@ const Akonobolist = () => {
     <div>
         
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Akonobol Products</h4>
-           <Link to="/akonobolform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Camera Products</h4>
+           <Link to="/cameraform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
                      <tr className='btn-dark text-light text-center'>
@@ -73,7 +73,7 @@ const Akonobolist = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listakonobol/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listcamera/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>
@@ -93,5 +93,5 @@ const Akonobolist = () => {
   )
 }
 
-export default Akonobolist; 
+export default Cameraslist; 
  

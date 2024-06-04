@@ -20,7 +20,7 @@ const Electricaldemain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/poundline"> <img src="./Images/Electrical/Electrical.png" alt className="img2" /></Link>
+        <Link to="/clock"> <img src="./Images/Electrical/Electrical.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -37,7 +37,7 @@ const Electricaldemain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/kitechenwear'> <img src="./Images/Electrical/Electrical-3.png" alt className="img1" /></Link>
+        <Link to='/cameras'> <img src="./Images/Electrical/Electrical-3.png" alt className="img1" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
