@@ -157,7 +157,7 @@ useEffect(() => {
           <Link className="dropdown-item" to="/bathroombeauty">
             COLCKS
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/cameras">
             DUMMY CAMERAS
           </Link>
           <Link className="dropdown-item" to="/showermain">
