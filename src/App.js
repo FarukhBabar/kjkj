@@ -193,6 +193,16 @@ import Clothingsingle from './Components/Pages/Adminside/deparmentbathrom/Textil
 import Clothingform from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothingform';
 import Clothinglist from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothinglist';
 import Clothingupdate from './Components/Pages/Adminside/deparmentbathrom/Textileaccessories/Clothing/Clothingupdate';
+import Freshnerform from './Components/Pages/Adminside/deparmentbathrom/Diy/Airfrechner/Freshnerform';
+import Freshnerlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Airfrechner/Freshnerlist';
+import Freshnerupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Airfrechner/Freshnerupdate';
+import Freshner from './Components/Pages/Adminside/deparmentbathrom/Diy/Airfrechner/Freshner';
+import Freshnersingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Airfrechner/Freshnersingle';
+import Akonobol from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobol';
+import Akonobolsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolsingle';
+import Akonobolform from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolform';
+import Akonobolist from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolist';
+import Akonobolupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Akzonobel/Akonobolupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -321,6 +331,14 @@ const App = () => {
         <Route path='/clothingform' element={<AdminLayout><Clothingform/></AdminLayout>} />
         <Route path='/listclothing' element={<AdminLayout><Clothinglist/></AdminLayout>} />
         <Route path='/listclothing/:id' element={<AdminLayout><Clothingupdate/></AdminLayout>} />
+
+        <Route path='/freshnerform' element={<AdminLayout><Freshnerform/></AdminLayout>} />
+        <Route path='/listfreshner' element={<AdminLayout><Freshnerlist/></AdminLayout>} />
+        <Route path='/listfreshner/:id' element={<AdminLayout><Freshnerupdate/></AdminLayout>} />
+        
+        <Route path='/akonobolform' element={<AdminLayout><Akonobolform/></AdminLayout>} />
+        <Route path='/listakonobol' element={<AdminLayout><Akonobolist/></AdminLayout>} />
+        <Route path='/listakonobol/:id' element={<AdminLayout><Akonobolupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -421,6 +439,11 @@ const App = () => {
         <Route path='/firstaid' element={<MainLayout><Firstaidmain/></MainLayout>}/>
         <Route path='/firstaidsinglepage/:id' element={<MainLayout><Firstaidsingle/></MainLayout>}/>
 
+        <Route path='/freshner' element={<MainLayout><Freshner/></MainLayout>}/>
+        <Route path='/freshnersinglepage/:id' element={<MainLayout><Freshnersingle/></MainLayout>}/>
+
+        <Route path='/akonobol' element={<MainLayout><Akonobol/></MainLayout>}/>
+        <Route path='/akonobolsinglepage/:id' element={<MainLayout><Akonobolsingle/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 

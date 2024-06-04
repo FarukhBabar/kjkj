@@ -328,12 +328,12 @@ const Diymainpage = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href>  <img src="./Images/DIY.png" alt className="img2" /></a>
+      <Link to='/akonobol'> <img src="./Images/Diy/Diy11.png" alt className="img3" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href> <img src="./Images/DIY.png" alt className="img3" /></a>
+        <Link to='/freshner'> <img src="./Images/DIY.png" alt className="img3" /></Link>
       </div>
     </div>
   </div>

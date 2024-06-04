@@ -140,10 +140,10 @@ useEffect(() => {
         <div className="me-5 mb-3 mb-md-0">
         <Link to='/phoneaccessories' ><p className="foodsnv ms-3 d-inline">Phone Accessories</p></Link> <br/> <br/>
         <p className="foodsnv ms-3 d-inline">Diy</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/freshner">
             Air Freshners
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/akonobol">
             Akzonobel
           </Link>
           {/* <Link className="dropdown-item" to="/showermain">
