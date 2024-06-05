@@ -213,7 +213,7 @@ useEffect(() => {
           <Link className="dropdown-item" to="/car">
             Car Care
           </Link>
-          <Link className="dropdown-item" to="/showermain">
+          <Link className="dropdown-item" to="/bleech">
             Bleach
           </Link>
           <Link className="dropdown-item" to="/household Cleaners">

@@ -263,6 +263,11 @@ import Car from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carc
 import Carsingle from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carsingle';
 import Carlist from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carlist';
 import Carupdate from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carupdate';
+import Bleechform from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleechform';
+import Bleecklist from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleecklist';
+import Bleeckupdate from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleeckupdate';
+import Bleech from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleech';
+import Bleechsingl from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleechsingl';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -447,6 +452,10 @@ const App = () => {
         <Route path='/carform' element={<AdminLayout><Carform/></AdminLayout>} />
         <Route path='/listcar' element={<AdminLayout><Carlist/></AdminLayout>} />
         <Route path='/listcar/:id' element={<AdminLayout><Carupdate/></AdminLayout>} />
+
+        <Route path='/bleechform' element={<AdminLayout><Bleechform/></AdminLayout>} />
+        <Route path='/listbleech' element={<AdminLayout><Bleecklist/></AdminLayout>} />
+        <Route path='/listbleech/:id' element={<AdminLayout><Bleeckupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -579,6 +588,9 @@ const App = () => {
         
         <Route path='/freshn' element={<MainLayout><Freshn/></MainLayout>}/>
         <Route path='/freshnsinglepage/:id' element={<MainLayout><Freshnsingle/></MainLayout>}/>
+
+        <Route path='/bleech' element={<MainLayout><Bleech/></MainLayout>}/>
+        <Route path='/bleechsinglepage/:id' element={<MainLayout><Bleechsingl/></MainLayout>}/>
 
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 

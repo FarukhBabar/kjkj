@@ -20,7 +20,7 @@ const Houseclenermain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/poundline"> <img src="./Images/Household Cleaners-2.png" alt className="img2" /></Link>
+        <Link to="/bleech"> <img src="./Images/Household Cleaners-2.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

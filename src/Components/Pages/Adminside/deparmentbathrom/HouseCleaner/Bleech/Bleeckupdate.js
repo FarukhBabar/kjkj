@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 
-const Freshnupdate = () => {
+const Bleeckupdate = () => {
     const [name, setName] = useState('');
     const [title, setTitle] = useState('');
     const [price, setPrice] = useState('');
@@ -14,7 +14,7 @@ const Freshnupdate = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:8001/api/v1/auth/freshnsingle/${params.id}`);
+                const response = await fetch(`http://localhost:8001/api/v1/auth/bleechsingle/${params.id}`);
                 const result = await response.json();
                 setName(result.name);
                 setTitle(result.title);
@@ -37,7 +37,7 @@ const Freshnupdate = () => {
                 formdata.append('title' , title)
                 formdata.append('image' , image)
                 try {
-                    let result = await fetch(`http://localhost:8001/api/v1/auth/Freshnsingle/${params.id}` , {
+                    let result = await fetch(`http://localhost:8001/api/v1/auth/bleechsingle/${params.id}` , {
         method: "put",
         body :formdata
       
@@ -84,4 +84,4 @@ const Freshnupdate = () => {
     );
 }
 
-export default Freshnupdate;
+export default Bleeckupdate;
