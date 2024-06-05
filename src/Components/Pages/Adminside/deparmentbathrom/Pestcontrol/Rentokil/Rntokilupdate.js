@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 
-const Clockupdate = () => {
+const  Rntokilupdate = () => {
     const [name, setName] = useState('');
     const [title, setTitle] = useState('');
     const [price, setPrice] = useState('');
@@ -14,7 +14,7 @@ const Clockupdate = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:8001/api/v1/auth/Clocksingle/${params.id}`);
+                const response = await fetch(`http://localhost:8001/api/v1/auth/rentokilsingle/${params.id}`);
                 const result = await response.json();
                 setName(result.name);
                 setTitle(result.title);
@@ -37,7 +37,7 @@ const Clockupdate = () => {
                 formdata.append('title' , title)
                 formdata.append('image' , image)
                 try {
-                    let result = await fetch(`http://localhost:8001/api/v1/auth/Clocksingle/${params.id}` , {
+                    let result = await fetch(`http://localhost:8001/api/v1/auth/digitalsingle/${params.id}` , {
         method: "put",
         body :formdata
       
@@ -84,5 +84,5 @@ const Clockupdate = () => {
     );
 }
 
-export default Clockupdate;
+export default Rntokilupdate;
  

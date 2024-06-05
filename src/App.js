@@ -213,6 +213,56 @@ import Camerasingle from './Components/Pages/Adminside/deparmentbathrom/Electric
 import Camerasform from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Camerasform';
 import Cameraslist from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Cameraslist';
 import Camerasupdate from './Components/Pages/Adminside/deparmentbathrom/Electrical/Cameras/Camerasupdate';
+import Digitalform from './Components/Pages/Adminside/deparmentbathrom/Electrical/Digitalaccessories/Digitalform';
+import Digitallist from './Components/Pages/Adminside/deparmentbathrom/Electrical/Digitalaccessories/Digitallist';
+import Digitalupdate from './Components/Pages/Adminside/deparmentbathrom/Electrical/Digitalaccessories/Digitalupdate';
+import Digital from './Components/Pages/Adminside/deparmentbathrom/Electrical/Digitalaccessories/Digital';
+import Digitalsingle from './Components/Pages/Adminside/deparmentbathrom/Electrical/Digitalaccessories/Digitalsingle';
+import Cookwareform from './Components/Pages/Adminside/deparmentbathrom/China/Cookware/Cookwareform';
+import Cookwarelist from './Components/Pages/Adminside/deparmentbathrom/China/Cookware/Cookwarelist';
+import Cookwareupdate from './Components/Pages/Adminside/deparmentbathrom/China/Cookware/Cookwareupdate';
+import Cookware from './Components/Pages/Adminside/deparmentbathrom/China/Cookware/Cookware';
+import Cookwaresingle from './Components/Pages/Adminside/deparmentbathrom/China/Cookware/Cookwaresingle';
+import Crockery from './Components/Pages/Adminside/deparmentbathrom/China/Crockery/Crockery';
+import Crockerysingle from './Components/Pages/Adminside/deparmentbathrom/China/Crockery/Crockerysingle';
+import Crockeryform from './Components/Pages/Adminside/deparmentbathrom/China/Crockery/Crockeryform';
+import Crockerylist from './Components/Pages/Adminside/deparmentbathrom/China/Crockery/Crockerylist';
+import Crockeryupdate from './Components/Pages/Adminside/deparmentbathrom/China/Crockery/Crockeryupdate';
+import Dinner from './Components/Pages/Adminside/deparmentbathrom/China/Dinnersets/Dinner';
+import Dinnersingel from './Components/Pages/Adminside/deparmentbathrom/China/Dinnersets/Dinnersingel';
+import Dinnerform from './Components/Pages/Adminside/deparmentbathrom/China/Dinnersets/Dinnerform';
+import Dinnerlist from './Components/Pages/Adminside/deparmentbathrom/China/Dinnersets/Dinnerlist';
+import Dinnerupload from './Components/Pages/Adminside/deparmentbathrom/China/Dinnersets/Dinnerupload';
+import Rentokil from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Rentokil/Rentokil';
+import Rentokilform from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Rentokil/Rentokilform';
+import Rentokillist from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Rentokil/Rentokillist';
+import Rntokilupdate from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Rentokil/Rntokilupdate';
+import RentokilSingle from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/Rentokil/RentokilSingle';
+import Stv from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/STVinternational/Stv';
+import StvSingle from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/STVinternational/Stvsingle';
+import Stvform from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/STVinternational/Stvform';
+import Stvlist from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/STVinternational/Stvlist';
+import Stvupdate from './Components/Pages/Adminside/deparmentbathrom/Pestcontrol/STVinternational/Stvupdate';
+import Cottonform from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Cottonwhool/Cottonform'
+import Cottonlist from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Cottonwhool/Cottonlist'
+import Cottonupdate from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Cottonwhool/Cottonupdate'
+import Cotton from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Cottonwhool/Cotton'
+import Cottonsingle from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Cottonwhool/Cottonsingle'
+import Babaycareform from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Babycare/Babaycareform';
+import Babaylist from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Babycare/Babaylist';
+import Babayupdate from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Babycare/Babayupdate';
+import Babycare from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Babycare/Babycare';
+import Babaysingle from './Components/Pages/Adminside/deparmentbathrom/Tolitires/Babycare/Babaysingle';
+import Freshnform from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Airfresh/Freshnform';
+import Freshnlist from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Airfresh/Freshnlist';
+import Freshnupdate from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Airfresh/Freshnupdate';
+import Freshn from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Airfresh/Freshn';
+import Freshnsingle from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Airfresh/Freshnsingle';
+import Carform from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carform';
+import Car from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Car';
+import Carsingle from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carsingle';
+import Carlist from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carlist';
+import Carupdate from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Carcare/Carupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -357,6 +407,46 @@ const App = () => {
         <Route path='/cameraform' element={<AdminLayout><Camerasform/></AdminLayout>} />
         <Route path='/listcamera' element={<AdminLayout><Cameraslist/></AdminLayout>} />
         <Route path='/listcamera/:id' element={<AdminLayout><Camerasupdate/></AdminLayout>} />
+
+        <Route path='/digitalform' element={<AdminLayout><Digitalform/></AdminLayout>} />
+        <Route path='/listdigital' element={<AdminLayout><Digitallist/></AdminLayout>} />
+        <Route path='/listdigital/:id' element={<AdminLayout><Digitalupdate/></AdminLayout>} />
+
+        <Route path='/cookwareform' element={<AdminLayout><Cookwareform/></AdminLayout>} />
+        <Route path='/listcookware' element={<AdminLayout><Cookwarelist/></AdminLayout>} />
+        <Route path='/listcookware/:id' element={<AdminLayout><Cookwareupdate/></AdminLayout>} />
+
+        <Route path='/crockeryform' element={<AdminLayout><Crockeryform/></AdminLayout>} />
+        <Route path='/listcrockery' element={<AdminLayout><Crockerylist/></AdminLayout>} />
+        <Route path='/listcrockery/:id' element={<AdminLayout><Crockeryupdate/></AdminLayout>} />
+
+        <Route path='/dinnerform' element={<AdminLayout><Dinnerform/></AdminLayout>} />
+        <Route path='/listdinner' element={<AdminLayout><Dinnerlist/></AdminLayout>} />
+        <Route path='/listdinner/:id' element={<AdminLayout><Dinnerupload/></AdminLayout>} />
+
+        <Route path='/rentokilform' element={<AdminLayout><Rentokilform/></AdminLayout>} />
+        <Route path='/listrentokil' element={<AdminLayout><Rentokillist/></AdminLayout>} />
+        <Route path='/listrentokil/:id' element={<AdminLayout><Rntokilupdate/></AdminLayout>} />
+
+        <Route path='/stvform' element={<AdminLayout><Stvform/></AdminLayout>} />
+        <Route path='/liststv' element={<AdminLayout><Stvlist/></AdminLayout>} />
+        <Route path='/liststv/:id' element={<AdminLayout><Stvupdate/></AdminLayout>} />
+
+        <Route path='/cottonform' element={<AdminLayout><Cottonform/></AdminLayout>} />
+        <Route path='/listcotton' element={<AdminLayout><Cottonlist/></AdminLayout>} />
+        <Route path='/listcotton/:id' element={<AdminLayout><Cottonupdate/></AdminLayout>} />
+        
+        <Route path='/babayform' element={<AdminLayout><Babaycareform/></AdminLayout>} />
+        <Route path='/listbabay' element={<AdminLayout><Babaylist/></AdminLayout>} />
+        <Route path='/listbabay/:id' element={<AdminLayout><Babayupdate/></AdminLayout>} />
+
+        <Route path='/freshnform' element={<AdminLayout><Freshnform/></AdminLayout>} />
+        <Route path='/listfreshn' element={<AdminLayout><Freshnlist/></AdminLayout>} />
+        <Route path='/listfreshn/:id' element={<AdminLayout><Freshnupdate/></AdminLayout>} />
+
+        <Route path='/carform' element={<AdminLayout><Carform/></AdminLayout>} />
+        <Route path='/listcar' element={<AdminLayout><Carlist/></AdminLayout>} />
+        <Route path='/listcar/:id' element={<AdminLayout><Carupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -469,6 +559,27 @@ const App = () => {
         <Route path='/cameras' element={<MainLayout><Cameras/></MainLayout>}/>
         <Route path='/camerassinglepage/:id' element={<MainLayout><Camerasingle/></MainLayout>}/>
 
+        <Route path='/digital' element={<MainLayout><Digital/></MainLayout>}/>
+        <Route path='/digitalsinglepage/:id' element={<MainLayout><Digitalsingle/></MainLayout>}/>
+
+        <Route path='/cookware' element={<MainLayout><Cookware/></MainLayout>}/>
+        <Route path='/cookwaresinglepage/:id' element={<MainLayout><Cookwaresingle/></MainLayout>}/>
+
+        <Route path='/crockery' element={<MainLayout><Crockery/></MainLayout>}/>
+        <Route path='/crockerysinglepage/:id' element={<MainLayout><Crockerysingle/></MainLayout>}/>
+
+        <Route path='/dinner' element={<MainLayout><Dinner/></MainLayout>}/>
+        <Route path='/dinnersinglepage/:id' element={<MainLayout><Dinnersingel/></MainLayout>}/>
+
+        <Route path='/cotton' element={<MainLayout><Cotton/></MainLayout>}/>
+        <Route path='/cottonsinglepage/:id' element={<MainLayout><Cottonsingle/></MainLayout>}/>
+
+        <Route path='/babay' element={<MainLayout><Babycare/></MainLayout>}/>
+        <Route path='/babysinglepage/:id' element={<MainLayout><Babaysingle/></MainLayout>}/>
+        
+        <Route path='/freshn' element={<MainLayout><Freshn/></MainLayout>}/>
+        <Route path='/freshnsinglepage/:id' element={<MainLayout><Freshnsingle/></MainLayout>}/>
+
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 
         <Route path='/cleaning' element={<MainLayout><Leaning/></MainLayout>}/>
@@ -495,6 +606,15 @@ const App = () => {
 
         <Route path='/clothing' element={<MainLayout><Clothing/></MainLayout>}/>
         <Route path='/clothingsinglepage/:id' element={<MainLayout><Clothingsingle/></MainLayout>}/>
+
+        <Route path='/rentokil' element={<MainLayout><Rentokil/></MainLayout>}/>
+        <Route path='/rentokilsinglepage/:id' element={<MainLayout><RentokilSingle/></MainLayout>}/>
+
+        <Route path='/stv' element={<MainLayout><Stv/></MainLayout>}/>
+        <Route path='/stvsinglepage/:id' element={<MainLayout><StvSingle/></MainLayout>}/>
+
+        <Route path='/car' element={<MainLayout><Car/></MainLayout>}/>
+        <Route path='/carsinglepage/:id' element={<MainLayout><Carsingle/></MainLayout>}/>
 
         <Route path='/household Cleaners' element={<MainLayout><Houseclenermain/></MainLayout>}/>
 

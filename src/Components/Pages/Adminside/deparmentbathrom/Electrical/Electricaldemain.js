@@ -25,7 +25,7 @@ const Electricaldemain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/deparmentbathroom'><img src="./Images/Electrical/Electrical-1.png" alt className="img3" /></Link>   
+        <Link to='/digital'><img src="./Images/Electrical/Electrical-1.png" alt className="img3" /></Link>   
       </div>
     </div>
   </div>

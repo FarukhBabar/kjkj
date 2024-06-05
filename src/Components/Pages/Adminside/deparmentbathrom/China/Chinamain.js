@@ -10,17 +10,17 @@ const Chinamain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/CHINA.png" alt className="img" /></Link>   
+        <Link to="/cookware"><img src="./Images/CHINA.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/smoking"><img src="./Images/CHINA-1.png" alt className="img1" /></Link> 
+        <Link to="/crockery"><img src="./Images/CHINA-1.png" alt className="img1" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/poundline"> <img src="./Images/CHINA-2.png" alt className="img2" /></Link>
+        <Link to="/dinner"> <img src="./Images/CHINA-2.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

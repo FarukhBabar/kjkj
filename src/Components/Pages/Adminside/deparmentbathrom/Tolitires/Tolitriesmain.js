@@ -10,12 +10,13 @@ const Tolitriesmain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Toiletries.png" alt className="img" /></Link>   
+        <Link to="/cotton"><img src="./Images/Toiletries.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/smoking"><img src="./Images/Toiletries (1).png" alt className="img1" /></Link> 
+      <Link to='/babay'><img src="./Images/Toiletries (18).png" alt className="img2" /></Link>
+        
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -104,7 +105,7 @@ const Tolitriesmain = () => {
     
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Toiletries (18).png" alt className="img2" /></a>
+      <Link to="/smoking"><img src="./Images/Toiletries (1).png" alt className="img1" /></Link> 
       </div>
     </div>
     

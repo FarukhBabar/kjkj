@@ -160,7 +160,7 @@ useEffect(() => {
           <Link className="dropdown-item" to="/cameras">
             DUMMY CAMERAS
           </Link>
-          <Link className="dropdown-item" to="/showermain">
+          <Link className="dropdown-item" to="/digital">
             DIGITAL ACCESSORIES
           </Link>
           <Link className="dropdown-item" to="/electricalde">
@@ -168,30 +168,30 @@ useEffect(() => {
           </Link>
 
           <p className="foodsnv ms-3 d-inline">CHINA</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/cookware">
             COOKWARE
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/crockery">
             CROCKERY
           </Link>
-          <Link className="dropdown-item" to="/showermain">
+          <Link className="dropdown-item" to="/dinner">
             DINNER SETS
           </Link>
           <Link className="dropdown-item" to="/chinaproducts">
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Pest Control</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/rentokil">
             RENTOKIL
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/stv">
            STV INTERNATIONAL
           </Link>
           <p className="foodsnv ms-3 d-inline">Toiletries</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/babay">
             Baby Care
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/cotton">
             Cotton Wool
           </Link>
           {/* <Link className="dropdown-item" to="/showermain">
@@ -207,10 +207,10 @@ useEffect(() => {
         <div className="me-5 mb-3 mb-md-0">
         <Link to='/obstical'><p className="foodsnv ms-3 d-inline">OBSOLETE</p> </Link><br/> <br/>
         <p className="foodsnv ms-3 d-inline">HOUSE HOLD</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/freshn">
             Air Freshner
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/car">
             Car Care
           </Link>
           <Link className="dropdown-item" to="/showermain">

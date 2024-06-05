@@ -10,7 +10,7 @@ const Houseclenermain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Household Cleaners.png" alt className="img" /></Link>   
+        <Link to="/freshn"><img src="./Images/Household Cleaners.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -25,7 +25,7 @@ const Houseclenermain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/deparmentbathroom'><img src="./Images/Household Cleaners-3.png" alt className="img3" /></Link>   
+        <Link to='/car'><img src="./Images/Household Cleaners-3.png" alt className="img3" /></Link>   
       </div>
     </div>
   </div>
