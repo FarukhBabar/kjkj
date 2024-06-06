@@ -450,6 +450,7 @@ const Adminnavbar = () => {
                   </li> */}
                 </ul>
               </li>
+              
             </ul>
           </li>
           <li className="nav-item dropdown ">
@@ -464,138 +465,107 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 FoodandDrink
+                 Kitechenwear
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listfood">Foods</Link></li>
-                  <li><Link className="dropdown-item" to="/listdrink">Drinks</Link></li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><Link className="dropdown-item" to="/listbakeware">Bakeware</Link></li>
+                  <li><Link className="dropdown-item" to="/listbareware">Barewear</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Smoking
+                 Pet Products
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listlighter">Lighter & Matches</Link></li>
-                  <li><Link className="dropdown-item" to="/listelectric">Electrical</Link></li>
-                  <li><Link className="dropdown-item" to="/listsmokigess">Smoking Essentials</Link></li>
+                  <li><Link className="dropdown-item" to="/listbirds">Birds</Link></li>
+                  <li><Link className="dropdown-item" to="/listcat">Cat</Link></li>
+                 
                 </ul>
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Pound Lines
+                Kidsproducts
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listbathrom">Bathroom / Cosmetics / Beauty</Link></li>
-                  <li><Link className="dropdown-item" to="/listfirstaid">First Aid/Pharmacy/Personal</Link></li>
-                  <li><Link className="dropdown-item" to="/listelectricde">Electrical</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
-                </ul>
-              </li>
-              <li className="nav-item dropend">
-                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Bathroom
-                </a>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listbathromde">Bathroom Scales</Link></li>
-                  <li><Link className="dropdown-item" to="/listmirror">Mirrors</Link></li>
-                  <li><Link className="dropdown-item" to="/listshower">Shower</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathmate">Bathmates</Link></li>
-                  <li><Link className="dropdown-item" to="/listbathacess">Bathroom Acessories</Link></li>
-                  <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
-                </ul>
-              </li>
-              <li className="nav-item dropend">
-                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Disposible
-                </a>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listdisposible">Bin Bag</Link></li>
-                  <li><Link className="dropdown-item" to="/listTablewear">Table Wear</Link></li>
+                  <li><Link className="dropdown-item" to="/listbaby">Baby Products</Link></li>
+                  <li><Link className="dropdown-item" to="/listkidssto">Kids Storage</Link></li>
                 
+                  {/* <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li className="nav-item dropend">
+                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><a className="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr className="dropdown-divider" />
+                      </li>
+                      <li className="nav-item dropend">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul className="dropdown-menu">
+                          <li><a className="dropdown-item" href="#">Action</a></li>
+                          <li><a className="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr className="dropdown-divider" />
+                          </li>
+                          <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li> */}
+                </ul>
+              </li>
+              <li className="nav-item dropend">
+                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gardening
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" to="/listbbq">BBQ</Link></li>
+                  <li><Link className="dropdown-item" to="/listbird">Birds Care</Link></li>
+                 
+                  {/* <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li className="nav-item dropend">
+                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><a className="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr className="dropdown-divider" />
+                      </li>
+                      <li className="nav-item dropend">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul className="dropdown-menu">
+                          <li><a className="dropdown-item" href="#">Action</a></li>
+                          <li><a className="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr className="dropdown-divider" />
+                          </li>
+                          <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li> */}
+                </ul>
+              </li>
+              <li className="nav-item dropend">
+                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Partyware
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" to="/listbaloon">Baloons Weight</Link></li>
+                  <li><Link className="dropdown-item" to="/listpumps">Pumps</Link></li>
+                  <li><Link className="dropdown-item" to="/listbanner">Banner</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">

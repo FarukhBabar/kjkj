@@ -10,7 +10,7 @@ const Petproductsmain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Pet Products.png" alt className="img" /></Link>   
+        <Link to="/cat"><img src="./Images/Pet Products.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -32,7 +32,7 @@ const Petproductsmain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/deparmentloundry'><img src="./Images/Pet Products (1).png" alt className="img" /></Link>
+        <Link to='/birds'><img src="./Images/Pet Products (1).png" alt className="img" /></Link>
       </div>
     </div>
   </div>

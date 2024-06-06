@@ -268,6 +268,62 @@ import Bleecklist from './Components/Pages/Adminside/deparmentbathrom/HouseClean
 import Bleeckupdate from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleeckupdate';
 import Bleech from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleech';
 import Bleechsingl from './Components/Pages/Adminside/deparmentbathrom/HouseCleaner/Bleech/Bleechsingl';
+import Bakeware from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Bakeware/Bakeware';
+import Bakewaresingle from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Bakeware/Bakewaresingle';
+import Bakewareform from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Bakeware/Bakewareform';
+import Bakewarelist from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Bakeware/Bakewarelist';
+import Bakewareupdate from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Bakeware/Bakewareupdate';
+import Barewear from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Barewear/Barewear';
+import Barewearsingl from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Barewear/Barewearsingl';
+import Barewearform from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Barewear/Barewearform';
+import Barewearlist from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Barewear/Barewearlist';
+import Barewearupdate from './Components/Pages/Adminside/deparmentbathrom/Kitechenwear/Barewear/Barewearupdate';
+import Birdsform from './Components/Pages/Adminside/deparmentbathrom/Pet products/Birdsproduct/Birdsform';
+import Birdslist from './Components/Pages/Adminside/deparmentbathrom/Pet products/Birdsproduct/Birdslist';
+import Birdsupdate from './Components/Pages/Adminside/deparmentbathrom/Pet products/Birdsproduct/Birdsupdate';
+import Birds from './Components/Pages/Adminside/deparmentbathrom/Pet products/Birdsproduct/Birds';
+import Birdssingl from './Components/Pages/Adminside/deparmentbathrom/Pet products/Birdsproduct/Birdssingl';
+import Cat from './Components/Pages/Adminside/deparmentbathrom/Pet products/Catproducts/Cat';
+import Catsingle from './Components/Pages/Adminside/deparmentbathrom/Pet products/Catproducts/Catsingle';
+import Catform from './Components/Pages/Adminside/deparmentbathrom/Pet products/Catproducts/Catform';
+import Catlist from './Components/Pages/Adminside/deparmentbathrom/Pet products/Catproducts/Catlist';
+import Catupdate from './Components/Pages/Adminside/deparmentbathrom/Pet products/Catproducts/Catupdate';
+import Baby from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Babyproducts/Baby';
+import Babysingle from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Babyproducts/Babysingle';
+import Babyform from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Babyproducts/Babyform';
+import Babylist from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Babyproducts/Babylist';
+import Babyupdate from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/Babyproducts/Babyupdate';
+import Kidssto from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/KidsStorage/Kidssto';
+import Kidsstoform from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/KidsStorage/Kidsstoform';
+import Kidsstolist from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/KidsStorage/Kidsstolist';
+import Kisstoupdate from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/KidsStorage/Kisstoupdate';
+import Kidsstosingl from './Components/Pages/Adminside/deparmentbathrom/Kidsproducts/KidsStorage/Kidsstosingl';
+import Bbqform from './Components/Pages/Adminside/deparmentbathrom/Gardening/BBq/Bbqform';
+import Bbqlist from './Components/Pages/Adminside/deparmentbathrom/Gardening/BBq/Bbqlist';
+import Bbqupdate from './Components/Pages/Adminside/deparmentbathrom/Gardening/BBq/Bbqupdate';
+import Bbq from './Components/Pages/Adminside/deparmentbathrom/Gardening/BBq/Bbq';
+import Bbqsingle from './Components/Pages/Adminside/deparmentbathrom/Gardening/BBq/Bbqsingl';
+import Birdcareform from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdcareform';
+import Birdlist from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdlist';
+import Birdupdate from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdupdate';
+import Birdcard from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdcard';
+import Birdsingle from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdsingle';
+import Bird from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Bird';
+import Baloon from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloon';
+import Baloonsingl from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloonsingl';
+import Baloonform from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloonsform';
+import Baloonlist from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloonlist';
+import Baloonupdate from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloonupdate';
+import Pumpsform from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloonpumps/Pumpsform';
+import Pumpslist from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloonpumps/Pumpslist';
+import Pumpsupdate from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloonpumps/Pumpsupdate';
+import Pumps from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloonpumps/Pumps';
+import Pumpssingl from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloonpumps/Pumpssingl';
+import Bannerlist from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannerlist';
+import Bannerupdate from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannerupdate';
+import Bannerform from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannerform';
+import Banner from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Banner';
+import Bannersingl from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannersingl';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -456,6 +512,50 @@ const App = () => {
         <Route path='/bleechform' element={<AdminLayout><Bleechform/></AdminLayout>} />
         <Route path='/listbleech' element={<AdminLayout><Bleecklist/></AdminLayout>} />
         <Route path='/listbleech/:id' element={<AdminLayout><Bleeckupdate/></AdminLayout>} />
+
+        <Route path='/bakewareform' element={<AdminLayout><Bakewareform/></AdminLayout>} />
+        <Route path='/listbakeware' element={<AdminLayout><Bakewarelist/></AdminLayout>} />
+        <Route path='/listbakeware/:id' element={<AdminLayout><Bakewareupdate/></AdminLayout>} />
+
+        <Route path='/barewareform' element={<AdminLayout><Barewearform/></AdminLayout>} />
+        <Route path='/listbareware' element={<AdminLayout><Barewearlist/></AdminLayout>} />
+        <Route path='/listbareware/:id' element={<AdminLayout><Barewearupdate/></AdminLayout>} />
+        
+        <Route path='/birdsform' element={<AdminLayout><Birdsform/></AdminLayout>} />
+        <Route path='/listbirds' element={<AdminLayout><Birdslist/></AdminLayout>} />
+        <Route path='/listbirds/:id' element={<AdminLayout><Birdsupdate/></AdminLayout>} />
+
+        <Route path='/catform' element={<AdminLayout><Catform/></AdminLayout>} />
+        <Route path='/listcat' element={<AdminLayout><Catlist/></AdminLayout>} />
+        <Route path='/listcat/:id' element={<AdminLayout><Catupdate/></AdminLayout>} />
+
+        <Route path='/babyform' element={<AdminLayout><Babyform/></AdminLayout>} />
+        <Route path='/listbaby' element={<AdminLayout><Babylist/></AdminLayout>} />
+        <Route path='/listbaby/:id' element={<AdminLayout><Babyupdate/></AdminLayout>} />
+        
+        <Route path='/kidsstform' element={<AdminLayout><Kidsstoform/></AdminLayout>} />
+        <Route path='/listkidssto' element={<AdminLayout><Kidsstolist/></AdminLayout>} />
+        <Route path='/listkidssto/:id' element={<AdminLayout><Kisstoupdate/></AdminLayout>} />
+
+        <Route path='/bbqform' element={<AdminLayout><Bbqform/></AdminLayout>} />
+        <Route path='/listbbq' element={<AdminLayout><Bbqlist/></AdminLayout>} />
+        <Route path='/listbbq/:id' element={<AdminLayout><Bbqupdate/></AdminLayout>} />
+
+        <Route path='/birdform' element={<AdminLayout><Birdcareform/></AdminLayout>} />
+        <Route path='/listbird' element={<AdminLayout><Birdlist/></AdminLayout>} />
+        <Route path='/listbird/:id' element={<AdminLayout><Birdupdate/></AdminLayout>} />
+
+        <Route path='/baloonform' element={<AdminLayout><Baloonform/></AdminLayout>} />
+        <Route path='/listbaloon' element={<AdminLayout><Baloonlist/></AdminLayout>} />
+        <Route path='/listbaloon/:id' element={<AdminLayout><Baloonupdate/></AdminLayout>} />
+
+        <Route path='/pumpsform' element={<AdminLayout><Pumpsform/></AdminLayout>} />
+        <Route path='/listpumps' element={<AdminLayout><Pumpslist/></AdminLayout>} />
+        <Route path='/listpumps/:id' element={<AdminLayout><Pumpsupdate/></AdminLayout>} />
+        
+        <Route path='/bannerform' element={<AdminLayout><Bannerform/></AdminLayout>} />
+        <Route path='/listbanner' element={<AdminLayout><Bannerlist/></AdminLayout>} />
+        <Route path='/listbanner/:id' element={<AdminLayout><Bannerupdate/></AdminLayout>} />
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
@@ -592,6 +692,18 @@ const App = () => {
         <Route path='/bleech' element={<MainLayout><Bleech/></MainLayout>}/>
         <Route path='/bleechsinglepage/:id' element={<MainLayout><Bleechsingl/></MainLayout>}/>
 
+        <Route path='/kidssto' element={<MainLayout><Kidssto/></MainLayout>}/>
+        <Route path='/kidsstosinglepage/:id' element={<MainLayout><Kidsstosingl/></MainLayout>}/>
+
+        <Route path='/bbq' element={<MainLayout><Bbq/></MainLayout>}/>
+        <Route path='/bbqsinglepage/:id' element={<MainLayout><Bbqsingle/></MainLayout>}/>
+
+        <Route path='/bird' element={<MainLayout><Bird/></MainLayout>}/>
+        <Route path='/birdinglepage/:id' element={<MainLayout><Birdsingle/></MainLayout>}/>
+
+        <Route path='/baloon' element={<MainLayout><Baloon/></MainLayout>}/>
+        <Route path='/baloonsinglepage/:id' element={<MainLayout><Baloonsingl/></MainLayout>}/>
+
         <Route path='/kitechenwear' element={<MainLayout><Kitechendde/></MainLayout>}/>
 
         <Route path='/cleaning' element={<MainLayout><Leaning/></MainLayout>}/>
@@ -628,6 +740,21 @@ const App = () => {
         <Route path='/car' element={<MainLayout><Car/></MainLayout>}/>
         <Route path='/carsinglepage/:id' element={<MainLayout><Carsingle/></MainLayout>}/>
 
+        <Route path='/bakeware' element={<MainLayout><Bakeware/></MainLayout>}/>
+        <Route path='/bakewaresinglepage/:id' element={<MainLayout><Bakewaresingle/></MainLayout>}/>
+
+        <Route path='/cat' element={<MainLayout><Cat/></MainLayout>}/>
+        <Route path='/catsinglepage/:id' element={<MainLayout><Catsingle/></MainLayout>}/>
+
+        <Route path='/bareware' element={<MainLayout><Barewear/></MainLayout>}/>
+        <Route path='/barewaresinglepage/:id' element={<MainLayout><Barewearsingl/></MainLayout>}/>
+
+        <Route path='/babyproducts' element={<MainLayout><Baby/></MainLayout>}/>
+        <Route path='/babysinglepage/:id' element={<MainLayout><Babysingle/></MainLayout>}/>
+
+        <Route path='/birds' element={<MainLayout><Birds/></MainLayout>}/>
+        <Route path='/birdssinglepage/:id' element={<MainLayout><Birdssingl/></MainLayout>}/>
+
         <Route path='/household Cleaners' element={<MainLayout><Houseclenermain/></MainLayout>}/>
 
         <Route path='/plastic Housewares' element={<MainLayout><Plastichousewearmain/></MainLayout>}/>
@@ -649,6 +776,12 @@ const App = () => {
         <Route path='/electricalde' element={<MainLayout><Electricaldemain/></MainLayout>}/>
 
         <Route path='/partyware' element={<MainLayout><Partywaremain/></MainLayout>}/>
+
+        <Route path='/pumps' element={<MainLayout><Pumps/></MainLayout>}/>
+        <Route path='/pumpssinglepage/:id' element={<MainLayout><Pumpssingl/></MainLayout>}/>
+
+        <Route path='/banner' element={<MainLayout><Banner/></MainLayout>}/>
+        <Route path='/bannersinglepage/:id' element={<MainLayout><Bannersingl/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

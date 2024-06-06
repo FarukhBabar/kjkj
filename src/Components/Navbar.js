@@ -254,32 +254,6 @@ useEffect(() => {
           <Link className="dropdown-item" to="/kidsproduct">
            View all
           </Link>
-
-          <p className="foodsnv ms-3 d-inline">Toys</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
-            Art & Craft
-          </Link>
-          <Link className="dropdown-item" to="/mirrormain">
-            Balls
-          </Link>
-          <Link className="dropdown-item" to="/mirrormain">
-            view all
-          </Link>
-        </div>
-        <div className="me-5 mb-3 mb-md-0">
-        <p className="foodsnv ms-3 d-inline">Laundry</p>
-          <Link className="dropdown-item" to="/airers">
-            Airers
-          </Link>
-          <Link className="dropdown-item" to="/iorining">
-            Ironing Boards
-          </Link>
-          <Link className="dropdown-item" to="/laacess">
-            Laundry Accessories
-          </Link>
-          <Link className="dropdown-item" to="/deparmentloundry">
-            view all
-          </Link>
           <p className="foodsnv ms-3 d-inline">Gardening</p>
           <Link className="dropdown-item" to="/bathroombeauty">
             Bbq
@@ -294,6 +268,22 @@ useEffect(() => {
            View all
           </Link>
 
+        </div>
+        <div className="me-5 mb-3 mb-md-0">
+        <p className="foodsnv ms-3 d-inline">Party Ware</p>
+          <Link className="dropdown-item" to="/bathroombeauty">
+            Balloon Weights
+          </Link>
+          <Link className="dropdown-item" to="/mirrormain">
+           Baloons Pumps
+          </Link>
+          <Link className="dropdown-item" to="/showermain">
+            Banners
+          </Link>
+          <Link className="dropdown-item" to="/partyware">
+            view all
+          </Link>
+          
           <p className="foodsnv ms-3 d-inline">Glassware</p>
           <Link className="dropdown-item" to="/bathroombeauty">
             Cakestands
@@ -337,19 +327,7 @@ useEffect(() => {
           </Link>
         </div>
         <div className="me-5 mb-3 mb-md-0">
-        <p className="foodsnv ms-3 d-inline">Party Ware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
-            Balloon Weights
-          </Link>
-          <Link className="dropdown-item" to="/mirrormain">
-           Baloons Pumps
-          </Link>
-          <Link className="dropdown-item" to="/showermain">
-            Banners
-          </Link>
-          <Link className="dropdown-item" to="/partyware">
-            view all
-          </Link>
+        
           <p className="foodsnv ms-3 d-inline">Plastic Houseware</p>
           <Link className="dropdown-item" to="/bathroombeauty">
             Food Containers
