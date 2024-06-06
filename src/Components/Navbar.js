@@ -220,10 +220,10 @@ useEffect(() => {
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Kitchenware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/bakeware">
             Bakeware
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/bareware">
            Bareware
           </Link>
           {/* <Link className="dropdown-item" to="/mirrormain">
@@ -234,10 +234,10 @@ useEffect(() => {
           </Link>
 
           <p className="foodsnv ms-3 d-inline">Pet Products</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/birds">
             Bird Products
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/cat">
             Cat Products
           </Link>
          
@@ -245,20 +245,20 @@ useEffect(() => {
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Kids Products</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
-            Babay Products
+          <Link className="dropdown-item" to="/babyproducts">
+            Baby Products
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/kidssto">
            Kids Storage
           </Link>
           <Link className="dropdown-item" to="/kidsproduct">
            View all
           </Link>
           <p className="foodsnv ms-3 d-inline">Gardening</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/bbq">
             Bbq
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/bird">
            Birdcare
           </Link>
           {/* <Link className="dropdown-item" to="/mirrormain">
@@ -271,13 +271,13 @@ useEffect(() => {
         </div>
         <div className="me-5 mb-3 mb-md-0">
         <p className="foodsnv ms-3 d-inline">Party Ware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/baloon">
             Balloon Weights
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/pumps">
            Baloons Pumps
           </Link>
-          <Link className="dropdown-item" to="/showermain">
+          <Link className="dropdown-item" to="/banner">
             Banners
           </Link>
           <Link className="dropdown-item" to="/partyware">
