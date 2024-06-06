@@ -324,6 +324,7 @@ import Bannerupdate from './Components/Pages/Adminside/deparmentbathrom/Partywar
 import Bannerform from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannerform';
 import Banner from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Banner';
 import Bannersingl from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannersingl';
+import ProtectedRoutes from './ProtectedRoutes'
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -346,7 +347,7 @@ const App = () => {
      <CartProvider>
       <Routes>
         {/* Admin Routes */}
-        
+        <Route element={<ProtectedRoutes/>}>
         <Route path='/adminpanal' element={<AdminLayout><Adminside /></AdminLayout>} />
         <Route path='/adminsunday' element={<AdminLayout><Form /></AdminLayout>} />
         <Route path='/list' element={<AdminLayout><Listofproducts/></AdminLayout>} />
@@ -556,6 +557,8 @@ const App = () => {
         <Route path='/bannerform' element={<AdminLayout><Bannerform/></AdminLayout>} />
         <Route path='/listbanner' element={<AdminLayout><Bannerlist/></AdminLayout>} />
         <Route path='/listbanner/:id' element={<AdminLayout><Bannerupdate/></AdminLayout>} />
+
+        </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
         <Route path='/deparments' element={<MainLayout><Department /></MainLayout>} />
