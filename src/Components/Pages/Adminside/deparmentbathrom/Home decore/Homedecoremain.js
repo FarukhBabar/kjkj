@@ -10,12 +10,12 @@ const Homedecoremain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Home & Decor.png" alt className="img" /></Link>   
+        <Link to="/st"><img src="./Images/Home & Decor.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/smoking"><img src="./Images/Home & Decor (1).png" alt className="img1" /></Link> 
+        <Link to="/candel"><img src="./Images/Home & Decor (1).png" alt className="img1" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

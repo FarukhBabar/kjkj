@@ -490,34 +490,7 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listbaby">Baby Products</Link></li>
                   <li><Link className="dropdown-item" to="/listkidssto">Kids Storage</Link></li>
                 
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                 
                 </ul>
               </li>
               <li className="nav-item dropend">
@@ -528,34 +501,7 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listbbq">BBQ</Link></li>
                   <li><Link className="dropdown-item" to="/listbird">Birds Care</Link></li>
                  
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                
                 </ul>
               </li>
               <li className="nav-item dropend">
@@ -570,64 +516,22 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Laundry
+                  Glassware
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listaiers">Airers</Link></li>
-                  <li><Link className="dropdown-item" to="/listioring">Ironing Boards</Link></li>
-                  <li><Link className="dropdown-item" to="/listlaacess">Loundry Acessories</Link></li>
-                  <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li>
+                  <li><Link className="dropdown-item" to="/listcrystal">Crystal</Link></li>
+                  <li><Link className="dropdown-item" to="/listcakes">Cakes Stands</Link></li>
+                  
                   
                 </ul>
               </li>
-              <li><Link className="dropdown-item" to="/listbatteries">Batteries</Link></li>
-              <li><Link className="dropdown-item" to="/listphone">Phone Accessories</Link></li>
-              <li><Link className="dropdown-item" to="/listobstical">OBSOLETE</Link></li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Textileaccessories
+                Hardware
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listaprons">Aprons</Link></li>
-                  <li><Link className="dropdown-item" to="/listbedding">Bedding</Link></li>
-                  <li><Link className="dropdown-item" to="/listclothing">Clothing</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
-                </ul>
-              </li>
-              <li className="nav-item dropend">
-                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Diy
-                </a>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listfreshner">Air Freshner</Link></li>
-                  <li><Link className="dropdown-item" to="/listakonobol">Akzonobol</Link></li>
+                  <li><Link className="dropdown-item" to="/listfurniture">Furniture</Link></li>
+                  <li><Link className="dropdown-item" to="/listmats">Mats & Rugs</Link></li>
                  
                   {/* <li>
                     <hr className="dropdown-divider" />
@@ -661,11 +565,22 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Electrical
+               Home & Decor
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listclock">Clock</Link></li>
-                  <li><Link className="dropdown-item" to="/listcamera">Camera</Link></li>
+                  <li><Link className="dropdown-item" to="/listcandel">Candels</Link></li>
+                  <li><Link className="dropdown-item" to="/listst">ST George</Link></li>
+                 
+                
+                </ul>
+              </li>
+              <li className="nav-item dropend">
+                <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plastic Houseware
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" to="/listfoodcon">Food Container</Link></li>
+                  <li><Link className="dropdown-item" to="/listkidsplas">KidsPlastic</Link></li>
                   <li><Link className="dropdown-item" to="/listdigital">Camera</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />

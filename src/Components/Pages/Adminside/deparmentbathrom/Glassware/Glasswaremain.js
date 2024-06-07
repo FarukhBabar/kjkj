@@ -10,7 +10,7 @@ const Glasswaremain = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="./Images/Glassware/Glassware.png" alt className="img" /></Link>   
+        <Link to="/cakes"><img src="./Images/Glassware/Glassware.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -20,7 +20,7 @@ const Glasswaremain = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/poundline"> <img src="./Images/Glassware/Glassware-2.png" alt className="img2" /></Link>
+        <Link to="/crystal"> <img src="./Images/Glassware/Glassware-2.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

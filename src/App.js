@@ -325,6 +325,46 @@ import Bannerform from './Components/Pages/Adminside/deparmentbathrom/Partyware/
 import Banner from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Banner';
 import Bannersingl from './Components/Pages/Adminside/deparmentbathrom/Partyware/Banner/Bannersingl';
 import ProtectedRoutes from './ProtectedRoutes'
+import Crystalform from './Components/Pages/Adminside/deparmentbathrom/Glassware/Crystal/Crystalform';
+import Crystallist from './Components/Pages/Adminside/deparmentbathrom/Glassware/Crystal/Crystallist';
+import Crystalupdate from './Components/Pages/Adminside/deparmentbathrom/Glassware/Crystal/Crystalupdate';
+import Crystal from './Components/Pages/Adminside/deparmentbathrom/Glassware/Crystal/Crystal';
+import Crystalsingl from './Components/Pages/Adminside/deparmentbathrom/Glassware/Crystal/Crystalsingl';
+import Cakesform from './Components/Pages/Adminside/deparmentbathrom/Glassware/Cakesstand/Cakesform';
+import Cakeslist from './Components/Pages/Adminside/deparmentbathrom/Glassware/Cakesstand/Cakeslist';
+import Cakesupdate from './Components/Pages/Adminside/deparmentbathrom/Glassware/Cakesstand/Cakesupdate';
+import Cakes from './Components/Pages/Adminside/deparmentbathrom/Glassware/Cakesstand/Cakes';
+import Cakessingl from './Components/Pages/Adminside/deparmentbathrom/Glassware/Cakesstand/Cakessing';
+import Furniture from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Furniture/Furniture';
+import Furnitureform from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Furniture/Furnitureform';
+import Furniturelist from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Furniture/Furniturelist';
+import Furnitureupdate from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Furniture/Furnitureupdate';
+import Furnituresingl from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Furniture/Furnituresingl';
+import Mats from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Mats & Rugs/Mats';
+import Matssingl from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Mats & Rugs/Matssingl';
+import Matsform from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Mats & Rugs/Matsform';
+import Matslist from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Mats & Rugs/Matslist';
+import Matsupdate from './Components/Pages/Adminside/deparmentbathrom/Hadweare/Mats & Rugs/Matsupdate';
+import Candelform from './Components/Pages/Adminside/deparmentbathrom/Home decore/Candels/Candelform';
+import Candellist from './Components/Pages/Adminside/deparmentbathrom/Home decore/Candels/Candellist';
+import Candelupdate from './Components/Pages/Adminside/deparmentbathrom/Home decore/Candels/Candelupdate';
+import Candel from './Components/Pages/Adminside/deparmentbathrom/Home decore/Candels/Candel';
+import Candelsingl from './Components/Pages/Adminside/deparmentbathrom/Home decore/Candels/Candelsingl';
+import St from './Components/Pages/Adminside/deparmentbathrom/Home decore/St George/St';
+import Stsingal from './Components/Pages/Adminside/deparmentbathrom/Home decore/St George/Stsingal';
+import STform from './Components/Pages/Adminside/deparmentbathrom/Home decore/St George/STform';
+import STlist from './Components/Pages/Adminside/deparmentbathrom/Home decore/St George/STList';
+import Stupdate from './Components/Pages/Adminside/deparmentbathrom/Home decore/St George/Stupdate';
+import Foodconform from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/FoodContainer/Foodconform';
+import Foodconlist from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/FoodContainer/Foodconlist';
+import Foodconupdate from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/FoodContainer/Foodconupdate';
+import Foodcon from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/FoodContainer/Foodcon';
+import Foodconsingl from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/FoodContainer/Foodconsingl';
+import Kidsplas from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplas';
+import Kidsplassingl from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplassingl';
+import Kidsplasform from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplasform';
+import Kidsplaslist from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplaslist';
+import Kidsplasupdate from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplasupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -558,6 +598,37 @@ const App = () => {
         <Route path='/listbanner' element={<AdminLayout><Bannerlist/></AdminLayout>} />
         <Route path='/listbanner/:id' element={<AdminLayout><Bannerupdate/></AdminLayout>} />
 
+        <Route path='/crystalform' element={<AdminLayout><Crystalform/></AdminLayout>} />
+        <Route path='/listcrystal' element={<AdminLayout><Crystallist/></AdminLayout>} />
+        <Route path='/listcrystal/:id' element={<AdminLayout><Crystalupdate/></AdminLayout>} />
+
+        <Route path='/cakesform' element={<AdminLayout><Cakesform/></AdminLayout>} />
+        <Route path='/listcakes' element={<AdminLayout><Cakeslist/></AdminLayout>} />
+        <Route path='/listcakes/:id' element={<AdminLayout><Cakesupdate/></AdminLayout>} />
+
+        <Route path='/furnitureform' element={<AdminLayout><Furnitureform/></AdminLayout>} />
+        <Route path='/listfurniture' element={<AdminLayout><Furniturelist/></AdminLayout>} />
+        <Route path='/listfurniture/:id' element={<AdminLayout><Furnitureupdate/></AdminLayout>} />
+
+        <Route path='/matsform' element={<AdminLayout><Matsform/></AdminLayout>} />
+        <Route path='/listmats' element={<AdminLayout><Matslist/></AdminLayout>} />
+        <Route path='/listmats/:id' element={<AdminLayout><Matsupdate/></AdminLayout>} />
+        
+        <Route path='/candelform' element={<AdminLayout><Candelform/></AdminLayout>} />
+        <Route path='/listcandel' element={<AdminLayout><Candellist/></AdminLayout>} />
+        <Route path='/listcandel/:id' element={<AdminLayout><Candelupdate/></AdminLayout>} />
+        
+        <Route path='/stform' element={<AdminLayout><STform/></AdminLayout>} />
+        <Route path='/listst' element={<AdminLayout><STlist/></AdminLayout>} />
+        <Route path='/listst/:id' element={<AdminLayout><Stupdate/></AdminLayout>} />
+
+        <Route path='/foodconform' element={<AdminLayout><Foodconform/></AdminLayout>} />
+        <Route path='/listfoodcon' element={<AdminLayout><Foodconlist/></AdminLayout>} />
+        <Route path='/listfoodcon/:id' element={<AdminLayout><Foodconupdate/></AdminLayout>} />
+        
+        <Route path='/kidsplasform' element={<AdminLayout><Kidsplasform/></AdminLayout>} />
+        <Route path='/listkidsplas' element={<AdminLayout><Kidsplaslist/></AdminLayout>} />
+        <Route path='/listkidsplas/:id' element={<AdminLayout><Kidsplasupdate/></AdminLayout>} />
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -785,6 +856,30 @@ const App = () => {
 
         <Route path='/banner' element={<MainLayout><Banner/></MainLayout>}/>
         <Route path='/bannersinglepage/:id' element={<MainLayout><Bannersingl/></MainLayout>}/>
+
+        <Route path='/crystal' element={<MainLayout><Crystal/></MainLayout>}/>
+        <Route path='/crystalsinglepage/:id' element={<MainLayout><Crystalsingl/></MainLayout>}/>
+
+        <Route path='/cakes' element={<MainLayout><Cakes/></MainLayout>}/>
+        <Route path='/cakessinglepage/:id' element={<MainLayout><Cakessingl/></MainLayout>}/>
+
+        <Route path='/furniture' element={<MainLayout><Furniture/></MainLayout>}/>
+        <Route path='/furnituresinglepage/:id' element={<MainLayout><Furnituresingl/></MainLayout>}/>
+
+        <Route path='/mats' element={<MainLayout><Mats/></MainLayout>}/>
+        <Route path='/matssinglepage/:id' element={<MainLayout><Matssingl/></MainLayout>}/>
+
+        <Route path='/candel' element={<MainLayout><Candel/></MainLayout>}/>
+        <Route path='/candelsinglepage/:id' element={<MainLayout><Candelsingl/></MainLayout>}/>
+
+        <Route path='/st' element={<MainLayout><St/></MainLayout>}/>
+        <Route path='/stsinglepage/:id' element={<MainLayout><Stsingal/></MainLayout>}/>
+
+        <Route path='/foodcon' element={<MainLayout><Foodcon/></MainLayout>}/>
+        <Route path='/foodconsinglepage/:id' element={<MainLayout><Foodconsingl/></MainLayout>}/>
+
+        <Route path='/kidsplas' element={<MainLayout><Kidsplas/></MainLayout>}/>
+        <Route path='/kidsplassinglepage/:id' element={<MainLayout><Kidsplassingl/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
