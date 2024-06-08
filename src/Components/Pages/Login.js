@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState , useEffect } from 'react'
-import {  useNavigate, } from 'react-router-dom'
+import {  Link, useNavigate, } from 'react-router-dom'
 import Footer from '../Footer'
 
 const Login = () => {
@@ -21,7 +21,7 @@ const Login = () => {
   const registeruser = async (e) => {
     e.preventDefault();
     try {
-      let result = await fetch('http://localhost:8001/api/v1/auth/login', {
+      let result = await fetch('http://localhost:8001/login', {
         method: "POST",
         body: JSON.stringify({ email, password }),
         headers: {
@@ -76,14 +76,14 @@ const Login = () => {
         </div>
         <button type="submit" onClick={registeruser}  className="btn btn-primary forw loginbuton">Login To Your Account</button>
         <div className="mt-2 forgotpas ">
-          <a href>Forgot Password?</a></div>
+          <Link to="/forget">Forgot Password?</Link></div>
       </form>
     </div>
     <div className="col-lg-5 col-md-4 col-sm-12 creataccou ">
       <center><u> <p className="creatacc  ">CREATE AN ACCOUNT</p></u></center>
       <p className="ms-5 mt-4"> &nbsp;PLEASE CLICK ON THE REGISTER BUTTON <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BELOW TO CREATE AN ACCOUNT</p>
       <p className="below " />
-      <center><button type="submit" className="btn btn-primary mt-3 registerbuton">REGISTER</button></center>   
+      <center><Link to="/Register"><button type="submit" className="btn btn-primary mt-3 registerbuton">REGISTER</button></Link></center>   
     </div>
   </div>
 </div>

@@ -365,6 +365,18 @@ import Kidsplassingl from './Components/Pages/Adminside/deparmentbathrom/Plastic
 import Kidsplasform from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplasform';
 import Kidsplaslist from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplaslist';
 import Kidsplasupdate from './Components/Pages/Adminside/deparmentbathrom/Plasticshousewear/Kids Plastic Products/Kidsplasupdate';
+import Forgetpassword from './Components/Forgetpassword';
+import VerifyOtp from './Components/VerifyOtp';
+import Coolerform from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Coolerbags/Coolerform';
+import Coolerlist from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Coolerbags/Coolerlist';
+import Coolerupdate from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Coolerbags/Coolerupdate';
+import Coolerbags from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Coolerbags/Coolerbags';
+import Coolersingl from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Coolerbags/Coolersingl';
+import Flaskform from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flaskform';
+import Flasklist from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flasklist';
+import Flaskupdate from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flaskupdate';
+import Flas from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flas';
+import Flasksingl from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flasksingl';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -629,6 +641,14 @@ const App = () => {
         <Route path='/kidsplasform' element={<AdminLayout><Kidsplasform/></AdminLayout>} />
         <Route path='/listkidsplas' element={<AdminLayout><Kidsplaslist/></AdminLayout>} />
         <Route path='/listkidsplas/:id' element={<AdminLayout><Kidsplasupdate/></AdminLayout>} />
+
+        <Route path='/coolerform' element={<AdminLayout><Coolerform/></AdminLayout>} />
+        <Route path='/listcooler' element={<AdminLayout><Coolerlist/></AdminLayout>} />
+        <Route path='/listcooler/:id' element={<AdminLayout><Coolerupdate/></AdminLayout>} />
+
+        <Route path='/flaskform' element={<AdminLayout><Flaskform/></AdminLayout>} />
+        <Route path='/listflask' element={<AdminLayout><Flasklist/></AdminLayout>} />
+        <Route path='/listflask/:id' element={<AdminLayout><Flaskupdate/></AdminLayout>} />
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -880,6 +900,14 @@ const App = () => {
 
         <Route path='/kidsplas' element={<MainLayout><Kidsplas/></MainLayout>}/>
         <Route path='/kidsplassinglepage/:id' element={<MainLayout><Kidsplassingl/></MainLayout>}/>
+        <Route path='/forget' element={<Forgetpassword/>}  />
+        <Route path='/verifyotp' element={<VerifyOtp/>}/>
+        
+        <Route path='/cooler' element={<MainLayout><Coolerbags/></MainLayout>}/>
+        <Route path='/coolersinglepage/:id' element={<MainLayout><Coolersingl/></MainLayout>}/>
+        
+        <Route path='/flask' element={<MainLayout><Flas/></MainLayout>}/>
+        <Route path='/flasksinglepage/:id' element={<MainLayout><Flasksingl/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

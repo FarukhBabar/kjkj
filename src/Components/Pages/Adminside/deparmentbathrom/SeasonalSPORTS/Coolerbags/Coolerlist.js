@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const Kidsplaslist = () => {
+const Coolerlist = () => {
     const [user, setUsers] = useState([]);
     
 
     const setUsersData = async() =>{
-        let result = await fetch("http://localhost:8001/api/v1/data/kidsplasuser")
+        let result = await fetch("http://localhost:8001/api/v1/data/sportuser")
         result = await result.json()       
         setUsers(result)        
         console.log(result)
@@ -20,7 +20,7 @@ const Kidsplaslist = () => {
       const deleteuser = async(id)=>{
           // console.log(id)
           try {
-              let result= await fetch(`http://localhost:8001/api/v1/data/kidsplasuserid/${id}`,{
+              let result= await fetch(`http://localhost:8001/api/v1/data/sportuserid/${id}`,{
             method:"delete"
          
           })
@@ -41,8 +41,8 @@ const Kidsplaslist = () => {
     <div>
         
     <div className='container w-75'>
-           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Kids Plastic Products</h4>
-           <Link to="/kidsplasform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
+           <h4 className='my-4 text-center text-warning display-4 fw-bold'>List of Cooler Bags Products</h4>
+           <Link to="/coolerform" ><button className='btn btn-success mb-2 w-10'>+ Add New Product </button></Link>  
            <table class="table table-striped table-hover">
                  <thead>
                      <tr className='btn-dark text-light text-center'>
@@ -73,7 +73,7 @@ const Kidsplaslist = () => {
                                           />
                                )}</td>
                                          <td>
-                                             <Link to={`/listkidsplas/${ele._id}`} className='btn btn-success'>Edit</Link>
+                                             <Link to={`/listcooler/${ele._id}`} className='btn btn-success'>Edit</Link>
                                              <a onClick={()=>deleteuser(ele._id)} className='btn btn-danger ms-2'>Delete</a>
                                          </td>
                                      </tr>
@@ -93,4 +93,4 @@ const Kidsplaslist = () => {
   )
 }
 
-export default Kidsplaslist; 
+export default Coolerlist; 

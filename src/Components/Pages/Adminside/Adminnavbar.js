@@ -1,8 +1,15 @@
 import React from 'react'
 import "./admin.css"
 import { Link } from 'react-router-dom'
-
+import { useNavigate } from "react-router-dom";
 const Adminnavbar = () => {
+  const userlogin = localStorage.getItem("user");
+  const navigate = useNavigate();
+  const Logout=()=>{
+    localStorage.clear("user")
+    alert("Logout Sucessfully")
+    navigate("/log")
+  }
   return (
     <div>
         <div>
@@ -581,7 +588,7 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listfoodcon">Food Container</Link></li>
                   <li><Link className="dropdown-item" to="/listkidsplas">KidsPlastic</Link></li>
-                  <li><Link className="dropdown-item" to="/listdigital">Camera</Link></li>
+                  {/* <li><Link className="dropdown-item" to="/listdigital">Camera</Link></li> */}
                   {/* <li>
                     <hr className="dropdown-divider" />
                   </li>
@@ -614,11 +621,11 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  China
+                  Seasonalsportsmain
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listcookware">Cookware</Link></li>
-                  <li><Link className="dropdown-item" to="/listcrockery">Crockery</Link></li>
+                  <li><Link className="dropdown-item" to="/listcooler">Cooler</Link></li>
+                  <li><Link className="dropdown-item" to="/listflask">Flask</Link></li>
                   <li><Link className="dropdown-item" to="/listdinner">Dinner</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />
@@ -771,7 +778,19 @@ const Adminnavbar = () => {
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/listcontact" >Contact Users</Link>
+
           </li>
+          <li className='mt-2 ms-2'>
+          {userlogin?(
+
+<Link to=""  onClick={Logout} className=" snavl   text-decoration-none text-white"><i className="bi bi-person" />LOGOUT</Link>
+
+):(
+
+<Link to="/log" className=" snavl mt-3  text-decoration-none text-white"><i className="bi bi-person" />LOGIN</Link>
+)
+}
+</li>
         </ul>
       </div>
     </div>
