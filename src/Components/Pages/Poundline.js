@@ -30,29 +30,29 @@ const Poundline = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Diy"><img src="../Images/Item → Link (5).png" alt className="img3" /></Link>   
+          <Link to="/diytools"><img src="../Images/Item → Link (5).png" alt className="img3" /></Link>   
         </div>
       </div>
     </div>
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Disposables Party Bin Liners"><img src="../Images/Item → Link (4).png" alt className="img" /></Link>
+          <Link to="/disposiblepo"><img src="../Images/Item → Link (4).png" alt className="img" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Craft"> <img src="../Images/Item → Link (3).png" alt className="img1" /></Link>
+          <Link to="/craftpo"> <img src="../Images/Item → Link (3).png" alt className="img1" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Carproduct"><img src="../Images/Item → Link (2).png" alt className="img2" /></Link>
+          <Link to="/Carpo"><img src="../Images/Item → Link (2).png" alt className="img2" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Candles Air Freshner"><img src="../Images/Item → Link (1).png" alt className="img3" /></Link>
+          <Link to="/candeles"><img src="../Images/Item → Link (1).png" alt className="img3" /></Link>
         </div>
       </div>
     </div>

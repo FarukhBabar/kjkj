@@ -95,6 +95,11 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listbathrom">Bathroom / Cosmetics / Beauty</Link></li>
                   <li><Link className="dropdown-item" to="/listfirstaid">First Aid/Pharmacy/Personal</Link></li>
                   <li><Link className="dropdown-item" to="/listelectricde">Electrical</Link></li>
+                  <li><Link className="dropdown-item" to="/listdiytools">Diy/Tools</Link></li>
+                  <li><Link className="dropdown-item" to="/listdisposiblepo">Disposible</Link></li>
+                  <li><Link className="dropdown-item" to="/listcraftpo">Craft</Link></li>
+                  <li><Link className="dropdown-item" to="/listcarpo">Carproduct</Link></li>
+                  <li><Link className="dropdown-item" to="/listcandels">Candeles Products</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />
                   </li>
@@ -659,11 +664,11 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pestcontrol
+                  Stationary
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listrentokil">Rentokils</Link></li>
-                  <li><Link className="dropdown-item" to="/liststv">STV International</Link></li>
+                  <li><Link className="dropdown-item" to="/listart&craft">Art & Craft</Link></li>
+                  <li><Link className="dropdown-item" to="/listbooks">Books</Link></li>
                   
                   {/* <li>
                     <hr className="dropdown-divider" />
@@ -697,11 +702,11 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Toiletries
+                Cleaning Matterial
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listcotton">Cotton</Link></li>
-                  <li><Link className="dropdown-item" to="/listbabay">Babycare</Link></li>
+                  <li><Link className="dropdown-item" to="/listbrushware">Brushware</Link></li>
+                  <li><Link className="dropdown-item" to="/listduster">Cloth & Duster</Link></li>
                   
                   {/* <li>
                     <hr className="dropdown-divider" />
@@ -735,11 +740,11 @@ const Adminnavbar = () => {
               </li>
               <li className="nav-item dropend">
                 <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                HOusehold Cleaners
+                Artifical Flowers
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/listfreshn">Airfreshner</Link></li>
-                  <li><Link className="dropdown-item" to="/listbabay">Babycare</Link></li>
+                  <li><Link className="dropdown-item" to="/listartifical">Artifical Trees</Link></li>
+                  <li><Link className="dropdown-item" to="/listbouquet">Bouquets</Link></li>
                   
                   {/* <li>
                     <hr className="dropdown-divider" />

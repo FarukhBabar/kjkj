@@ -10,7 +10,6 @@ import Poundline from './Components/Pages/Poundline';
 import Electric from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electric';
 import Diytools from './Components/Pages/Diytools';
 import Partybin from './Components/Pages/Partybin';
-import Craft from './Components/Pages/Craft';
 import Carproduct from './Components/Pages/Carproduct';
 import Candels from './Components/Pages/Candels';
 import Shopbybrand from './Components/Pages/Shopbybrand';
@@ -306,7 +305,6 @@ import Bbqsingle from './Components/Pages/Adminside/deparmentbathrom/Gardening/B
 import Birdcareform from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdcareform';
 import Birdlist from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdlist';
 import Birdupdate from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdupdate';
-import Birdcard from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdcard';
 import Birdsingle from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Birdsingle';
 import Bird from './Components/Pages/Adminside/deparmentbathrom/Gardening/Birdcare/Bird';
 import Baloon from './Components/Pages/Adminside/deparmentbathrom/Partyware/Baloons/Baloon';
@@ -377,6 +375,61 @@ import Flasklist from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPO
 import Flaskupdate from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flaskupdate';
 import Flas from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flas';
 import Flasksingl from './Components/Pages/Adminside/deparmentbathrom/SeasonalSPORTS/Flask/Flasksingl';
+import Art from './Components/Pages/Adminside/deparmentbathrom/Statinoery/ART & Craft/Art';
+import Artsingle from './Components/Pages/Adminside/deparmentbathrom/Statinoery/ART & Craft/Artsingle';
+import Artform from './Components/Pages/Adminside/deparmentbathrom/Statinoery/ART & Craft/Artform';
+import Artlist from './Components/Pages/Adminside/deparmentbathrom/Statinoery/ART & Craft/Artlist';
+import Artupdate from './Components/Pages/Adminside/deparmentbathrom/Statinoery/ART & Craft/Artupdate';
+import Books from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Books/Books';
+import Bookssingle from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Books/Bookssingl';
+import Booksform from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Books/Booksform';
+import Bookslist from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Books/Bookslist';
+import Booksupdate from './Components/Pages/Adminside/deparmentbathrom/Statinoery/Books/Booksupdate';
+import Brushwareform from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Brushare/Brushwareform';
+import Brushwarelist from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Brushare/Brushwarelist';
+import Brushwareupload from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Brushare/Brushwareupdate';
+import Brushware from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Brushare/Brushware';
+import Brushwaresingel from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Brushare/Brushwaresingl';
+import Duster from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Clothandduster/Duster';
+import Dustersingl from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Clothandduster/Dustersingl';
+import Dusterform from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Clothandduster/Dusterform';
+import Dusterlist from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Clothandduster/Dusterlist';
+import Dusterupdate from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Clothandduster/Dusterupdate';
+import Artifical from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalflowers/Artifical';
+import Artificallist from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalflowers/Artificallist';
+import Artificalupdate from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalflowers/Artificalupdate';
+import Artificalsingel from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalflowers/Artificalsingl';
+import Artificalform from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Artificalflowers/Artificalform';
+import Bouquetform from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Bouquet/Bouquetform';
+import Bouquetlist from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Bouquet/Bouquetlist';
+import Bouquetupdate from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Bouquet/Bouquetupdate';
+import Bouquet from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Bouquet/Bouquet';
+import Bouquetsingl from './Components/Pages/Adminside/deparmentbathrom/Artificalflowers/Bouquet/Bouquetsingl';
+import Diytoolspo from './Components/Pages/Adminside/Poudliene/Diytools/Diytoolspo';
+import Diytoolssingl from './Components/Pages/Adminside/Poudliene/Diytools/Diytoolssingl';
+import Diytoolsform from './Components/Pages/Adminside/Poudliene/Diytools/Diytoolsform';
+import Diytoolslist from './Components/Pages/Adminside/Poudliene/Diytools/Diytoolslist';
+import Diytoolsupdate from './Components/Pages/Adminside/Poudliene/Diytools/Diytoolsupdate';
+import Disposible from './Components/Pages/Adminside/Poudliene/Disposible/Disposible';
+import Disposbilesingle from './Components/Pages/Adminside/Poudliene/Disposible/Disposbilesingle';
+import Disposibleformpo from './Components/Pages/Adminside/Poudliene/Disposible/Disposibleformpo';
+import Disposiblelistpo from './Components/Pages/Adminside/Poudliene/Disposible/Disposiblelistpo';
+import Disposibleupdatepo from './Components/Pages/Adminside/Poudliene/Disposible/Disposibleupdatepo';
+import Craftform from './Components/Pages/Adminside/Poudliene/Craft/Craftform';
+import Craftlist from './Components/Pages/Adminside/Poudliene/Craft/Craftlist';
+import Craftupdate from './Components/Pages/Adminside/Poudliene/Craft/Craftupdate';
+import Craftsingl from './Components/Pages/Adminside/Poudliene/Craft/Craftsingl';
+import Craftpo from './Components/Pages/Adminside/Poudliene/Craft/Craftpo';
+import Carpo from './Components/Pages/Adminside/Poudliene/Carproducts/Carpo';
+import Carposingl from './Components/Pages/Adminside/Poudliene/Carproducts/Carposingl';
+import Carpoform from './Components/Pages/Adminside/Poudliene/Carproducts/Carpoform';
+import Carpolist from './Components/Pages/Adminside/Poudliene/Carproducts/Carpolist';
+import Carpoupdate from './Components/Pages/Adminside/Poudliene/Carproducts/Carpoupdate';
+import Candelesform from './Components/Pages/Adminside/Poudliene/Candeles/Candelesform';
+import Candeleslist from './Components/Pages/Adminside/Poudliene/Candeles/Candeleslist';
+import Candelesupdate from './Components/Pages/Adminside/Poudliene/Candeles/Candelesupdate';
+import Candeles from './Components/Pages/Adminside/Poudliene/Candeles/Candeles';
+import Candelessingl from './Components/Pages/Adminside/Poudliene/Candeles/Candelessingl';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -649,6 +702,50 @@ const App = () => {
         <Route path='/flaskform' element={<AdminLayout><Flaskform/></AdminLayout>} />
         <Route path='/listflask' element={<AdminLayout><Flasklist/></AdminLayout>} />
         <Route path='/listflask/:id' element={<AdminLayout><Flaskupdate/></AdminLayout>} />
+        
+        <Route path='/art&craftform' element={<AdminLayout><Artform/></AdminLayout>} />
+        <Route path='/listart&craft' element={<AdminLayout><Artlist/></AdminLayout>} />
+        <Route path='/listart&craft/:id' element={<AdminLayout><Artupdate/></AdminLayout>} />
+        
+        <Route path='/booksform' element={<AdminLayout><Booksform/></AdminLayout>} />
+        <Route path='/listbooks' element={<AdminLayout><Bookslist/></AdminLayout>} />
+        <Route path='/listbooks/:id' element={<AdminLayout><Booksupdate/></AdminLayout>} />
+        
+        <Route path='/brushwareform' element={<AdminLayout><Brushwareform/></AdminLayout>} />
+        <Route path='/listbrushware' element={<AdminLayout><Brushwarelist/></AdminLayout>} />
+        <Route path='/listbrushware/:id' element={<AdminLayout><Brushwareupload/></AdminLayout>} />
+
+        <Route path='/dusterform' element={<AdminLayout><Dusterform/></AdminLayout>} />
+        <Route path='/listduster' element={<AdminLayout><Dusterlist/></AdminLayout>} />
+        <Route path='/listduster/:id' element={<AdminLayout><Dusterupdate/></AdminLayout>} />
+        
+        <Route path='/artificalform' element={<AdminLayout><Artificalform/></AdminLayout>} />
+        <Route path='/listartifical' element={<AdminLayout><Artificallist/></AdminLayout>} />
+        <Route path='/listartifical/:id' element={<AdminLayout><Artificalupdate/></AdminLayout>} />
+        
+        <Route path='/bouquetform' element={<AdminLayout><Bouquetform/></AdminLayout>} />
+        <Route path='/listbouquet' element={<AdminLayout><Bouquetlist/></AdminLayout>} />
+        <Route path='/listbouquet/:id' element={<AdminLayout><Bouquetupdate/></AdminLayout>} />
+
+        <Route path='/diytoolsform' element={<AdminLayout><Diytoolsform/></AdminLayout>} />
+        <Route path='/listdiytools' element={<AdminLayout><Diytoolslist/></AdminLayout>} />
+        <Route path='/listdiytools/:id' element={<AdminLayout><Diytoolsupdate/></AdminLayout>} />
+        
+        <Route path='/disposiblepoform' element={<AdminLayout><Disposibleformpo/></AdminLayout>} />
+        <Route path='/listdisposiblepo' element={<AdminLayout><Disposiblelistpo/></AdminLayout>} />
+        <Route path='/listdisposiblepo/:id' element={<AdminLayout><Disposibleupdatepo/></AdminLayout>} />
+        
+        <Route path='/craftpoform' element={<AdminLayout><Craftform/></AdminLayout>} />
+        <Route path='/listcraftpo' element={<AdminLayout><Craftlist/></AdminLayout>} />
+        <Route path='/listcraftpo/:id' element={<AdminLayout><Craftupdate/></AdminLayout>} />
+         
+        <Route path='/carpoform' element={<AdminLayout><Carpoform/></AdminLayout>} />
+        <Route path='/listcarpo' element={<AdminLayout><Carpolist/></AdminLayout>} />
+        <Route path='/listcarpo/:id' element={<AdminLayout><Carpoupdate/></AdminLayout>} />
+        
+        <Route path='/candelsform' element={<AdminLayout><Candelesform/></AdminLayout>} />
+        <Route path='/listcandels' element={<AdminLayout><Candeleslist/></AdminLayout>} />
+        <Route path='/listcandels/:id' element={<AdminLayout><Candelesupdate/></AdminLayout>} />
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -667,7 +764,6 @@ const App = () => {
         
         <Route path='/Diy' element={<MainLayout><Diytools /></MainLayout>} />
         <Route path='/Disposables Party Bin Liners' element={<MainLayout><Partybin /></MainLayout>} />
-        <Route path='/Craft' element={<MainLayout><Craft /></MainLayout>} />
         <Route path='/Carproduct' element={<MainLayout><Carproduct /></MainLayout>} />
         <Route path='/Candles Air Freshner' element={<MainLayout><Candels /></MainLayout>} />
         <Route path='/Food' element={<MainLayout><Foodsproduct /></MainLayout>} />
@@ -908,6 +1004,39 @@ const App = () => {
         
         <Route path='/flask' element={<MainLayout><Flas/></MainLayout>}/>
         <Route path='/flasksinglepage/:id' element={<MainLayout><Flasksingl/></MainLayout>}/>
+
+        <Route path='/art&craft' element={<MainLayout><Art/></MainLayout>}/>
+        <Route path='/art&craftsinglepage/:id' element={<MainLayout><Artsingle/></MainLayout>}/>
+
+        <Route path='/books' element={<MainLayout><Books/></MainLayout>}/>
+        <Route path='/bookssinglepage/:id' element={<MainLayout><Bookssingle/></MainLayout>}/>
+
+        <Route path='/brushware' element={<MainLayout><Brushware/></MainLayout>}/>
+        <Route path='/brushwaresinglepage/:id' element={<MainLayout><Brushwaresingel/></MainLayout>}/>
+
+        <Route path='/duster' element={<MainLayout><Duster/></MainLayout>}/>
+        <Route path='/dustersinglepage/:id' element={<MainLayout><Dustersingl/></MainLayout>}/>
+
+        <Route path='/artifical' element={<MainLayout><Artifical/></MainLayout>}/>
+        <Route path='/artificalsinglepage/:id' element={<MainLayout><Artificalsingel/></MainLayout>}/>
+        
+        <Route path='/bouquet' element={<MainLayout><Bouquet/></MainLayout>}/>
+        <Route path='/bouquetsinglepage/:id' element={<MainLayout><Bouquetsingl/></MainLayout>}/>
+
+        <Route path='/diytools' element={<MainLayout><Diytoolspo/></MainLayout>}/>
+        <Route path='/diytoolssinglepage/:id' element={<MainLayout><Diytoolssingl/></MainLayout>}/>
+
+        <Route path='/disposiblepo' element={<MainLayout><Disposible/></MainLayout>}/>
+        <Route path='/disposibleposinglepage/:id' element={<MainLayout><Disposbilesingle/></MainLayout>}/>
+
+        <Route path='/craftpo' element={<MainLayout><Craftpo/></MainLayout>}/>
+        <Route path='/craftposinglepage/:id' element={<MainLayout><Craftsingl/></MainLayout>}/>
+        
+        <Route path='/carpo' element={<MainLayout><Carpo/></MainLayout>}/>
+        <Route path='/carposinglepage/:id' element={<MainLayout><Carposingl/></MainLayout>}/>
+        
+        <Route path='/candeles' element={<MainLayout><Candeles/></MainLayout>}/>
+        <Route path='/candelssinglepage/:id' element={<MainLayout><Candelessingl/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

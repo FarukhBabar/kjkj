@@ -285,10 +285,10 @@ useEffect(() => {
           </Link>
           
           <p className="foodsnv ms-3 d-inline">Glassware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/cakes">
             Cakestands
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/crystal">
             Crystal
           </Link>
          
@@ -296,20 +296,20 @@ useEffect(() => {
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Hardware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/furniture">
             Furniture
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/mats">
            Mats & Rugs
           </Link>
           <Link className="dropdown-item" to="/hardware">
            View all
           </Link>
           <p className="foodsnv ms-3 d-inline">Home & Decore</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/st">
             St George
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/candel">
             Candels
           </Link>
           <Link className="dropdown-item" to="/homedecore">
@@ -329,10 +329,10 @@ useEffect(() => {
         <div className="me-5 mb-3 mb-md-0">
         
           <p className="foodsnv ms-3 d-inline">Plastic Houseware</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/foodcon">
             Food Containers
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/kidsplas">
            Kids Plastic Products
           </Link>
           {/* <Link className="dropdown-item" to="/mirrormain">
@@ -343,10 +343,10 @@ useEffect(() => {
           </Link>
 
           <p className="foodsnv ms-3 d-inline">Seasonal Sports</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/cooler">
             Cooler Bags
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/flask">
             Flasks
           </Link>
          
@@ -354,30 +354,30 @@ useEffect(() => {
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Stationery</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/art&craft">
             Art & Craft
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/books">
            Books
           </Link>
           <Link className="dropdown-item" to="/stationery">
            View all
           </Link>
           <p className="foodsnv ms-3 d-inline">Cleaning Matterials</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/brushware">
             Brushware
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/duster">
             Cloths And Dusters
           </Link>
           <Link className="dropdown-item" to="/cleaning">
             view all
           </Link>
           <p className="foodsnv ms-3 d-inline">Artifical Flower</p>
-          <Link className="dropdown-item" to="/bathroombeauty">
+          <Link className="dropdown-item" to="/artifical">
             Artifical Trees
           </Link>
-          <Link className="dropdown-item" to="/mirrormain">
+          <Link className="dropdown-item" to="/bouquet">
             Bouquets
           </Link>
           <Link className="dropdown-item" to="/flowers">
