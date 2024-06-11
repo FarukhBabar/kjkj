@@ -47,8 +47,8 @@ const Home = () => {
     </div>
   </div> */}
   <div className="row ">
-    <div className="col-lg-6 col-md-6 col-sm-12"><img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/a6adbe3f11024640a51b1d6ace221296.jpg" alt className="banner" /></div>
-    <div className="col-lg-6 col-md-6 col-sm-12"><img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/5ba271744e4846838cf41949fceeaee5.jpg" alt className="banner" /></div>
+    <div className="col-lg-6 col-md-6 col-sm-12"><img src="/Images/Homepag/Super Sunday.webp" alt className="banner" /></div>
+    <div className="col-lg-6 col-md-6 col-sm-12"><img src="/Images/Homepag/Pallet Deals.webp" alt className="banner" /></div>
   </div>
   <div className="row mt-3 revie">
     <div className="col-lg-12 col-md-12 col-sm-12 reviews">
@@ -125,53 +125,53 @@ const Home = () => {
   </div>
   <div className="row mt-5">
     <div className="col-lg-6 col-md-6 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/4b2b0dbd54e542779cf571cb9d88e848.jpg" alt className="ca" />
+      <img src="/Images/Homepag/Diy range.webp" alt className="ca" />
     </div>
     <div className="col-lg-6 col-md-6 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/a8cbf64b039245b0aa6a47452697245b.jpg" alt className="ca" />
+      <img src="/Images/Homepag/Poundlines range.webp" alt className="ca" />
     </div>
   </div>
   {/* ------- */}
   <div className="row">
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/527e699024f941409e564a47f8f31403.jpg" className="caa" alt />
+      <img src="/Images/Homepag/disposables.webp" className="caa" alt />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/0235edb4b34f4a358ff0c269790c3754.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Household Cleaners.webp" className="caa" alt />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/e82f6ca83cbb4a47a89c6cd323f177bc.jpg" alt className="caa" />
+      <img src="/Images/Homepag/Cleaning Materials.webp" alt className="caa" />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/4c036f1a459540fea3818a9782ca2ec2.jpg" alt className="caa" />
-    </div>
-  </div>
-  <div className="row  ">
-    <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/9af54e62b0bf4dfe804fb579fd3aba4d.jpg" className="caa " alt />
-    </div>
-    <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/c98f3771721d4e07a74c0675086585e8.jpg" className="caa " alt />
-    </div>
-    <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/d07ef40b8dce4d819c68b554a6eb632f.jpg" className="caa" alt />
-    </div>
-    <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/bcae3d9df54e4b8794777665d1ab1f24.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Plastics.webp" alt className="caa" />
     </div>
   </div>
   <div className="row  ">
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/36cf74abf4fe4ed1a875c799650901e0.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Partyware.webp" className="caa " alt />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/9b69c04a4e7247a28afb989450cf120d.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Kitchen Utensils.webp" className="caa " alt />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/9fa07f15533d4c568ad50e7fab6b8b6f.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Cookware.webp" className="caa" alt />
     </div>
     <div className="col-lg-3 col-md-4 col-sm-12">
-      <img src="https://www.efghousewares.co.uk/Content/14/images/homebanner/228bd2a2b2ce400096c7c55df721d5e0.jpg" className="caa" alt />
+      <img src="/Images/Homepag/Bakeware.webp" className="caa" alt />
+    </div>
+  </div>
+  <div className="row  ">
+    <div className="col-lg-3 col-md-4 col-sm-12">
+      <img src="/Images/Homepag/Toiletries.webp" className="caa" alt />
+    </div>
+    <div className="col-lg-3 col-md-4 col-sm-12">
+      <img src="/Images/Homepag/Pet Products.webp" className="caa" alt />
+    </div>
+    <div className="col-lg-3 col-md-4 col-sm-12">
+      <img src="/Images/Homepag/Stationeries.webp" className="caa" alt />
+    </div>
+    <div className="col-lg-3 col-md-4 col-sm-12">
+      <img src="/Images/Homepag/all departements.webp" className="caa" alt />
     </div>
   </div>
   <div>

@@ -59,39 +59,39 @@ const Poundline = () => {
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/Food"><img src="../Images/Item → Link (11).png" alt className="img" /></Link> 
+          <Link to="/foodpound"><img src="../Images/Item → Link (11).png" alt className="img" /></Link> 
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (18).png" alt className="img1" /></a> 
+          <Link to='/shoecare'><img src="../Images/Item → Link (18).png" alt className="img1" /></Link> 
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (17).png" alt className="img2" /></a>
+          <Link to='/stationerypo'><img src="../Images/Item → Link (17).png" alt className="img2" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (16).png" alt className="img3" /></a>
+          <Link to='/potoy'><img src="../Images/Item → Link (16).png" alt className="img3" /></Link>
         </div>
       </div>
     </div>
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (15).png" alt className="img" /></a> 
+          <Link to='/pestcon'><img src="../Images/Item → Link (15).png" alt className="img" /></Link> 
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (14).png" alt className="img1" /></a>
+          <Link to='/lightergas'><img src="../Images/Item → Link (14).png" alt className="img1" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (13).png" alt className="img2" /></a> 
+          <Link to='/loundryiron'><img src="../Images/Item → Link (13).png" alt className="img2" /></Link> 
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">

@@ -100,34 +100,13 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listcraftpo">Craft</Link></li>
                   <li><Link className="dropdown-item" to="/listcarpo">Carproduct</Link></li>
                   <li><Link className="dropdown-item" to="/listcandels">Candeles Products</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                  <li><Link className="dropdown-item" to="/listfoodpound">Food & Drink</Link></li>
+                  <li><Link className="dropdown-item" to="/listshoecar">Shoe Care</Link></li>
+                  <li><Link className="dropdown-item" to="/liststationery">Stationery</Link></li>
+                  <li><Link className="dropdown-item" to="/listpotoy">Toys</Link></li>
+                  <li><Link className="dropdown-item" to="/listpestcon">Pest </Link></li>
+                  <li><Link className="dropdown-item" to="/listlightergas">Lighter Gas</Link></li>
+                  <li><Link className="dropdown-item" to="/listloundryiron">Loundry Iron</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">

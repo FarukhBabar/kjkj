@@ -430,6 +430,41 @@ import Candeleslist from './Components/Pages/Adminside/Poudliene/Candeles/Candel
 import Candelesupdate from './Components/Pages/Adminside/Poudliene/Candeles/Candelesupdate';
 import Candeles from './Components/Pages/Adminside/Poudliene/Candeles/Candeles';
 import Candelessingl from './Components/Pages/Adminside/Poudliene/Candeles/Candelessingl';
+import Foodpound from './Components/Pages/Adminside/Poudliene/Foodpoundline/Foodpound';
+import Foodposingl from './Components/Pages/Adminside/Poudliene/Foodpoundline/Foodposingl';
+import Foodpoform from './Components/Pages/Adminside/Poudliene/Foodpoundline/Foodpoform';
+import Foodpolist from './Components/Pages/Adminside/Poudliene/Foodpoundline/Foodpolist';
+import Foodpoupdate from './Components/Pages/Adminside/Poudliene/Foodpoundline/Foodpoupdate';
+import Shoecare from './Components/Pages/Adminside/Poudliene/Shoecare/Shoecare';
+import Shoesingl from './Components/Pages/Adminside/Poudliene/Shoecare/Shoesingl';
+import Shoeform from './Components/Pages/Adminside/Poudliene/Shoecare/Shoeform';
+import Shoelist from './Components/Pages/Adminside/Poudliene/Shoecare/Shoelist';
+import Shoeupdate from './Components/Pages/Adminside/Poudliene/Shoecare/Shoeupdate';
+import Stationeryform from './Components/Pages/Adminside/Poudliene/Stationery/Stationeryform';
+import Stationerylist from './Components/Pages/Adminside/Poudliene/Stationery/Stationerylist';
+import Stationeryupdate from './Components/Pages/Adminside/Poudliene/Stationery/Stationeryupdate';
+import Stationerypo from './Components/Pages/Adminside/Poudliene/Stationery/Stationerypo';
+import Stationerysingl from './Components/Pages/Adminside/Poudliene/Stationery/Stationerysingl';
+import Potoyform from './Components/Pages/Adminside/Poudliene/Toys/Potoyform';
+import Potoylist from './Components/Pages/Adminside/Poudliene/Toys/Potoylist';
+import Potoyupdate from './Components/Pages/Adminside/Poudliene/Toys/Potoyupdate';
+import Potoy from './Components/Pages/Adminside/Poudliene/Toys/Potoy';
+import Potoysingl from './Components/Pages/Adminside/Poudliene/Toys/Potoysingl';
+import Pestconform from './Components/Pages/Adminside/Poudliene/PestControl/Pestconform';
+import Pestconlist from './Components/Pages/Adminside/Poudliene/PestControl/Pestconlist';
+import Pstconupdate from './Components/Pages/Adminside/Poudliene/PestControl/Pstconupdate';
+import Pestcon from './Components/Pages/Adminside/Poudliene/PestControl/Pestcon';
+import Pestconsingl from './Components/Pages/Adminside/Poudliene/PestControl/Pestconsingl';
+import Lightergasform from './Components/Pages/Adminside/Poudliene/Lightergas/Lightergasform';
+import Lightergaslist from './Components/Pages/Adminside/Poudliene/Lightergas/Lightergaslist';
+import Lightergasupdate from './Components/Pages/Adminside/Poudliene/Lightergas/Lightergasupdate';
+import Lightergas from './Components/Pages/Adminside/Poudliene/Lightergas/Lightergas';
+import Lightergassingl from './Components/Pages/Adminside/Poudliene/Lightergas/Lightergassingl';
+import Loundryirform from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirform';
+import Loundryirlist from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirlist';
+import Loundryirupdate from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirupdate';
+import Loundryiron from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryiron';
+import Loundryirsingl from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirsingl';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -746,6 +781,34 @@ const App = () => {
         <Route path='/candelsform' element={<AdminLayout><Candelesform/></AdminLayout>} />
         <Route path='/listcandels' element={<AdminLayout><Candeleslist/></AdminLayout>} />
         <Route path='/listcandels/:id' element={<AdminLayout><Candelesupdate/></AdminLayout>} />
+        
+        <Route path='/foodpoundform' element={<AdminLayout><Foodpoform/></AdminLayout>} />
+        <Route path='/listfoodpound' element={<AdminLayout><Foodpolist/></AdminLayout>} />
+        <Route path='/listfoodpound/:id' element={<AdminLayout><Foodpoupdate/></AdminLayout>} />
+        
+        <Route path='/shoecareform' element={<AdminLayout><Shoeform/></AdminLayout>} />
+        <Route path='/listshoecar' element={<AdminLayout><Shoelist/></AdminLayout>} />
+        <Route path='/listshoecar/:id' element={<AdminLayout><Shoeupdate/></AdminLayout>} />
+
+        <Route path='/stationeryform' element={<AdminLayout><Stationeryform/></AdminLayout>} />
+        <Route path='/liststationery' element={<AdminLayout><Stationerylist/></AdminLayout>} />
+        <Route path='/liststationery/:id' element={<AdminLayout><Stationeryupdate/></AdminLayout>} />
+
+        <Route path='/potoyform' element={<AdminLayout><Potoyform/></AdminLayout>} />
+        <Route path='/listpotoy' element={<AdminLayout><Potoylist/></AdminLayout>} />
+        <Route path='/listpotoy/:id' element={<AdminLayout><Potoyupdate/></AdminLayout>} />
+        
+        <Route path='/pestconform' element={<AdminLayout><Pestconform/></AdminLayout>} />
+        <Route path='/listpestcon' element={<AdminLayout><Pestconlist/></AdminLayout>} />
+        <Route path='/listpestcon/:id' element={<AdminLayout><Pstconupdate/></AdminLayout>} />
+        
+        <Route path='/lightergasform' element={<AdminLayout><Lightergasform/></AdminLayout>} />
+        <Route path='/listlightergas' element={<AdminLayout><Lightergaslist/></AdminLayout>} />
+        <Route path='/listlightergas/:id' element={<AdminLayout><Lightergasupdate/></AdminLayout>} />
+
+        <Route path='/loundryironform' element={<AdminLayout><Loundryirform/></AdminLayout>} />
+        <Route path='/listloundryiron' element={<AdminLayout><Loundryirlist/></AdminLayout>} />
+        <Route path='/listloundryiron/:id' element={<AdminLayout><Loundryirupdate/></AdminLayout>} />
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -1037,6 +1100,27 @@ const App = () => {
         
         <Route path='/candeles' element={<MainLayout><Candeles/></MainLayout>}/>
         <Route path='/candelssinglepage/:id' element={<MainLayout><Candelessingl/></MainLayout>}/>
+
+        <Route path='/foodpound' element={<MainLayout><Foodpound/></MainLayout>}/>
+        <Route path='/foodpoundsinglepage/:id' element={<MainLayout><Foodposingl/></MainLayout>}/>
+        
+        <Route path='/shoecare' element={<MainLayout><Shoecare/></MainLayout>}/>
+        <Route path='/shoecarsinglepage/:id' element={<MainLayout><Shoesingl/></MainLayout>}/>
+
+        <Route path='/stationerypo' element={<MainLayout><Stationerypo/></MainLayout>}/>
+        <Route path='/stationerysinglepage/:id' element={<MainLayout><Stationerysingl/></MainLayout>}/>
+
+        <Route path='/potoy' element={<MainLayout><Potoy/></MainLayout>}/>
+        <Route path='/potoysinglepage/:id' element={<MainLayout><Potoysingl/></MainLayout>}/>
+        
+        <Route path='/pestcon' element={<MainLayout><Pestcon/></MainLayout>}/>
+        <Route path='/pestconsinglepage/:id' element={<MainLayout><Pestconsingl/></MainLayout>}/>
+        
+        <Route path='/lightergas' element={<MainLayout><Lightergas/></MainLayout>}/>
+        <Route path='/lightergassinglepage/:id' element={<MainLayout><Lightergassingl/></MainLayout>}/>
+        
+        <Route path='/loundryiron' element={<MainLayout><Loundryiron/></MainLayout>}/>
+        <Route path='/loundryironsinglepage/:id' element={<MainLayout><Loundryirsingl/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>
