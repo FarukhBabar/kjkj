@@ -7,7 +7,7 @@ const Debathroom = () => {
   return (
     <div><div>
   <div className="department">
-    <p className="departments">DEPARTMENTS > BATHROOM</p>
+    <p className="departments">DEPARTMENTS => BATHROOM</p>
   </div>
   <div className="container">
   <div className="row justify-content-center mt-3">

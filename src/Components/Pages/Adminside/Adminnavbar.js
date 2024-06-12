@@ -107,6 +107,11 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listpestcon">Pest </Link></li>
                   <li><Link className="dropdown-item" to="/listlightergas">Lighter Gas</Link></li>
                   <li><Link className="dropdown-item" to="/listloundryiron">Loundry Iron</Link></li>
+                  <li><Link className="dropdown-item" to="/listkitchenwearpound">Kitchwear</Link></li>
+                  <li><Link className="dropdown-item" to="/listhoiserypound">Hosiery</Link></li>
+                  <li><Link className="dropdown-item" to="/listhouseholdclpound">Household Cleaning</Link></li>
+                  <li><Link className="dropdown-item" to="/listhouseholdpr">Household Products</Link></li>
+                  <li><Link className="dropdown-item" to="/listreading">Reading</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">
@@ -168,7 +173,8 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listaiers">Airers</Link></li>
                   <li><Link className="dropdown-item" to="/listioring">Ironing Boards</Link></li>
                   <li><Link className="dropdown-item" to="/listlaacess">Loundry Acessories</Link></li>
-                  <li><Link className="dropdown-item" to="/listshowhead">Shower Heads</Link></li>
+                  <li><Link className="dropdown-item" to="/listbagsl">Bags</Link></li>
+                  <li><Link className="dropdown-item" to="/listbascketst">Backetstorage</Link></li>
                   
                 </ul>
               </li>
@@ -220,7 +226,11 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listfreshner">Air Freshner</Link></li>
                   <li><Link className="dropdown-item" to="/listakonobol">Akzonobol</Link></li>
-                 
+                  <li><Link className="dropdown-item" to="/listbarrettine">Barrettine</Link></li> 
+                  <li><Link className="dropdown-item" to="/listbartolin">Bartoline</Link></li> 
+                  <li><Link className="dropdown-item" to="/listbirdbrand">Birdbrand</Link></li>
+                  <li><Link className="dropdown-item" to="/listblack">Blackspur</Link></li>
+                  <li><Link className="dropdown-item" to="/listbonit">Bonit</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />
                   </li>
@@ -686,7 +696,9 @@ const Adminnavbar = () => {
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="/listbrushware">Brushware</Link></li>
                   <li><Link className="dropdown-item" to="/listduster">Cloth & Duster</Link></li>
-                  
+                  <li><Link className="dropdown-item" to="/listgloves">Gloves</Link></li>
+                  <li><Link className="dropdown-item" to="/listmops">Mops</Link></li>
+                  <li><Link className="dropdown-item" to="/listsponge">Sponge</Link></li>
                   {/* <li>
                     <hr className="dropdown-divider" />
                   </li>

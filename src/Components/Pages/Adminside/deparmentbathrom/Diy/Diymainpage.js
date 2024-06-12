@@ -10,29 +10,29 @@ const Diymainpage = () => {
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/foodanddrinks"><img src="/Images/Diy/DIY-1.png" alt className="img" /></Link>   
+        <Link to="/barrettine"><img src="/Images/Diy/DIY-1.png" alt className="img" /></Link>   
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/smoking"><img src="./Images/Diy/DIY-2.png" alt className="img1" /></Link> 
+        <Link to="/bartolin"><img src="./Images/Diy/DIY-2.png" alt className="img1" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to="/poundline"> <img src="./Images/Diy/DIY-3.png" alt className="img2" /></Link>
+        <Link to="/birdbrand"> <img src="./Images/Diy/DIY-3.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/deparmentbathroom'><img src="./Images/Diy/DIY-4.png" alt className="img3" /></Link>   
+        <Link to='/black'><img src="./Images/Diy/DIY-4.png" alt className="img3" /></Link>   
       </div>
     </div>
   </div>
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/deparmentloundry'><img src="./Images/Diy/DIY-5.png" alt className="img" /></Link>
+        <Link to='/bonit'><img src="./Images/Diy/DIY-5.png" alt className="img" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">

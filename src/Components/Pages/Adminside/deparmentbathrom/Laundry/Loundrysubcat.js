@@ -28,14 +28,14 @@ const Loundrysubcat = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/bathmatesmain"><img src="/Images/Loundry4.png" alt className="img3" /></Link>   
+          <Link to="/bagsl"><img src="/Images/Loundry4.png" alt className="img3" /></Link>   
         </div>
       </div>
     </div>
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <Link to="/bathacessories"><img src="/Images/Loundry5.png" alt className="img" /></Link>   
+          <Link to="/bascketst"><img src="/Images/Loundry5.png" alt className="img" /></Link>   
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">

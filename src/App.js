@@ -465,6 +465,81 @@ import Loundryirlist from './Components/Pages/Adminside/Poudliene/Loundryiron/Lo
 import Loundryirupdate from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirupdate';
 import Loundryiron from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryiron';
 import Loundryirsingl from './Components/Pages/Adminside/Poudliene/Loundryiron/Loundryirsingl';
+import Kitchenwarepo from './Components/Pages/Adminside/Poudliene/Kitchwear/Kitchenwarepo';
+import Kitchenwareposingl from './Components/Pages/Adminside/Poudliene/Kitchwear/Kitchenwareposingl';
+import Kitchenwarepoform from './Components/Pages/Adminside/Poudliene/Kitchwear/Kitchenwarepoform';
+import Kitchenwarepolist from './Components/Pages/Adminside/Poudliene/Kitchwear/Kitchenwarepolist';
+import Kitchenwarepoupdate from './Components/Pages/Adminside/Poudliene/Kitchwear/Kitchenwarepoupdate';
+import Hosieryform from './Components/Pages/Adminside/Poudliene/Hosiery/Hosieryform';
+import Hosierylist from './Components/Pages/Adminside/Poudliene/Hosiery/Hosierylist';
+import Hosieryupdate from './Components/Pages/Adminside/Poudliene/Hosiery/Hosieryupdate';
+import Hosiery from './Components/Pages/Adminside/Poudliene/Hosiery/Hosiery';
+import Hosierysingl from './Components/Pages/Adminside/Poudliene/Hosiery/Hosierysingl';
+import Householdcl from './Components/Pages/Adminside/Poudliene/Householdcleaning/Householdcl';
+import Householdclform from './Components/Pages/Adminside/Poudliene/Householdcleaning/Householdclform';
+import Householdcllist from './Components/Pages/Adminside/Poudliene/Householdcleaning/Householdcllist';
+import Householdclupdate from './Components/Pages/Adminside/Poudliene/Householdcleaning/Householdclupdate';
+import Householdclsingl from './Components/Pages/Adminside/Poudliene/Householdcleaning/Householdclsingl';
+import Househldpr from './Components/Pages/Adminside/Poudliene/Householdproducts/Househldpr';
+import Househldprsingl from './Components/Pages/Adminside/Poudliene/Householdproducts/Househldprsingl';
+import Househldprform from './Components/Pages/Adminside/Poudliene/Householdproducts/Househldprform';
+import Househldprlist from './Components/Pages/Adminside/Poudliene/Householdproducts/Househldprlist';
+import Househldprupdate from './Components/Pages/Adminside/Poudliene/Householdproducts/Househldprupdate';
+import Reading from './Components/Pages/Adminside/Poudliene/Reading/Reading';
+import Readingsingl from './Components/Pages/Adminside/Poudliene/Reading/Readingsingl';
+import Readingform from './Components/Pages/Adminside/Poudliene/Reading/Readingform';
+import Readinglist from './Components/Pages/Adminside/Poudliene/Reading/Readinglist';
+import Readingupdate from './Components/Pages/Adminside/Poudliene/Reading/Readingupdate';
+import Glovesform from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Gloves/Glovesform';
+import Gloveslist from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Gloves/Gloveslist';
+import Glovesupdate from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Gloves/Glovesupdate';
+import Gloves from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Gloves/Gloves';
+import Glovessingl from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Gloves/Glovessingl';
+import Mopsform from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Mops/Mopsform';
+import Mopslist from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Mops/Mopslist';
+import Mopsupdate from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Mops/Mopsupdate';
+import Mops from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Mops/Mops';
+import Mopssingl from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Mops/Mopssingl';
+import Sponeform from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Sponge/Sponeform';
+import Spongelist from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Sponge/Spongelist';
+import Spongeupdate from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Sponge/Spongeupdate';
+import Sponge from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Sponge/Sponge';
+import Spongesingl from './Components/Pages/Adminside/deparmentbathrom/Cleaning matterial/Sponge/Spongesingl';
+import Barrettine from './Components/Pages/Adminside/deparmentbathrom/Diy/Barrettine/Barrettine';
+import Barrettinesingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Barrettine/Barrettinesingl';
+import Barrettineform from './Components/Pages/Adminside/deparmentbathrom/Diy/Barrettine/Barrettineform';
+import Barrettinelist from './Components/Pages/Adminside/deparmentbathrom/Diy/Barrettine/Barrettinelist';
+import Barrettineupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Barrettine/Barrettineupdate';
+import Bartolin from './Components/Pages/Adminside/deparmentbathrom/Diy/Bartolin/Bartolin';
+import Bartolinsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Bartolin/Bartolinsingl';
+import Bartolinform from './Components/Pages/Adminside/deparmentbathrom/Diy/Bartolin/Bartolinform';
+import Bartolinlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Bartolin/Bartolinlist';
+import Bartolinupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Bartolin/Bartolinupdate';
+import Birdbrand from './Components/Pages/Adminside/deparmentbathrom/Diy/Birdbrand/Birdbrand';
+import Birdbrandsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Birdbrand/Birdbrandsingl';
+import Birdbrandform from './Components/Pages/Adminside/deparmentbathrom/Diy/Birdbrand/Birdbrandform';
+import Birdbrandlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Birdbrand/Birdbrandlist';
+import Birdbrandupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Birdbrand/Birdbrandupdate';
+import Blackform from './Components/Pages/Adminside/deparmentbathrom/Diy/Blackspur/Blackform';
+import Blacklist from './Components/Pages/Adminside/deparmentbathrom/Diy/Blackspur/Blacklist';
+import Blackupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Blackspur/Blackupdate';
+import Black from './Components/Pages/Adminside/deparmentbathrom/Diy/Blackspur/Black';
+import Blacksingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Blackspur/Blacksingl';
+import Bonit from './Components/Pages/Adminside/deparmentbathrom/Diy/Bondit/Bonit';
+import Bonitsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Bondit/Bonitsingl';
+import Bonitform from './Components/Pages/Adminside/deparmentbathrom/Diy/Bondit/Bonitform';
+import Bonitlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Bondit/Bonitlist';
+import Bonitupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Bondit/Bonitupdate';
+import Bagsform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Bags/Bagsform';
+import Bagslist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Bags/Bagslist';
+import Bagsupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Bags/Bagsupdate';
+import Bags from './Components/Pages/Adminside/deparmentbathrom/Laundry/Bags/Bags';
+import Bagssingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/Bags/Bagssingl';
+import Basketst from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketst';
+import Basketstsingle from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstsingl';
+import Basketstform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstform';
+import Basketstlist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstlist';
+import Basketstupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstupdate';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -809,6 +884,66 @@ const App = () => {
         <Route path='/loundryironform' element={<AdminLayout><Loundryirform/></AdminLayout>} />
         <Route path='/listloundryiron' element={<AdminLayout><Loundryirlist/></AdminLayout>} />
         <Route path='/listloundryiron/:id' element={<AdminLayout><Loundryirupdate/></AdminLayout>} />
+       
+        <Route path='/kitchenwearpoundform' element={<AdminLayout><Kitchenwarepoform/></AdminLayout>}/>
+        <Route path='/listkitchenwearpound' element={<AdminLayout><Kitchenwarepolist/></AdminLayout>}/>
+        <Route path='/listkitchenwearpound/:id' element={<AdminLayout><Kitchenwarepoupdate/></AdminLayout>}/>
+
+        <Route path='/hoiserypoundform' element={<AdminLayout><Hosieryform/></AdminLayout>}/>
+        <Route path='/listhoiserypound' element={<AdminLayout><Hosierylist/></AdminLayout>}/>
+        <Route path='/listhoiserypound/:id' element={<AdminLayout><Hosieryupdate/></AdminLayout>}/>
+        
+        <Route path='/householdclpoundform' element={<AdminLayout><Householdclform/></AdminLayout>}/>
+        <Route path='/listhouseholdclpound' element={<AdminLayout><Householdcllist/></AdminLayout>}/>
+        <Route path='/listhouseholdclpound/:id' element={<AdminLayout><Householdclupdate/></AdminLayout>}/>
+        
+        <Route path='/householdprform' element={<AdminLayout><Househldprform/></AdminLayout>}/>
+        <Route path='/listhouseholdpr' element={<AdminLayout><Househldprlist/></AdminLayout>}/>
+        <Route path='/listhouseholdpr/:id' element={<AdminLayout><Househldprupdate/></AdminLayout>}/>
+        
+        <Route path='/readingform' element={<AdminLayout><Readingform/></AdminLayout>}/>
+        <Route path='/listreading' element={<AdminLayout><Readinglist/></AdminLayout>}/>
+        <Route path='/listreading/:id' element={<AdminLayout><Readingupdate/></AdminLayout>}/>
+        
+        <Route path='/glovesform' element={<AdminLayout><Glovesform/></AdminLayout>}/>
+        <Route path='/listgloves' element={<AdminLayout><Gloveslist/></AdminLayout>}/>
+        <Route path='/listgloves/:id' element={<AdminLayout><Glovesupdate/></AdminLayout>}/>
+        
+        <Route path='/mopsform' element={<AdminLayout><Mopsform/></AdminLayout>}/>
+        <Route path='/listmops' element={<AdminLayout><Mopslist/></AdminLayout>}/>
+        <Route path='/listmops/:id' element={<AdminLayout><Mopsupdate/></AdminLayout>}/>
+        
+        <Route path='/spongeform' element={<AdminLayout><Sponeform/></AdminLayout>}/>
+        <Route path='/listsponge' element={<AdminLayout><Spongelist/></AdminLayout>}/>
+        <Route path='/listsponge/:id' element={<AdminLayout><Spongeupdate/></AdminLayout>}/>
+        
+        <Route path='/barrettineform' element={<AdminLayout><Barrettineform/></AdminLayout>}/>
+        <Route path='/listbarrettine' element={<AdminLayout><Barrettinelist/></AdminLayout>}/>
+        <Route path='/listbarrettine/:id' element={<AdminLayout><Barrettineupdate/></AdminLayout>}/>
+        
+        <Route path='/bartolinform' element={<AdminLayout><Bartolinform/></AdminLayout>}/>
+        <Route path='/listbartolin' element={<AdminLayout><Bartolinlist/></AdminLayout>}/>
+        <Route path='/listbartolin/:id' element={<AdminLayout><Bartolinupdate/></AdminLayout>}/>
+        
+        <Route path='/birdbrandform' element={<AdminLayout><Birdbrandform/></AdminLayout>}/>
+        <Route path='/listbirdbrand' element={<AdminLayout><Birdbrandlist/></AdminLayout>}/>
+        <Route path='/listbirdbrand/:id' element={<AdminLayout><Birdbrandupdate/></AdminLayout>}/>
+        
+        <Route path='/blackform' element={<AdminLayout><Blackform/></AdminLayout>}/>
+        <Route path='/listblack' element={<AdminLayout><Blacklist/></AdminLayout>}/>
+        <Route path='/listblack/:id' element={<AdminLayout><Blackupdate/></AdminLayout>}/>
+        
+        <Route path='/bonitform' element={<AdminLayout><Bonitform/></AdminLayout>}/>
+        <Route path='/listbonit' element={<AdminLayout><Bonitlist/></AdminLayout>}/>
+        <Route path='/listbonit/:id' element={<AdminLayout><Bonitupdate/></AdminLayout>}/>
+        
+        <Route path='/bagslform' element={<AdminLayout><Bagsform/></AdminLayout>}/>
+        <Route path='/listbagsl' element={<AdminLayout><Bagslist/></AdminLayout>}/>
+        <Route path='/listbagsl/:id' element={<AdminLayout><Bagsupdate/></AdminLayout>}/>
+         
+        <Route path='/bascketstform' element={<AdminLayout><Basketstform/></AdminLayout>}/>
+        <Route path='/listbascketst' element={<AdminLayout><Basketstlist/></AdminLayout>}/>
+        <Route path='/listbascketst/:id' element={<AdminLayout><Basketstupdate/></AdminLayout>}/>
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -1121,6 +1256,48 @@ const App = () => {
         
         <Route path='/loundryiron' element={<MainLayout><Loundryiron/></MainLayout>}/>
         <Route path='/loundryironsinglepage/:id' element={<MainLayout><Loundryirsingl/></MainLayout>}/>
+
+        <Route path='/kitchenwearpound' element={<MainLayout><Kitchenwarepo/></MainLayout>}/>
+        <Route path='/kitchenwearpoundsinglepage/:id' element={<MainLayout><Kitchenwareposingl/></MainLayout>}/>
+
+        <Route path='/householdclpound' element={<MainLayout><Householdcl/></MainLayout>}/>
+        <Route path='/householdclpoundsinglepage/:id' element={<MainLayout><Householdclsingl/></MainLayout>}/>
+        
+        <Route path='/householdpr' element={<MainLayout><Househldpr/></MainLayout>}/>
+        <Route path='/householdprsinglepage/:id' element={<MainLayout><Househldprsingl/></MainLayout>}/>
+        
+        <Route path='/reading' element={<MainLayout><Reading/></MainLayout>}/>
+        <Route path='/readingsinglepage/:id' element={<MainLayout><Readingsingl/></MainLayout>}/>
+        
+        <Route path='/gloves' element={<MainLayout><Gloves/></MainLayout>}/>
+        <Route path='/glovessinglepage/:id' element={<MainLayout><Glovessingl/></MainLayout>}/>
+        
+        <Route path='/mops' element={<MainLayout><Mops/></MainLayout>}/>
+        <Route path='/mopssinglepage/:id' element={<MainLayout><Mopssingl/></MainLayout>}/>
+        
+        <Route path='/sponge' element={<MainLayout><Sponge/></MainLayout>}/>
+        <Route path='/spongesinglepage/:id' element={<MainLayout><Spongesingl/></MainLayout>}/>
+
+        <Route path='/barrettine' element={<MainLayout><Barrettine/></MainLayout>}/>
+        <Route path='/barrettinesinglepage/:id' element={<MainLayout><Barrettinesingle/></MainLayout>}/>
+
+        <Route path='/bartolin' element={<MainLayout><Bartolin/></MainLayout>}/>
+        <Route path='/bartolinsinglepage/:id' element={<MainLayout><Bartolinsingle/></MainLayout>}/>
+
+        <Route path='/birdbrand' element={<MainLayout><Birdbrand/></MainLayout>}/>
+        <Route path='/birdbrandsinglepage/:id' element={<MainLayout><Birdbrandsingle/></MainLayout>}/>
+
+        <Route path='/black' element={<MainLayout><Black/></MainLayout>}/>
+        <Route path='/blacksinglepage/:id' element={<MainLayout><Blacksingle/></MainLayout>}/>
+        
+        <Route path='/bonit' element={<MainLayout><Bonit/></MainLayout>}/>
+        <Route path='/bonitsinglepage/:id' element={<MainLayout><Bonitsingle/></MainLayout>}/>
+        
+        <Route path='/bagsl' element={<MainLayout><Bags/></MainLayout>}/>
+        <Route path='/bagslsinglepage/:id' element={<MainLayout><Bagssingle/></MainLayout>}/>
+        
+        <Route path='/bascketst' element={<MainLayout><Basketst/></MainLayout>}/>
+        <Route path='/bascketstsinglepage/:id' element={<MainLayout><Basketstsingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

@@ -96,29 +96,29 @@ const Poundline = () => {
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (12).png" alt className="img3" /></a>
+          <Link to='/kitchenwearpound'><img src="../Images/Item → Link (12).png" alt className="img3" /></Link>
         </div>
       </div>
     </div>
     <div className="row justify-content-center mt-3">
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (10).png" alt className="img" /></a>
+          <Link to='/hoiserypound'><img src="../Images/Item → Link (10).png" alt className="img" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href> <img src="../Images/Item → Link (9).png" alt className="img1" /></a>
+          <Link to='/householdclpound'> <img src="../Images/Item → Link (9).png" alt className="img1" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (8).png" alt className="img2" /></a>
+          <Link to='/householdpr'><img src="../Images/Item → Link (8).png" alt className="img2" /></Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12">
         <div>
-          <a href><img src="../Images/Item → Link (19).png" alt className="img3" /></a>
+          <Link to='/reading'><img src="../Images/Item → Link (19).png" alt className="img3" /></Link>
         </div>
       </div>
     </div>
