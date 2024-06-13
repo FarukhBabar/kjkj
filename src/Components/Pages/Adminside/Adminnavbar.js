@@ -175,7 +175,7 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listlaacess">Loundry Acessories</Link></li>
                   <li><Link className="dropdown-item" to="/listbagsl">Bags</Link></li>
                   <li><Link className="dropdown-item" to="/listbascketst">Backetstorage</Link></li>
-                  
+                  <li><Link className="dropdown-item" to="/listluggage">Luggage</Link></li>
                 </ul>
               </li>
               <li><Link className="dropdown-item" to="/listbatteries">Batteries</Link></li>
@@ -231,34 +231,22 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listbirdbrand">Birdbrand</Link></li>
                   <li><Link className="dropdown-item" to="/listblack">Blackspur</Link></li>
                   <li><Link className="dropdown-item" to="/listbonit">Bonit</Link></li>
-                  {/* <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li className="nav-item dropend">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider" />
-                      </li>
-                      <li className="nav-item dropend">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> */}
+                  <li><Link className="dropdown-item" to="/listbostik">Bostik</Link></li>
+                  <li><Link className="dropdown-item" to="/listbriwax">Briwax</Link></li>
+                  <li><Link className="dropdown-item" to="/listbrook">Brook</Link></li>
+                  <li><Link className="dropdown-item" to="/listcarproduct">Car Products</Link></li>
+                  <li><Link className="dropdown-item" to="/listcarplan">Car Plan</Link></li>
+                  <li><Link className="dropdown-item" to="/listchamois">Chamois</Link></li>
+                  <li><Link className="dropdown-item" to="/listcommand">Command</Link></li>
+                  <li><Link className="dropdown-item" to="/listcoral">Coral</Link></li>
+                  <li><Link className="dropdown-item" to="/listcrown">Crown Paints</Link></li>
+                  <li><Link className="dropdown-item" to="/listdekton">Dekton</Link></li>
+                  <li><Link className="dropdown-item" to="/listdemsum">Demsum</Link></li>
+                  <li><Link className="dropdown-item" to="/listdarper">Darper</Link></li>
+                  <li><Link className="dropdown-item" to="/listedco">Edco</Link></li>
+                  <li><Link className="dropdown-item" to="/listever">Ever</Link></li>
+                  <li><Link className="dropdown-item" to="/listexitex">Exitex</Link></li>
+                  <li><Link className="dropdown-item" to="/listfit">Fit For Job</Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">

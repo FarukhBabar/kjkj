@@ -10,7 +10,6 @@ import Poundline from './Components/Pages/Poundline';
 import Electric from './Components/Pages/Adminside/deparmentbathrom/Electricde/Electric';
 import Diytools from './Components/Pages/Diytools';
 import Partybin from './Components/Pages/Partybin';
-import Carproduct from './Components/Pages/Carproduct';
 import Candels from './Components/Pages/Candels';
 import Shopbybrand from './Components/Pages/Shopbybrand';
 import Newarrivals from './Components/Pages/Adminside/NewArrevals/Newarrivals';
@@ -540,6 +539,92 @@ import Basketstsingle from './Components/Pages/Adminside/deparmentbathrom/Laundr
 import Basketstform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstform';
 import Basketstlist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstlist';
 import Basketstupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Basketstorgae/Basketstupdate';
+import Luggagesingl from './Components/Pages/Adminside/deparmentbathrom/Laundry/Luggage/Luggagesingl';
+import Luggageform from './Components/Pages/Adminside/deparmentbathrom/Laundry/Luggage/Luggageform';
+import Luggagelist from './Components/Pages/Adminside/deparmentbathrom/Laundry/Luggage/Luggagelist';
+import Luggageupdate from './Components/Pages/Adminside/deparmentbathrom/Laundry/Luggage/Luggageupdate';
+import Luggage from './Components/Pages/Adminside/deparmentbathrom/Laundry/Luggage/Luggage';
+import Bostikform from './Components/Pages/Adminside/deparmentbathrom/Diy/Bostik/Bostikform';
+import Bostiklist from './Components/Pages/Adminside/deparmentbathrom/Diy/Bostik/Bostiklist';
+import Bostiksingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Bostik/Bostiksingl';
+import Bostikupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Bostik/Bostikupdate';
+import Bostik from './Components/Pages/Adminside/deparmentbathrom/Diy/Bostik/Bostik';
+import Briwaxform from './Components/Pages/Adminside/deparmentbathrom/Diy/Briwax/Briwaxform';
+import Briwaxlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Briwax/Briwaxlist';
+import Briwaxsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Briwax/Briwaxsingl';
+import Briwaxupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Briwax/Briwaxupdate';
+import Briwax from './Components/Pages/Adminside/deparmentbathrom/Diy/Briwax/Briwax';
+import Brookform from './Components/Pages/Adminside/deparmentbathrom/Diy/Brookstone/Brookform';
+import Brooklist from './Components/Pages/Adminside/deparmentbathrom/Diy/Brookstone/Brooklist';
+import Brookupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Brookstone/Brookupdate';
+import Brook from './Components/Pages/Adminside/deparmentbathrom/Diy/Brookstone/Brook';
+import Brooksingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Brookstone/Brooksingl';
+import Carpro from './Components/Pages/Adminside/deparmentbathrom/Diy/CarProduct/Carpro';
+import Carprosingle from './Components/Pages/Adminside/deparmentbathrom/Diy/CarProduct/Carprosingl';
+import Carproform from './Components/Pages/Adminside/deparmentbathrom/Diy/CarProduct/Carproform';
+import Carprolist from './Components/Pages/Adminside/deparmentbathrom/Diy/CarProduct/Carprolist';
+import Carproupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/CarProduct/Carproupdate';
+import Carplan from './Components/Pages/Adminside/deparmentbathrom/Diy/Carplan/Carplan';
+import Carplansingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Carplan/Carplansingl';
+import Carplanform from './Components/Pages/Adminside/deparmentbathrom/Diy/Carplan/Carplanform';
+import Carplanlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Carplan/Carplanlist';
+import Carplanupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Carplan/Carplanupdate';
+import Chamois from './Components/Pages/Adminside/deparmentbathrom/Diy/Chamois/Chamois';
+import Chamoissingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Chamois/Chamoissingl';
+import Chamoisform from './Components/Pages/Adminside/deparmentbathrom/Diy/Chamois/Chamoisform';
+import Chamoislist from './Components/Pages/Adminside/deparmentbathrom/Diy/Chamois/Chamoislist';
+import Chamoisupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Chamois/Chamoisupdate';
+import Command from './Components/Pages/Adminside/deparmentbathrom/Diy/Command/Command';
+import Commandsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Command/Commandsingl';
+import Commandform from './Components/Pages/Adminside/deparmentbathrom/Diy/Command/Commandform';
+import Commandlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Command/Commandlist';
+import Commandupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Command/Commandupdate';
+import Coralform from './Components/Pages/Adminside/deparmentbathrom/Diy/Coraltools/Coralform';
+import Corallist from './Components/Pages/Adminside/deparmentbathrom/Diy/Coraltools/Corallist';
+import Coralupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Coraltools/Coralupdate';
+import Coral from './Components/Pages/Adminside/deparmentbathrom/Diy/Coraltools/Coral';
+import Coralsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Coraltools/Coralsingl';
+import Crownform from './Components/Pages/Adminside/deparmentbathrom/Diy/Crownpaint/Crownform';
+import Crownlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Crownpaint/Crownlist';
+import Crownupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Crownpaint/Crownupdate';
+import Crown from './Components/Pages/Adminside/deparmentbathrom/Diy/Crownpaint/Crown';
+import Crownsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Crownpaint/Crownsingl';
+import Dekton from './Components/Pages/Adminside/deparmentbathrom/Diy/Dekton/Dekton';
+import Dektonsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Dekton/Dektonsingl';
+import Dektonform from './Components/Pages/Adminside/deparmentbathrom/Diy/Dekton/Dektonform';
+import Dektonlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Dekton/Dektonlist';
+import Dektonupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Dekton/Dektonupdate';
+import Demsumform from './Components/Pages/Adminside/deparmentbathrom/Diy/Demsum/Demsumform';
+import Demsumlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Demsum/Demsumlist';
+import Demsumupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Demsum/Demsumupdate';
+import Demsum from './Components/Pages/Adminside/deparmentbathrom/Diy/Demsum/Demsum';
+import Demsumsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Demsum/Demsumsingl';
+import Darper from './Components/Pages/Adminside/deparmentbathrom/Diy/Darpertools/Darper';
+import Darpersingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Darpertools/Darpersingl';
+import Darperform from './Components/Pages/Adminside/deparmentbathrom/Diy/Darpertools/Darperform';
+import Darperlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Darpertools/Darperlist';
+import Darperupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Darpertools/Darperupdate';
+import Edcoform from './Components/Pages/Adminside/deparmentbathrom/Diy/Edco/Edcoform';
+import Edcolist from './Components/Pages/Adminside/deparmentbathrom/Diy/Edco/Edcolist';
+import Edcoupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Edco/Edcoupdate';
+import Edcosingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Edco/Edcosingl';
+import Edco from './Components/Pages/Adminside/deparmentbathrom/Diy/Edco/Edco';
+import Ever from './Components/Pages/Adminside/deparmentbathrom/Diy/Everbuild/Ever';
+import Eversingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Everbuild/Eversingl';
+import Everform from './Components/Pages/Adminside/deparmentbathrom/Diy/Everbuild/Everform';
+import Everlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Everbuild/Everlist';
+import Everupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Everbuild/Everupdate';
+import Exitexform from './Components/Pages/Adminside/deparmentbathrom/Diy/Exitex/Exitexform';
+import Exitexlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Exitex/Exitexlist';
+import Exitexupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Exitex/Exitexupdate';
+import Exitex from './Components/Pages/Adminside/deparmentbathrom/Diy/Exitex/Exitex';
+import Exitexsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Exitex/Exitexsingl';
+import Fit from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fit';
+import Fitsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitsingl';
+
+import Fitupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitupdate';
+import Fitforform from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitforform'
+import Fitforlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitforlist'
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -944,6 +1029,74 @@ const App = () => {
         <Route path='/bascketstform' element={<AdminLayout><Basketstform/></AdminLayout>}/>
         <Route path='/listbascketst' element={<AdminLayout><Basketstlist/></AdminLayout>}/>
         <Route path='/listbascketst/:id' element={<AdminLayout><Basketstupdate/></AdminLayout>}/>
+
+        <Route path='/luggageform' element={<AdminLayout><Luggageform/></AdminLayout>}/>
+        <Route path='/listluggage' element={<AdminLayout><Luggagelist/></AdminLayout>}/>
+        <Route path='/listluggage/:id' element={<AdminLayout><Luggageupdate/></AdminLayout>}/>
+        
+        <Route path='/bostikform' element={<AdminLayout><Bostikform/></AdminLayout>}/>
+        <Route path='/listbostik' element={<AdminLayout><Bostiklist/></AdminLayout>}/>
+        <Route path='/listbostik/:id' element={<AdminLayout><Bostikupdate/></AdminLayout>}/>
+        
+        <Route path='/briwaxform' element={<AdminLayout><Briwaxform/></AdminLayout>}/>
+        <Route path='/listbriwax' element={<AdminLayout><Briwaxlist/></AdminLayout>}/>
+        <Route path='/listbriwax/:id' element={<AdminLayout><Briwaxupdate/></AdminLayout>}/>
+
+        <Route path='/brookform' element={<AdminLayout><Brookform/></AdminLayout>}/>
+        <Route path='/listbrook' element={<AdminLayout><Brooklist/></AdminLayout>}/>
+        <Route path='/listbrook/:id' element={<AdminLayout><Brookupdate/></AdminLayout>}/>
+
+        <Route path='/carproductform' element={<AdminLayout><Carproform/></AdminLayout>}/>
+        <Route path='/listcarproduct' element={<AdminLayout><Carprolist/></AdminLayout>}/>
+        <Route path='/listcarproduct/:id' element={<AdminLayout><Carproupdate/></AdminLayout>}/>
+
+        <Route path='/carplanform' element={<AdminLayout><Carplanform/></AdminLayout>}/>
+        <Route path='/listcarplan' element={<AdminLayout><Carplanlist/></AdminLayout>}/>
+        <Route path='/listcarplan/:id' element={<AdminLayout><Carplanupdate/></AdminLayout>}/>
+        
+        <Route path='/chamoisform' element={<AdminLayout><Chamoisform/></AdminLayout>}/>
+        <Route path='/listchamois' element={<AdminLayout><Chamoislist/></AdminLayout>}/>
+        <Route path='/listchamois/:id' element={<AdminLayout><Chamoisupdate/></AdminLayout>}/>
+        
+        <Route path='/commandform' element={<AdminLayout><Commandform/></AdminLayout>}/>
+        <Route path='/listcommand' element={<AdminLayout><Commandlist/></AdminLayout>}/>
+        <Route path='/listcommand/:id' element={<AdminLayout><Commandupdate/></AdminLayout>}/>
+        
+        <Route path='/coralform' element={<AdminLayout><Coralform/></AdminLayout>}/>
+        <Route path='/listcoral' element={<AdminLayout><Corallist/></AdminLayout>}/>
+        <Route path='/listcoral/:id' element={<AdminLayout><Coralupdate/></AdminLayout>}/>
+        
+        <Route path='/crownform' element={<AdminLayout><Crownform/></AdminLayout>}/>
+        <Route path='/listcrown' element={<AdminLayout><Crownlist/></AdminLayout>}/>
+        <Route path='/listcrown/:id' element={<AdminLayout><Crownupdate/></AdminLayout>}/>
+        
+        <Route path='/dektonform' element={<AdminLayout><Dektonform/></AdminLayout>}/>
+        <Route path='/listdekton' element={<AdminLayout><Dektonlist/></AdminLayout>}/>
+        <Route path='/listdekton/:id' element={<AdminLayout><Dektonupdate/></AdminLayout>}/>
+         
+        <Route path='/demsumform' element={<AdminLayout><Demsumform/></AdminLayout>}/>
+        <Route path='/listdemsum' element={<AdminLayout><Demsumlist/></AdminLayout>}/>
+        <Route path='/listdemsum/:id' element={<AdminLayout><Demsumupdate/></AdminLayout>}/>
+
+        <Route path='/darperform' element={<AdminLayout><Darperform/></AdminLayout>}/>
+        <Route path='/listdarper' element={<AdminLayout><Darperlist/></AdminLayout>}/>
+        <Route path='/listdarper/:id' element={<AdminLayout><Darperupdate/></AdminLayout>}/>
+        
+        <Route path='/edcoform' element={<AdminLayout><Edcoform/></AdminLayout>}/>
+        <Route path='/listedco' element={<AdminLayout><Edcolist/></AdminLayout>}/>
+        <Route path='/listedco/:id' element={<AdminLayout><Edcoupdate/></AdminLayout>}/>
+        
+        <Route path='/everform' element={<AdminLayout><Everform/></AdminLayout>}/>
+        <Route path='/listever' element={<AdminLayout><Everlist/></AdminLayout>}/>
+        <Route path='/listever/:id' element={<AdminLayout><Everupdate/></AdminLayout>}/>
+        
+        <Route path='/exitexform' element={<AdminLayout><Exitexform/></AdminLayout>}/>
+        <Route path='/listexitex' element={<AdminLayout><Exitexlist/></AdminLayout>}/>
+        <Route path='/listexitex/:id' element={<AdminLayout><Exitexupdate/></AdminLayout>}/>
+        
+        <Route path='/fitform' element={<AdminLayout><Fitforform/></AdminLayout>}/>
+        <Route path='/listfit' element={<AdminLayout><Fitforlist/></AdminLayout>}/>
+        <Route path='/listfit/:id' element={<AdminLayout><Fitupdate/></AdminLayout>}/>
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -962,7 +1115,7 @@ const App = () => {
         
         <Route path='/Diy' element={<MainLayout><Diytools /></MainLayout>} />
         <Route path='/Disposables Party Bin Liners' element={<MainLayout><Partybin /></MainLayout>} />
-        <Route path='/Carproduct' element={<MainLayout><Carproduct /></MainLayout>} />
+        
         <Route path='/Candles Air Freshner' element={<MainLayout><Candels /></MainLayout>} />
         <Route path='/Food' element={<MainLayout><Foodsproduct /></MainLayout>} />
         <Route path='/Supersunday' element={<MainLayout><Sundaypage /></MainLayout>} />
@@ -1298,6 +1451,54 @@ const App = () => {
         
         <Route path='/bascketst' element={<MainLayout><Basketst/></MainLayout>}/>
         <Route path='/bascketstsinglepage/:id' element={<MainLayout><Basketstsingle/></MainLayout>}/>
+        
+        <Route path='/luggage' element={<MainLayout><Luggage/></MainLayout>}/>
+        <Route path='/luggagesinglepage/:id' element={<MainLayout><Luggagesingl/></MainLayout>}/>
+
+        <Route path='/bostik' element={<MainLayout><Bostik/></MainLayout>}/>
+        <Route path='/bostiksinglepage/:id' element={<MainLayout><Bostiksingle/></MainLayout>}/>
+        
+        <Route path='/briwax' element={<MainLayout><Briwax/></MainLayout>}/>
+        <Route path='/briwaxsinglepage/:id' element={<MainLayout><Briwaxsingle/></MainLayout>}/>
+        
+        <Route path='/brook' element={<MainLayout><Brook/></MainLayout>}/>
+        <Route path='/brooksinglepage/:id' element={<MainLayout><Brooksingle/></MainLayout>}/>
+        
+        <Route path='/carproduct' element={<MainLayout><Carpro/></MainLayout>}/>
+        <Route path='/carproductsinglepage/:id' element={<MainLayout><Carprosingle/></MainLayout>}/>
+
+        <Route path='/carplan' element={<MainLayout><Carplan/></MainLayout>}/>
+        <Route path='/carplansinglepage/:id' element={<MainLayout><Carplansingle/></MainLayout>}/>
+        
+        <Route path='/chamois' element={<MainLayout><Chamois/></MainLayout>}/>
+        <Route path='/chamoissinglepage/:id' element={<MainLayout><Chamoissingle/></MainLayout>}/>
+        
+        <Route path='/command' element={<MainLayout><Command/></MainLayout>}/>
+        <Route path='/commandsinglepage/:id' element={<MainLayout><Commandsingle/></MainLayout>}/>
+        
+        <Route path='/coral' element={<MainLayout><Coral/></MainLayout>}/>
+        <Route path='/coralsinglepage/:id' element={<MainLayout><Coralsingle/></MainLayout>}/>
+         
+        <Route path='/crown' element={<MainLayout><Crown/></MainLayout>}/>
+        <Route path='/crownsinglepage/:id' element={<MainLayout><Crownsingle/></MainLayout>}/>
+        
+        <Route path='/dekton' element={<MainLayout><Dekton/></MainLayout>}/>
+        <Route path='/dektonsinglepage/:id' element={<MainLayout><Dektonsingle/></MainLayout>}/>
+
+        <Route path='/demsum' element={<MainLayout><Demsum/></MainLayout>}/>
+        <Route path='/demsumsinglepage/:id' element={<MainLayout><Demsumsingle/></MainLayout>}/>
+
+        <Route path='/darper' element={<MainLayout><Darper/></MainLayout>}/>
+        <Route path='/darpersinglepage/:id' element={<MainLayout><Darpersingle/></MainLayout>}/>
+
+        <Route path='/edco' element={<MainLayout><Edco/></MainLayout>}/>
+        <Route path='/edcosinglepage/:id' element={<MainLayout><Edcosingle/></MainLayout>}/>
+
+        <Route path='/exitex' element={<MainLayout><Exitex/></MainLayout>}/>
+        <Route path='/exitexsinglepage/:id' element={<MainLayout><Exitexsingle/></MainLayout>}/>
+
+        <Route path='/fitforjob' element={<MainLayout><Fit/></MainLayout>}/>
+        <Route path='/fitforjobsinglepage/:id' element={<MainLayout><Fitsingle/></MainLayout>}/>
       </Routes>
       </CartProvider>
     </>

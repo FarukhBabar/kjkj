@@ -37,90 +37,90 @@ const Diymainpage = () => {
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/kitechenwear'> <img src="./Images/Diy/DIY-6.png" alt className="img1" /></Link>
+        <Link to='/bostik'> <img src="./Images/Diy/DIY-6.png" alt className="img1" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/cleaning'><img src="./Images/Diy/DIY-7.png" alt className="img2" /></Link>
+        <Link to='/briwax'><img src="./Images/Diy/DIY-7.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <Link to='/gardening'><img src="./Images/Diy/DIY-8.png" alt className="img3" /></Link>
-      </div>
-    </div>
-  </div>
-  <div className="row justify-content-center mt-3">
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <Link to='/toiletries'><img src="./Images/Diy/DIY-9.png" alt className="img" /></Link> 
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <Link to='/deparmentdisposible'><img src="./Images/Diy/DIY-10.png" alt className="img1" /></Link> 
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <Link to='/homedecore' ><img src="./Images/Diy/DIY-11.png" alt className="img2" /></Link>
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <a href><img src="./Images/Diy/DIY-12.png" alt className="img3" /></a>
+        <Link to='/brook'><img src="./Images/Diy/DIY-8.png" alt className="img3" /></Link>
       </div>
     </div>
   </div>
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Diy/DIY-13.png" alt className="img" /></a> 
+        <Link to='/carproduct'><img src="./Images/Diy/DIY-9.png" alt className="img" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Diy/DIY-14.png" alt className="img1" /></a>
+        <Link to='/carplan'><img src="./Images/Diy/DIY-10.png" alt className="img1" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Diy/DIY-15.png" alt className="img2" /></a> 
+        <Link to='/chamois' ><img src="./Images/Diy/DIY-11.png" alt className="img2" /></Link>
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href><img src="./Images/Diy/DIY-16.png" alt className="img3" /></a>
-      </div>
-    </div>
-  </div>
-  <div className="row justify-content-center mt-3">
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <a href><img src="./Images/Diy/DIY-17.png" alt className="img" /></a>
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <a href> <img src="./Images/Diy/DIY-18.png" alt className="img1" /></a>
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <a href><img src="./Images/Diy/DIY-19.png" alt className="img2" /></a>
-      </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12">
-      <div>
-        <a href><img src="./Images/Diy/DIY-20.png" alt className="img3" /></a>
+        <Link to='/command'><img src="./Images/Diy/DIY-12.png" alt className="img3" /></Link>
       </div>
     </div>
   </div>
   <div className="row justify-content-center mt-3">
     <div className="col-lg-3 col-md-6 col-sm-12">
       <div>
-        <a href> <img src="./Images/Diy/DIY-21.png" alt className="img" /></a> 
+        <Link to='/coral'><img src="./Images/Diy/DIY-13.png" alt className="img" /></Link> 
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/crown'><img src="./Images/Diy/DIY-14.png" alt className="img1" /></Link>
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/dekton'><img src="./Images/Diy/DIY-15.png" alt className="img2" /></Link> 
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/demsum'><img src="./Images/Diy/DIY-16.png" alt className="img3" /></Link>
+      </div>
+    </div>
+  </div>
+  <div className="row justify-content-center mt-3">
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/darper'><img src="./Images/Diy/DIY-17.png" alt className="img" /></Link>
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/edco'> <img src="./Images/Diy/DIY-18.png" alt className="img1" /></Link>
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/ever'><img src="./Images/Diy/DIY-19.png" alt className="img2" /></Link>
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/exitex'><img src="./Images/Diy/DIY-20.png" alt className="img3" /></Link>
+      </div>
+    </div>
+  </div>
+  <div className="row justify-content-center mt-3">
+    <div className="col-lg-3 col-md-6 col-sm-12">
+      <div>
+        <Link to='/fitforjob'> <img src="./Images/Diy/DIY-21.png" alt className="img" /></Link> 
       </div>
     </div>
     <div className="col-lg-3 col-md-6 col-sm-12">
