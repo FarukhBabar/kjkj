@@ -625,6 +625,51 @@ import Fitsingle from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for
 import Fitupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitupdate';
 import Fitforform from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitforform'
 import Fitforlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Fit for job/Fitforlist'
+import Globalform from './Components/Pages/Adminside/deparmentbathrom/Diy/Global tool/Globalforms';
+import Globallist from './Components/Pages/Adminside/deparmentbathrom/Diy/Global tool/Globallist';
+import Globalupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Global tool/Globalupdate';
+import Global from './Components/Pages/Adminside/deparmentbathrom/Diy/Global tool/Global';
+import Globalsinngl from './Components/Pages/Adminside/deparmentbathrom/Diy/Global tool/Globalsinngl';
+import Gasgo from './Components/Pages/Adminside/deparmentbathrom/Diy/GO GO GAs/Gasgo';
+import Gasgosingl from './Components/Pages/Adminside/deparmentbathrom/Diy/GO GO GAs/Gasgosingl';
+import Gasgoform from './Components/Pages/Adminside/deparmentbathrom/Diy/GO GO GAs/Gasgoform';
+import Gasgolist from './Components/Pages/Adminside/deparmentbathrom/Diy/GO GO GAs/Gasgolist';
+import Gasgoupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/GO GO GAs/Gasgoupdate';
+import Gorilaform from './Components/Pages/Adminside/deparmentbathrom/Diy/Gorilaglue/Gorilaform';
+import Gorilalist from './Components/Pages/Adminside/deparmentbathrom/Diy/Gorilaglue/Gorilalist';
+import Gorilaupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Gorilaglue/Gorilaupdtae';
+import Gorila from './Components/Pages/Adminside/deparmentbathrom/Diy/Gorilaglue/Gorila';
+import Gorilasingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Gorilaglue/Gorilasingl';
+import Hagesanform from './Components/Pages/Adminside/deparmentbathrom/Diy/Hagesan/Hagesanform';
+import Hagesanlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Hagesan/Hagesanlist';
+import Hagesanupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Hagesan/Hagesanupdate';
+import Hagesan from './Components/Pages/Adminside/deparmentbathrom/Diy/Hagesan/Hagesan';
+import Hagesansingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Hagesan/Hagesansingl';
+import Hardwaretools from './Components/Pages/Adminside/deparmentbathrom/Diy/Hardwaretools/Hardwaretools';
+import Hardwaretoolssingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Hardwaretools/Hardwaretoolssingl';
+import Hardwaretoolsform from './Components/Pages/Adminside/deparmentbathrom/Diy/Hardwaretools/Hardwaretoolsform';
+import Hardwaretoolslist from './Components/Pages/Adminside/deparmentbathrom/Diy/Hardwaretools/Hardwaretoolslist';
+import Hardwaretoolsupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Hardwaretools/Hardwaretoolsupdate';
+import Harris from './Components/Pages/Adminside/deparmentbathrom/Diy/Harris/Harris';
+import Harrissingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Harris/Harrissingl';
+import Harrisform from './Components/Pages/Adminside/deparmentbathrom/Diy/Harris/Harrisform';
+import Harrislist from './Components/Pages/Adminside/deparmentbathrom/Diy/Harris/Harrislist';
+import Harrisupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Harris/Harrisupdtae';
+import Hilkaform from './Components/Pages/Adminside/deparmentbathrom/Diy/Hilka/Hilkaform';
+import Hilkalist from './Components/Pages/Adminside/deparmentbathrom/Diy/Hilka/Hilkalist';
+import Hilkaupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Hilka/Hilkaupdate';
+import Hilka from './Components/Pages/Adminside/deparmentbathrom/Diy/Hilka/Hilka';
+import Hilkasingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Hilka/Hilkasingl';
+import Humnrol from './Components/Pages/Adminside/deparmentbathrom/Diy/Humbrol/Humnrol';
+import Humnrolsingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Humbrol/Humnrolsingl';
+import Humnrolform from './Components/Pages/Adminside/deparmentbathrom/Diy/Humbrol/Humnrolform';
+import Humnrollist from './Components/Pages/Adminside/deparmentbathrom/Diy/Humbrol/Humnrollist';
+import Humnrolupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Humbrol/Humnrolupdate';
+import Jbweldform from './Components/Pages/Adminside/deparmentbathrom/Diy/Jbweld/Jbweldform';
+import Jbweldlist from './Components/Pages/Adminside/deparmentbathrom/Diy/Jbweld/Jbweldlist';
+import Jbweldupdate from './Components/Pages/Adminside/deparmentbathrom/Diy/Jbweld/Jbweldupdte';
+import Jbweldsingl from './Components/Pages/Adminside/deparmentbathrom/Diy/Jbweld/Jbweldsingl';
+import Jbweld from './Components/Pages/Adminside/deparmentbathrom/Diy/Jbweld/Jbweld';
 // Admin Layout without Navbar
 const AdminLayout = ({ children }) => (
   <>
@@ -1097,6 +1142,42 @@ const App = () => {
         <Route path='/fitform' element={<AdminLayout><Fitforform/></AdminLayout>}/>
         <Route path='/listfit' element={<AdminLayout><Fitforlist/></AdminLayout>}/>
         <Route path='/listfit/:id' element={<AdminLayout><Fitupdate/></AdminLayout>}/>
+        
+        <Route path='/globalform' element={<AdminLayout><Globalform/></AdminLayout>}/>
+        <Route path='/listglobal' element={<AdminLayout><Globallist/></AdminLayout>}/>
+        <Route path='/listglobal/:id' element={<AdminLayout><Globalupdate/></AdminLayout>}/>
+        
+        <Route path='/gasform' element={<AdminLayout><Gasgoform/></AdminLayout>}/>
+        <Route path='/listgas' element={<AdminLayout><Gasgolist/></AdminLayout>}/>
+        <Route path='/listgas/:id' element={<AdminLayout><Gasgoupdate/></AdminLayout>}/>
+        
+        <Route path='/goriaform' element={<AdminLayout><Gorilaform/></AdminLayout>}/>
+        <Route path='/listgorila' element={<AdminLayout><Gorilalist/></AdminLayout>}/>
+        <Route path='/listgorila/:id' element={<AdminLayout><Gorilaupdate/></AdminLayout>}/>
+        
+        <Route path='/hagsenform' element={<AdminLayout><Hagesanform/></AdminLayout>}/>
+        <Route path='/listhagsen' element={<AdminLayout><Hagesanlist/></AdminLayout>}/>
+        <Route path='/listhagsen/:id' element={<AdminLayout><Hagesanupdate/></AdminLayout>}/>
+        
+        <Route path='/hardwareform' element={<AdminLayout><Hardwaretoolsform/></AdminLayout>}/>
+        <Route path='/listhardware' element={<AdminLayout><Hardwaretoolslist/></AdminLayout>}/>
+        <Route path='/listhardware/:id' element={<AdminLayout><Hardwaretoolsupdate/></AdminLayout>}/>
+        
+        <Route path='/harrisform' element={<AdminLayout><Harrisform/></AdminLayout>}/>
+        <Route path='/listharris' element={<AdminLayout><Harrislist/></AdminLayout>}/>
+        <Route path='/listharris/:id' element={<AdminLayout><Harrisupdate/></AdminLayout>}/>
+        
+        <Route path='/hilkaform' element={<AdminLayout><Hilkaform/></AdminLayout>}/>
+        <Route path='/listhilka' element={<AdminLayout><Hilkalist/></AdminLayout>}/>
+        <Route path='/listhilka/:id' element={<AdminLayout><Hilkaupdate/></AdminLayout>}/>
+          
+        <Route path='/humnrolform' element={<AdminLayout><Humnrolform/></AdminLayout>}/>
+        <Route path='/listhumnrol' element={<AdminLayout><Humnrollist/></AdminLayout>}/>
+        <Route path='/listhumnrol/:id' element={<AdminLayout><Humnrolupdate/></AdminLayout>}/>
+            
+        <Route path='/jbwelform' element={<AdminLayout><Jbweldform/></AdminLayout>}/>
+        <Route path='/listjbwel' element={<AdminLayout><Jbweldlist/></AdminLayout>}/>
+        <Route path='/listjbwel/:id' element={<AdminLayout><Jbweldupdate/></AdminLayout>}/>
         </Route>
         {/* Main Routes */}
         <Route path='/' element={<MainLayout><Home /></MainLayout>} />
@@ -1499,6 +1580,33 @@ const App = () => {
 
         <Route path='/fitforjob' element={<MainLayout><Fit/></MainLayout>}/>
         <Route path='/fitforjobsinglepage/:id' element={<MainLayout><Fitsingle/></MainLayout>}/>
+        
+        <Route path='/global' element={<MainLayout><Global/></MainLayout>}/>
+        <Route path='/globalsinglepage/:id' element={<MainLayout><Globalsinngl/></MainLayout>}/>
+        
+        <Route path='/gas' element={<MainLayout><Gasgo/></MainLayout>}/>
+        <Route path='/gassinglepage/:id' element={<MainLayout><Gasgosingl/></MainLayout>}/>
+        
+        <Route path='/gorila' element={<MainLayout><Gorila/></MainLayout>}/>
+        <Route path='/gorilasinglepage/:id' element={<MainLayout><Gorilasingl/></MainLayout>}/>
+        
+        <Route path='/hagsen' element={<MainLayout><Hagesan/></MainLayout>}/>
+        <Route path='/hagsensinglepage/:id' element={<MainLayout><Hagesansingl/></MainLayout>}/>
+        
+        <Route path='/hardwareto' element={<MainLayout><Hardwaretools/></MainLayout>}/>
+        <Route path='/hardwaretosinglepage/:id' element={<MainLayout><Hardwaretoolssingl/></MainLayout>}/>
+
+        <Route path='/harris' element={<MainLayout><Harris/></MainLayout>}/>
+        <Route path='/harrissinglepage/:id' element={<MainLayout><Harrissingl/></MainLayout>}/>
+        
+        <Route path='/hilka' element={<MainLayout><Hilka/></MainLayout>}/>
+        <Route path='/hilkasinglepage/:id' element={<MainLayout><Hilkasingl/></MainLayout>}/>
+        
+        <Route path='/humnrol' element={<MainLayout><Humnrol/></MainLayout>}/>
+        <Route path='/humnrolsinglepage/:id' element={<MainLayout><Humnrolsingl/></MainLayout>}/> 
+        
+        <Route path='/jbwel' element={<MainLayout><Jbweld/></MainLayout>}/>
+        <Route path='/jbwelsinglepage/:id' element={<MainLayout><Jbweldsingl/></MainLayout>}/> 
       </Routes>
       </CartProvider>
     </>

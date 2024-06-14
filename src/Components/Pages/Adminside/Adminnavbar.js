@@ -247,6 +247,15 @@ const Adminnavbar = () => {
                   <li><Link className="dropdown-item" to="/listever">Ever</Link></li>
                   <li><Link className="dropdown-item" to="/listexitex">Exitex</Link></li>
                   <li><Link className="dropdown-item" to="/listfit">Fit For Job</Link></li>
+                  <li><Link className="dropdown-item" to="/listglobal">Global</Link></li>
+                  <li><Link className="dropdown-item" to="/listgas">Gas </Link></li>
+                  <li><Link className="dropdown-item" to="/listgorila">Gorila Glue </Link></li>
+                  <li><Link className="dropdown-item" to="/listhagsen">Hagesan </Link></li>
+                  <li><Link className="dropdown-item" to="/listhardware">Hardware tools </Link></li>
+                  <li><Link className="dropdown-item" to="/listharris">Harris </Link></li>
+                  <li><Link className="dropdown-item" to="/listhilka">Hilka </Link></li> 
+                  <li><Link className="dropdown-item" to="/listhumnrol">Humnrol </Link></li>
+                  <li><Link className="dropdown-item" to="/listjbwel">Jbwel </Link></li>
                 </ul>
               </li>
               <li className="nav-item dropend">
